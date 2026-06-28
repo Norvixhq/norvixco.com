@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- PRIMARY SEO -->
+  <title>Norvix | Digital Growth Agency — SEO, AI, Web & Social Media</title>
+  <meta name="description" content="Norvix is a digital growth agency specializing in SEO optimization, website development, and social media growth for Instagram, Facebook, TikTok, and YouTube. We help businesses build their online presence."/>
+  <meta name="keywords" content="digital marketing agency, SEO services, AI marketing, web development, social media management, Facebook ads, TikTok ads, YouTube marketing, content creation, digital growth"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="Norvix"/>
+  <link rel="canonical" href="https://www.norvix.com/"/>
+  
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Norvix | Digital Growth Agency"/>
+  <meta property="og:description" content="Full-service digital growth agency — SEO, AI, Web Development, Social Media & Paid Advertising"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.norvix.com/"/>
+  <meta property="og:image" content="https://www.norvix.com/logo.png"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Norvix"/>
+  
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Norvix | Digital Growth Agency"/>
+  <meta name="twitter:description" content="SEO, AI, Web Development, Social Media & Paid Advertising"/>
+  
+  <meta name="theme-color" content="#030712"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  
+  <style>
+    :root {
+      --bg: #030712;
+      --bg-elevated: #0a1120;
+      --surface: #111827;
+      --surface2: #1f2937;
+      --surface3: #374151;
+      
+      /* Blue palette */
+      --blue-100: #dbeafe;
+      --blue-200: #bfdbfe;
+      --blue-300: #93c5fd;
+      --blue-400: #60a5fa;
+      --blue-500: #3b82f6;
+      --blue-600: #2563eb;
+      --blue-700: #1d4ed8;
+      --blue-900: #1e3a8a;
+      
+      /* Cyan accent */
+      --cyan-400: #22d3ee;
+      --cyan-500: #06b6d4;
+      
+      /* Text */
+      --white: #f8fafc;
+      --text: rgba(248,250,252,0.92);
+      --muted: rgba(248,250,252,0.6);
+      --muted2: rgba(248,250,252,0.35);
+      
+      /* Glow */
+      --glow-blue: rgba(59,130,246,0.4);
+      --glow-cyan: rgba(6,182,212,0.3);
+    }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+    
+    ::selection { background: rgba(59,130,246,0.4); color: var(--white); }
+    
+    a { color: inherit; text-decoration: none; }
+    
+    /* Animated grid background */
+    .grid-bg {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.03;
+      background-image:
+        linear-gradient(rgba(59,130,246,0.5) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59,130,246,0.5) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+    }
+    
+    /* Circuit lines decoration */
+    .circuit-lines {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .circuit-lines::before,
+    .circuit-lines::after {
+      content: '';
+      position: absolute;
+      background: linear-gradient(90deg, transparent, var(--blue-500), transparent);
+      opacity: 0.05;
+    }
+    .circuit-lines::before {
+      top: 20%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      animation: circuit-flow 8s linear infinite;
+    }
+    .circuit-lines::after {
+      top: 60%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      animation: circuit-flow 12s linear infinite reverse;
+    }
+    @keyframes circuit-flow {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    
+    /* Floating particles */
+    .particles {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: var(--blue-400);
+      border-radius: 50%;
+      opacity: 0.3;
+      animation: float-up linear infinite;
+    }
+    @keyframes float-up {
+      0% { transform: translateY(100vh) translateX(0); opacity: 0; }
+      10% { opacity: 0.3; }
+      90% { opacity: 0.3; }
+      100% { transform: translateY(-100vh) translateX(20px); opacity: 0; }
+    }
+    
+    /* Scanner line effect */
+    .scanner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: linear-gradient(180deg, rgba(59,130,246,0.08) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 1;
+      animation: scanner-move 6s ease-in-out infinite;
+    }
+    @keyframes scanner-move {
+      0%, 100% { transform: translateY(-100px); }
+      50% { transform: translateY(100vh); }
+    }
+    
+    /* Noise texture */
+    .noise {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 2;
+      opacity: 0.02;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    
+    /* ===== LOADER ===== */
+    .loader {
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      transition: opacity 0.8s ease, visibility 0.8s;
+    }
+    .loader.done { opacity: 0; visibility: hidden; pointer-events: none; }
+    
+    .loader-logo {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .loader-logo img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      animation: loader-pulse 1.5s ease-in-out infinite;
+      filter: drop-shadow(0 0 30px var(--glow-blue));
+      /* Clip to just show the icon part, not the background */
+      clip-path: inset(10% 10% 20% 10%);
+    }
+    .loader-ring {
+      position: absolute;
+      inset: 0;
+      border: 2px solid transparent;
+      border-top-color: var(--blue-500);
+      border-right-color: var(--blue-500);
+      border-radius: 50%;
+      animation: loader-spin 1.5s linear infinite;
+    }
+    .loader-ring:nth-child(2) {
+      inset: 15px;
+      border-top-color: var(--cyan-500);
+      border-right-color: transparent;
+      animation-direction: reverse;
+      animation-duration: 1s;
+    }
+    @keyframes loader-pulse {
+      0%, 100% { transform: scale(1); filter: brightness(1); }
+      50% { transform: scale(1.05); filter: brightness(1.2); }
+    }
+    @keyframes loader-spin { to { transform: rotate(360deg); } }
+    
+    .loader-text {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--blue-400);
+    }
+    .loader-text span {
+      animation: loader-text-blink 0.5s steps(1) infinite;
+    }
+    @keyframes loader-text-blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    
+    .loader-bar {
+      width: 200px;
+      height: 2px;
+      background: var(--surface2);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .loader-bar span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--blue-600), var(--cyan-500));
+      animation: loader-fill 1.8s ease forwards;
+      box-shadow: 0 0 20px var(--glow-blue);
+    }
+    @keyframes loader-fill { to { width: 100%; } }
+    
+    /* ===== NAVIGATION ===== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 0 40px;
+      transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .nav.scrolled {
+      background: rgba(3,7,18,0.9);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(59,130,246,0.1);
+    }
+    .nav-inner {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+    }
+    
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .nav-brand-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--surface) 0%, var(--bg-elevated) 100%);
+      border: 1px solid rgba(59,130,246,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      box-shadow: 0 0 20px var(--glow-blue);
+    }
+    .nav-brand:hover .nav-brand-logo {
+      transform: scale(1.05);
+      border-color: var(--blue-400);
+      box-shadow: 0 0 30px var(--glow-blue);
+    }
+    .nav-brand-logo img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 10px var(--glow-blue));
+      /* Clip to show just the N icon */
+      clip-path: inset(15% 15% 25% 15%);
+    }
+    .nav-brand-text {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--blue-300), var(--cyan-400));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.4;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .nav-links a::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--blue-600), var(--cyan-500));
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .nav-links a:hover {
+      color: var(--white);
+    }
+    .nav-links a:hover::before {
+      opacity: 0.1;
+    }
+    
+    .nav-cta {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    
+    /* Hamburger */
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      z-index: 101;
+    }
+    .nav-toggle span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--blue-400);
+      transition: all 0.3s ease;
+      border-radius: 2px;
+    }
+    .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .nav-toggle.open span:nth-child(2) { opacity: 0; }
+    .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+    
+    /* Mobile menu */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 99;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+    }
+    .mobile-menu.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    .mobile-menu a {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--muted);
+      transition: all 0.3s;
+    }
+    .mobile-menu a:hover { color: var(--blue-400); }
+    
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 32px;
+      border-radius: 10px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, var(--blue-600), var(--blue-500));
+      color: var(--white);
+      box-shadow: 0 8px 32px var(--glow-blue), inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .btn-primary::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, var(--cyan-500), var(--blue-400));
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 48px var(--glow-blue);
+    }
+    .btn-primary:hover::before { opacity: 1; }
+    .btn-primary span { position: relative; z-index: 1; }
+    
+    .btn-outline {
+      background: transparent;
+      color: var(--blue-400);
+      border: 1px solid rgba(59,130,246,0.3);
+    }
+    .btn-outline:hover {
+      border-color: var(--blue-400);
+      background: rgba(59,130,246,0.1);
+      transform: translateY(-2px);
+    }
+    
+    .btn-glow {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid var(--blue-500);
+      position: relative;
+    }
+    .btn-glow::after {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--blue-500), var(--cyan-500));
+      z-index: -1;
+      opacity: 0;
+      filter: blur(10px);
+      transition: opacity 0.4s;
+    }
+    .btn-glow:hover::after { opacity: 0.5; }
+    .btn-glow:hover { transform: translateY(-2px); }
+    
+    .btn-large { padding: 18px 48px; font-size: 1rem; }
+    
+    .btn svg {
+      width: 18px;
+      height: 18px;
+      transition: transform 0.3s;
+    }
+    .btn:hover svg { transform: translateX(3px); }
+    
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 140px 24px 80px;
+    }
+    
+    /* Orbital background */
+    .hero-orbitals {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 800px;
+      height: 800px;
+      pointer-events: none;
+    }
+    .orbital {
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(59,130,246,0.1);
+      border-radius: 50%;
+      animation: orbital-rotate linear infinite;
+    }
+    .orbital:nth-child(1) { 
+      inset: 100px;
+      animation-duration: 30s;
+      border-color: rgba(59,130,246,0.15);
+    }
+    .orbital:nth-child(2) { 
+      inset: 50px;
+      animation-duration: 45s;
+      animation-direction: reverse;
+      border-color: rgba(6,182,212,0.08);
+    }
+    .orbital:nth-child(3) { 
+      inset: 0;
+      animation-duration: 60s;
+      border-color: rgba(59,130,246,0.05);
+    }
+    .orbital::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: 50%;
+      width: 8px;
+      height: 8px;
+      background: var(--blue-500);
+      border-radius: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 20px var(--glow-blue);
+    }
+    .orbital:nth-child(2)::before { background: var(--cyan-500); }
+    @keyframes orbital-rotate { to { transform: rotate(360deg); } }
+    
+    .hero-content {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      max-width: 900px;
+    }
+    
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 20px;
+      background: rgba(59,130,246,0.1);
+      border: 1px solid rgba(59,130,246,0.2);
+      border-radius: 100px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--blue-400);
+      margin-bottom: 32px;
+      animation: fade-up 0.8s ease 1.8s both;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--cyan-400);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.2); }
+    }
+    
+    .hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 1.25;
+      margin-bottom: 32px;
+      animation: fade-up 0.8s ease 2s both;
+      padding-bottom: 8px;
+    }
+    .hero h1 .gradient {
+      background: linear-gradient(135deg, var(--blue-300) 0%, var(--cyan-400) 50%, var(--blue-400) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      background-size: 200% auto;
+      animation: gradient-shift 4s ease infinite;
+    }
+    @keyframes gradient-shift {
+      0%, 100% { background-position: 0% center; }
+      50% { background-position: 100% center; }
+    }
+    
+    .hero-sub {
+      font-size: 1.25rem;
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 40px;
+      animation: fade-up 0.8s ease 2.2s both;
+    }
+    
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      animation: fade-up 0.8s ease 2.4s both;
+    }
+    
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 80px;
+      animation: fade-up 0.8s ease 2.6s both;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .hero-stat-num span {
+      background: linear-gradient(135deg, var(--blue-400), var(--cyan-400));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-stat-label {
+      font-size: 0.85rem;
+      color: var(--muted);
+      letter-spacing: 1px;
+    }
+    
+    .hero-values {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 60px;
+      animation: fade-up 0.8s ease 2.6s both;
+    }
+    .hero-value {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .hero-value-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: rgba(59,130,246,0.1);
+      border: 1px solid rgba(59,130,246,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-value-icon svg {
+      width: 20px;
+      height: 20px;
+      color: var(--blue-400);
+    }
+    
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* ===== SECTION STYLING ===== */
+    section {
+      position: relative;
+      z-index: 5;
+      padding: 120px 0;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--blue-400);
+      margin-bottom: 16px;
+    }
+    .section-tag::before,
+    .section-tag::after {
+      content: '';
+      width: 20px;
+      height: 1px;
+      background: var(--blue-500);
+    }
+    .section-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.3;
+      margin-bottom: 20px;
+      padding-bottom: 4px;
+    }
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    /* Reveal animations */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    /* ===== SERVICES ===== */
+    #services {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 50%, var(--bg) 100%);
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    
+    .service-card {
+      background: linear-gradient(135deg, var(--surface) 0%, rgba(17,24,39,0.5) 100%);
+      border: 1px solid rgba(59,130,246,0.1);
+      border-radius: 20px;
+      padding: 40px 32px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+      cursor: pointer;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(59,130,246,0.1) 0%, transparent 50%);
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    .service-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(59,130,246,0.3);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 40px var(--glow-blue);
+    }
+    .service-card:hover::before { opacity: 1; }
+    
+    .service-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--blue-600), var(--blue-500));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px var(--glow-blue);
+      transition: all 0.4s;
+    }
+    .service-card:hover .service-icon {
+      transform: scale(1.1) rotate(-5deg);
+    }
+    .service-icon svg {
+      width: 28px;
+      height: 28px;
+      color: var(--white);
+    }
+    
+    .service-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      color: var(--white);
+      padding-bottom: 2px;
+    }
+    .service-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+    .service-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .service-feature {
+      padding: 6px 12px;
+      background: rgba(59,130,246,0.1);
+      border-radius: 6px;
+      font-size: 0.75rem;
+      color: var(--blue-300);
+    }
+    
+    /* ===== WHY NORVIX ===== */
+    #why {
+      position: relative;
+      overflow: hidden;
+    }
+    #why::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, var(--glow-blue) 0%, transparent 70%);
+      opacity: 0.1;
+      pointer-events: none;
+    }
+    
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+    }
+    
+    .why-item {
+      text-align: center;
+      padding: 40px 24px;
+      border-radius: 20px;
+      background: rgba(17,24,39,0.3);
+      border: 1px solid transparent;
+      transition: all 0.4s ease;
+    }
+    .why-item:hover {
+      background: rgba(17,24,39,0.6);
+      border-color: rgba(59,130,246,0.2);
+      transform: translateY(-4px);
+    }
+    
+    .why-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--blue-500), var(--cyan-400));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    .why-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      margin-bottom: 12px;
+      color: var(--white);
+      padding-bottom: 2px;
+    }
+    .why-desc {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    /* ===== PROCESS ===== */
+    #process {
+      background: var(--bg-elevated);
+    }
+    
+    .process-timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .process-timeline::before {
+      content: '';
+      position: absolute;
+      left: 40px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--blue-600), var(--cyan-500), var(--blue-600));
+    }
+    
+    .process-step {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 48px;
+      position: relative;
+    }
+    .process-step:last-child { margin-bottom: 0; }
+    
+    .process-num {
+      width: 80px;
+      height: 80px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--surface);
+      border: 2px solid var(--blue-500);
+      border-radius: 50%;
+      font-family: 'Syne', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--blue-400);
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 0 30px var(--glow-blue);
+    }
+    
+    .process-content {
+      flex: 1;
+      padding-top: 16px;
+    }
+    .process-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      color: var(--white);
+      padding-bottom: 2px;
+    }
+    .process-desc {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    
+    /* ===== BENEFITS ===== */
+    #benefits {
+      background: var(--bg-elevated);
+    }
+    
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    
+    .benefit-card {
+      background: var(--surface);
+      border: 1px solid rgba(59,130,246,0.1);
+      border-radius: 16px;
+      padding: 32px;
+      transition: all 0.4s ease;
+    }
+    .benefit-card:hover {
+      border-color: rgba(59,130,246,0.25);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+    }
+    
+    .benefit-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--blue-600), var(--blue-500));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px var(--glow-blue);
+    }
+    .benefit-icon svg {
+      width: 24px;
+      height: 24px;
+      color: var(--white);
+    }
+    
+    .benefit-card h3 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 1.15rem;
+      line-height: 1.4;
+      margin-bottom: 10px;
+      color: var(--white);
+      padding-bottom: 2px;
+    }
+    .benefit-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    
+    /* ===== CTA SECTION ===== */
+    .cta-section {
+      background: linear-gradient(135deg, var(--blue-900) 0%, var(--bg) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, var(--glow-cyan) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    
+    .cta-content {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    .cta-content h2 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.3;
+      margin-bottom: 20px;
+      padding-bottom: 4px;
+    }
+    .cta-content p {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-bottom: 40px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--bg-elevated);
+      border-top: 1px solid rgba(59,130,246,0.1);
+      padding: 80px 24px 40px;
+    }
+    
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 60px;
+      max-width: 1200px;
+      margin: 0 auto 60px;
+    }
+    
+    .footer-brand img {
+      height: 40px;
+      margin-bottom: 20px;
+    }
+    .footer-brand p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+      max-width: 300px;
+    }
+    
+    .footer-social {
+      display: flex;
+      gap: 12px;
+    }
+    .social-link {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--surface);
+      border: 1px solid rgba(59,130,246,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      cursor: default;
+      opacity: 0.5;
+    }
+    .social-link:hover {
+      opacity: 0.7;
+    }
+    .social-link svg {
+      width: 20px;
+      height: 20px;
+      color: var(--muted);
+    }
+    
+    .footer-col h4 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.4;
+      margin-bottom: 20px;
+      color: var(--white);
+      padding-bottom: 2px;
+    }
+    .footer-col ul {
+      list-style: none;
+    }
+    .footer-col li {
+      margin-bottom: 12px;
+    }
+    .footer-col a {
+      color: var(--muted);
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+    .footer-col a:hover { color: var(--blue-400); }
+    
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 40px;
+      border-top: 1px solid rgba(59,130,246,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--muted2);
+      font-size: 0.85rem;
+    }
+    
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .nav { padding: 0 20px; }
+      .nav-links, .nav-cta { display: none; }
+      .nav-toggle { display: flex; }
+      .mobile-menu { display: flex; }
+      
+      .hero { padding: 120px 20px 60px; }
+      .hero-stats { gap: 30px; flex-wrap: wrap; }
+      .hero-stat-num { font-size: 2rem; }
+      
+      .hero-values { gap: 30px; flex-wrap: wrap; }
+      .hero-value { font-size: 0.85rem; }
+      .hero-value-icon { width: 36px; height: 36px; }
+      .hero-value-icon svg { width: 18px; height: 18px; }
+      
+      .services-grid { grid-template-columns: 1fr; }
+      
+      .benefits-grid { grid-template-columns: 1fr; }
+      
+      .process-timeline::before { left: 30px; }
+      .process-num { width: 60px; height: 60px; font-size: 1.2rem; }
+      .process-step { gap: 20px; }
+      
+      .testimonial-card { min-width: 300px; max-width: 300px; padding: 28px; }
+      
+      .footer-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
+      .footer-social { justify-content: center; }
+      .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+    }
+    
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .scanner, .particle { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Background Effects -->
+  <div class="grid-bg"></div>
+  <div class="circuit-lines"></div>
+  <div class="particles" id="particles"></div>
+  <div class="scanner"></div>
+  <div class="noise"></div>
+  
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-logo">
+      <div class="loader-ring"></div>
+      <div class="loader-ring"></div>
+      <img src="logo.png" alt="Norvix"/>
+    </div>
+    <div class="loader-text">Initializing<span>_</span></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+  
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <div class="nav-brand-logo">
+          <img src="logo.png" alt="Norvix"/>
+        </div>
+        <span class="nav-brand-text">Norvix</span>
+      </a>
+      
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary"><span>Get Started</span></a>
+      </div>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#why" onclick="closeMobile()">Why Us</a>
+    <a href="#process" onclick="closeMobile()">Process</a>
+    <a href="#benefits" onclick="closeMobile()">Benefits</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+    <a href="#contact" class="btn btn-primary" onclick="closeMobile()"><span>Get Started</span></a>
+  </div>
+  
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="hero-orbitals">
+      <div class="orbital"></div>
+      <div class="orbital"></div>
+      <div class="orbital"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">Digital Growth Partner</div>
+      
+      <h1>
+        We Build <span class="gradient">Digital Empires</span>
+      </h1>
+      
+      <p class="hero-sub">
+        SEO optimization, custom websites, and social media growth for Instagram, Facebook, TikTok, and YouTube. We help businesses build their digital presence and reach more customers.
+      </p>
+      
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary btn-large">
+          <span>Start Your Growth</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#services" class="btn btn-outline btn-large">Explore Services</a>
+      </div>
+      
+      <div class="hero-values">
+        <div class="hero-value">
+          <div class="hero-value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+            </svg>
+          </div>
+          <span>Fast Turnaround</span>
+        </div>
+        <div class="hero-value">
+          <div class="hero-value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <span>Results Guaranteed</span>
+        </div>
+        <div class="hero-value">
+          <div class="hero-value-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <span>24/7 Support</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Services -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Digital Solutions That Scale</h2>
+        <p class="section-subtitle">From strategy to execution, we handle every aspect of your digital presence.</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+          <h3 class="service-title">SEO Optimization</h3>
+          <p class="service-desc">Get found on Google. We implement proven SEO strategies to boost your rankings, drive organic traffic, and turn searchers into customers.</p>
+          <div class="service-features">
+            <span class="service-feature">Keyword Research</span>
+            <span class="service-feature">On-Page SEO</span>
+            <span class="service-feature">Technical SEO</span>
+            <span class="service-feature">Local SEO</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Website Development</h3>
+          <p class="service-desc">Custom websites that convert visitors into customers. Fast, mobile-friendly, and designed to make your business look professional.</p>
+          <div class="service-features">
+            <span class="service-feature">Custom Design</span>
+            <span class="service-feature">Mobile-First</span>
+            <span class="service-feature">Fast Loading</span>
+            <span class="service-feature">SEO-Ready</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="18" cy="6" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Instagram Growth</h3>
+          <p class="service-desc">Build a loyal Instagram following with engaging content, strategic hashtags, and proven growth tactics that attract your ideal audience.</p>
+          <div class="service-features">
+            <span class="service-feature">Content Creation</span>
+            <span class="service-feature">Reels Strategy</span>
+            <span class="service-feature">Engagement</span>
+            <span class="service-feature">Growth Hacks</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Facebook Growth</h3>
+          <p class="service-desc">Maximize your Facebook presence with targeted content, community building, and strategic posting that drives engagement and conversions.</p>
+          <div class="service-features">
+            <span class="service-feature">Page Management</span>
+            <span class="service-feature">Content Strategy</span>
+            <span class="service-feature">Community Building</span>
+            <span class="service-feature">Analytics</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">TikTok Growth</h3>
+          <p class="service-desc">Go viral on TikTok. We create scroll-stopping content and leverage trends to explode your reach and build a massive following.</p>
+          <div class="service-features">
+            <span class="service-feature">Trend Research</span>
+            <span class="service-feature">Video Creation</span>
+            <span class="service-feature">Hashtag Strategy</span>
+            <span class="service-feature">Analytics</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-title">YouTube Growth</h3>
+          <p class="service-desc">Build a YouTube channel that generates views, subscribers, and revenue. From strategy to optimization, we handle it all.</p>
+          <div class="service-features">
+            <span class="service-feature">SEO Titles</span>
+            <span class="service-feature">Thumbnails</span>
+            <span class="service-feature">Content Strategy</span>
+            <span class="service-feature">Analytics</span>
+          </div>
+        </div>
+        
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/>
+              <path d="M16 14a6 6 0 0 0-12 0v4h12v-4z"/>
+              <path d="M9 18h6v4H9z"/>
+              <circle cx="12" cy="6" r="1"/>
+            </svg>
+          </div>
+          <h3 class="service-title">AI-Powered Content</h3>
+          <p class="service-desc">We leverage cutting-edge AI tools to create content faster and smarter—giving you better results at better prices.</p>
+          <div class="service-features">
+            <span class="service-feature">AI Writing</span>
+            <span class="service-feature">Image Generation</span>
+            <span class="service-feature">Automation</span>
+            <span class="service-feature">Efficiency</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Why Norvix -->
+  <section id="why">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <div class="section-tag">Why Choose Us</div>
+        <h2 class="section-title">The Norvix Difference</h2>
+        <p class="section-subtitle">We don't just deliver services—we deliver transformation.</p>
+      </div>
+      
+      <div class="why-grid">
+        <div class="why-item reveal">
+          <div class="why-num">01</div>
+          <h3 class="why-title">Data-Driven Strategy</h3>
+          <p class="why-desc">Every decision backed by analytics. We measure, analyze, and optimize for continuous improvement.</p>
+        </div>
+        
+        <div class="why-item reveal">
+          <div class="why-num">02</div>
+          <h3 class="why-title">Full-Stack Expertise</h3>
+          <p class="why-desc">One team, every skill. From design to development to marketing—seamless integration.</p>
+        </div>
+        
+        <div class="why-item reveal">
+          <div class="why-num">03</div>
+          <h3 class="why-title">AI-First Approach</h3>
+          <p class="why-desc">Cutting-edge AI tools and automation to multiply your efficiency and scale faster.</p>
+        </div>
+        
+        <div class="why-item reveal">
+          <div class="why-num">04</div>
+          <h3 class="why-title">Transparent Results</h3>
+          <p class="why-desc">Real-time dashboards, weekly reports, and clear communication. Always know where you stand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Process -->
+  <section id="process">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <div class="section-tag">Our Process</div>
+        <h2 class="section-title">How We Work</h2>
+        <p class="section-subtitle">A proven methodology for digital success.</p>
+      </div>
+      
+      <div class="process-timeline">
+        <div class="process-step reveal">
+          <div class="process-num">01</div>
+          <div class="process-content">
+            <h3 class="process-title">Discovery & Strategy</h3>
+            <p class="process-desc">Deep dive into your business, competitors, and market. We build a custom roadmap for growth.</p>
+          </div>
+        </div>
+        
+        <div class="process-step reveal">
+          <div class="process-num">02</div>
+          <div class="process-content">
+            <h3 class="process-title">Design & Development</h3>
+            <p class="process-desc">Transform strategy into stunning digital assets. Websites, content, and campaigns—all crafted to convert.</p>
+          </div>
+        </div>
+        
+        <div class="process-step reveal">
+          <div class="process-num">03</div>
+          <div class="process-content">
+            <h3 class="process-title">Launch & Optimize</h3>
+            <p class="process-desc">Go live with confidence. We monitor performance in real-time and optimize for maximum results.</p>
+          </div>
+        </div>
+        
+        <div class="process-step reveal">
+          <div class="process-num">04</div>
+          <div class="process-content">
+            <h3 class="process-title">Scale & Grow</h3>
+            <p class="process-desc">Double down on what works. Expand reach, increase conversions, and build sustainable growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits -->
+  <section id="benefits">
+    <div class="wrap">
+      <div class="section-header reveal">
+        <div class="section-tag">Our Promise</div>
+        <h2 class="section-title">What You Get With Norvix</h2>
+        <p class="section-subtitle">We're building something special—and you can be part of it from day one.</p>
+      </div>
+      
+      <div class="benefits-grid reveal">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
+          </div>
+          <h3>Founding Partner Rates</h3>
+          <p>Early clients get exclusive pricing locked in forever. Your loyalty is rewarded.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Direct Access</h3>
+          <p>Work directly with our team—no account managers or middlemen. Real people, real results.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <path d="M12 18v-6"/>
+              <path d="M9 15l3 3 3-3"/>
+            </svg>
+          </div>
+          <h3>Transparent Reporting</h3>
+          <p>Weekly updates and clear metrics. You'll always know exactly where your growth stands.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+            </svg>
+          </div>
+          <h3>AI-Powered Efficiency</h3>
+          <p>We leverage cutting-edge AI tools to deliver faster results at better prices.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3>No Long-Term Contracts</h3>
+          <p>Month-to-month flexibility. We earn your business every single month.</p>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3>Satisfaction Guaranteed</h3>
+          <p>Not happy with our work? We'll make it right or refund your investment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="wrap">
+      <div class="cta-content reveal">
+        <h2>Ready to Grow?</h2>
+        <p>Let's build something incredible together. Schedule a free strategy call today.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="mailto:support@norvixco.com" class="btn btn-primary btn-large">
+            <span>Get Free Consultation</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="tel:+1234567890" class="btn btn-glow btn-large">Call Us Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Norvix"/>
+        <p>Digital growth agency specializing in SEO, website development, and social media growth for Instagram, Facebook, TikTok, and YouTube.</p>
+        <div class="footer-social">
+          <span class="social-link" title="Coming Soon" aria-label="LinkedIn - Coming Soon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </span>
+          <span class="social-link" title="Coming Soon" aria-label="Twitter - Coming Soon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </span>
+          <span class="social-link" title="Coming Soon" aria-label="Instagram - Coming Soon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="social-link" title="Coming Soon" aria-label="YouTube - Coming Soon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </span>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">SEO Optimization</a></li>
+          <li><a href="#services">Website Development</a></li>
+          <li><a href="#services">Instagram Growth</a></li>
+          <li><a href="#services">Facebook Growth</a></li>
+          <li><a href="#services">TikTok Growth</a></li>
+          <li><a href="#services">YouTube Growth</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why">About Us</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:support@norvixco.com">support@norvixco.com</a></li>
+          <li><a href="tel:+1234567890">(123) 456-7890</a></li>
+          <li>Dallas, TX</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Norvix. All rights reserved.</p>
+      <p>Built with precision. Powered by innovation.</p>
+    </div>
+  </footer>
+  
+  <!-- No JS fallback -->
+  <noscript>
+    <style>
+      .loader { display: none !important; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .scanner, .particles { display: none !important; }
+    </style>
+  </noscript>
+  
+  <script>
+    // Loader dismiss
+    function dismissLoader() {
+      document.getElementById('loader').classList.add('done');
+    }
+    window.addEventListener('load', function() {
+      setTimeout(dismissLoader, 2000);
+    });
+    setTimeout(dismissLoader, 4500);
+    
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Nav scroll effect
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function() {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+    
+    // Mobile menu
+    var navToggle = document.getElementById('navToggle');
+    var mobileMenu = document.getElementById('mobileMenu');
+    
+    navToggle.addEventListener('click', function() {
+      navToggle.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+      document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+    });
+    
+    function closeMobile() {
+      navToggle.classList.remove('open');
+      mobileMenu.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    
+    // Reveal on scroll
+    var revealObs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      revealObs.observe(el);
+    });
+    
+    // Generate particles
+    var particlesContainer = document.getElementById('particles');
+    var numParticles = 20;
+    
+    for (var i = 0; i < numParticles; i++) {
+      var particle = document.createElement('div');
+      particle.className = 'particle';
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.animationDuration = (8 + Math.random() * 12) + 's';
+      particle.style.animationDelay = Math.random() * 5 + 's';
+      particlesContainer.appendChild(particle);
+    }
+    
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        var href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          var target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+    
+    // 3D card tilt effect
+    document.querySelectorAll('.service-card').forEach(function(card) {
+      card.addEventListener('mousemove', function(e) {
+        var rect = card.getBoundingClientRect();
+        var x = (e.clientX - rect.left) / rect.width - 0.5;
+        var y = (e.clientY - rect.top) / rect.height - 0.5;
+        card.style.transform = 'translateY(-8px) perspective(1000px) rotateX(' + (-y * 5) + 'deg) rotateY(' + (x * 5) + 'deg)';
+      });
+      card.addEventListener('mouseleave', function() {
+        card.style.transform = '';
+      });
+    });
+  </script>
+</body>
+</html>

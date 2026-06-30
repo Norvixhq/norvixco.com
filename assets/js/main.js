@@ -15,14 +15,24 @@
   // ---- mobile nav ----
   var burger = document.querySelector('.burger');
   var nav = document.querySelector('.nav');
-  function closeNav(){ if(nav) nav.classList.remove('open'); if(burger){burger.classList.remove('open');burger.setAttribute('aria-expanded','false');} }
+  var scrim = null;
+  if(nav){
+    scrim = document.createElement('div');
+    scrim.className = 'nav-scrim';
+    document.body.appendChild(scrim);
+  }
+  function setNav(open){
+    if(!nav) return;
+    nav.classList.toggle('open', open);
+    if(scrim) scrim.classList.toggle('open', open);
+    document.body.classList.toggle('nav-open', open);
+    if(burger){ burger.classList.toggle('open', open); burger.setAttribute('aria-expanded', open ? 'true':'false'); }
+  }
+  function closeNav(){ setNav(false); }
   if(burger && nav){
-    burger.addEventListener('click', function(){
-      var open = nav.classList.toggle('open');
-      burger.classList.toggle('open', open);
-      burger.setAttribute('aria-expanded', open ? 'true':'false');
-    });
+    burger.addEventListener('click', function(){ setNav(!nav.classList.contains('open')); });
     nav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeNav); });
+    if(scrim) scrim.addEventListener('click', closeNav);
     document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeNav(); });
   }
 

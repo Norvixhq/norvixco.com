@@ -392,9 +392,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .nav a.lnk.active{border-left:3px solid var(--red);padding-left:.7rem}
   .nav .btn{margin-top:1.1rem;width:100%;justify-content:center;padding:1rem}
   .burger{display:flex;z-index:130;position:relative}
-  .nav-scrim{position:fixed;inset:0;background:rgba(4,5,7,.7);opacity:0;visibility:hidden;
-    transition:opacity .35s var(--ease),visibility .35s;z-index:110}
+  .nav-scrim{position:fixed;inset:0;background:rgba(4,5,7,.72);opacity:0;visibility:hidden;
+    transition:opacity .35s var(--ease),visibility .35s;z-index:95}
   .nav-scrim.open{opacity:1;visibility:visible}
+  body.nav-open .preview-flag{opacity:0;visibility:hidden;transition:opacity .2s}
   body.nav-open{overflow:hidden}
   .intro-grid,.owner-grid,.bio-grid,.contact-grid{grid-template-columns:1fr}
   .owner-media{order:-1}

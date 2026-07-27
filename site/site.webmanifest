@@ -1,0 +1,51 @@
+{
+  "id": "/",
+  "name": "MyDrivingCost.com",
+  "short_name": "MyDrivingCost",
+  "description": "Know the real cost before you drive. Free, transparent vehicle ownership cost calculators.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#1466e0",
+  "categories": ["finance", "utilities", "productivity"],
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "True Cost to Own",
+      "short_name": "True cost",
+      "description": "Every dollar a car costs over five years",
+      "url": "/calculators/true-cost-to-own/",
+      "icons": [{ "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Cost Per Mile",
+      "short_name": "Per mile",
+      "description": "What one mile actually costs you",
+      "url": "/calculators/cost-per-mile/",
+      "icons": [{ "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Auto Loan",
+      "short_name": "Loan",
+      "description": "Payment, interest and amortization",
+      "url": "/calculators/auto-loan/",
+      "icons": [{ "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "All calculators",
+      "short_name": "All tools",
+      "description": "Every MyDrivingCost calculator",
+      "url": "/calculators/",
+      "icons": [{ "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

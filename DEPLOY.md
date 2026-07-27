@@ -59,7 +59,9 @@ All four permanently redirect any legacy `.html` URL to its clean equivalent, so
 
 **Apache, cPanel or any shared host.** Upload the entire contents of `site/` to `public_html` (or your document root), including the dotfile `.htaccess` — most FTP clients hide dotfiles by default, so enable "show hidden files" or the clean URLs will not work. Confirm `mod_rewrite` is enabled.
 
-**GitHub Pages.** Works, but with a caveat: GitHub Pages ignores all four config files, so you get clean URLs (because of the directory structure) but no custom headers and no `.html` redirects. Acceptable for a preview, not ideal for production.
+**GitHub Pages.** Works, but it has two traps that will make the site look broken, and it needs its own instructions — **read `GITHUB-PAGES.md` before you push.** In short: GitHub only publishes from the repository root or a folder named exactly `docs/`, so the site folder has to be renamed; and the *contents* of that folder must be at the published root, because pushing the whole package and publishing from the root makes GitHub render `README.md` as your homepage while the real site sits one level too deep with every root-absolute asset path 404-ing. A ready-made `mydrivingcost-github.zip` with the correct layout, plus `.nojekyll` and `CNAME`, avoids all of it.
+
+Be aware also that GitHub Pages ignores all five config files, so you get clean URLs (they come from the directory structure, not a rewrite rule) but no Content-Security-Policy, no security headers, no cache policy and no `.html` redirects. Fine for a preview. For production, Cloudflare Pages is free, reads the `_redirects` and `_headers` already in this package, and is a five-minute move.
 
 ## After the domain is pointed
 

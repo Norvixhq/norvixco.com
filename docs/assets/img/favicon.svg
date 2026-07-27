@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="gaugeGrad" x1="7" y1="0" x2="41" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1466e0"/>
+      <stop offset=".5" stop-color="#2f9bf4"/>
+      <stop offset=".68" stop-color="#e5261c"/>
+      <stop offset="1" stop-color="#e5261c"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 31 A16 16 0 0 1 40 31" stroke="url(#gaugeGrad)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="24" y1="31" x2="33.5" y2="19" stroke="#e5261c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="24" cy="31" r="4" fill="#1466e0"/>
+  <circle cx="24" cy="31" r="1.6" fill="#fff"/>
+</svg>

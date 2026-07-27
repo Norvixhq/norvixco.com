@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Ownership Cost Calculators | MyDrivingCost</title>
+<meta name="description" content="Free calculators for the true cost of car ownership — depreciation, insurance, fuel, EV charging and maintenance. See your cost per mile and 5-year total.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://mydrivingcost.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MyDrivingCost.com">
+<meta property="og:title" content="Know the Real Cost Before You Drive">
+<meta property="og:description" content="Transparent calculators for the true, total cost of owning any vehicle — not just the monthly payment.">
+<meta property="og:url" content="https://mydrivingcost.com/">
+<meta property="og:image" content="https://mydrivingcost.com/assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Know the Real Cost Before You Drive">
+<meta name="twitter:description" content="See the true cost per mile and 5-year total for any vehicle. Free, transparent, no signup.">
+<meta name="twitter:image" content="https://mydrivingcost.com/assets/img/og-image.jpg">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<script>(function(){try{var t=localStorage.getItem('mdc-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}document.documentElement.classList.add('js');})();</script>
+<script>(function(){if(location.protocol!=='file:')return;function show(){var d=document.createElement('div');d.id='mdc-file-notice';d.setAttribute('style','position:fixed;top:0;left:0;right:0;z-index:2147483647;box-sizing:border-box;background:#07142b;color:#fff;font:15px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;padding:16px 20px;box-shadow:0 2px 18px rgba(0,0,0,.35)');var k='background:rgba(255,255,255,.14);padding:2px 6px;border-radius:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px';d.innerHTML='<strong style="font-size:16px;color:#fff">This page is not broken. It is being opened as a file instead of through a web server.</strong><br>Every asset on this site is referenced by a root-absolute path (<span style="'+k+'">/assets/css/styles.css</span>), which is what keeps the URLs clean once it is online. Those paths only resolve over HTTP, so opening the file directly loads the HTML with no stylesheet. Uploaded to any host, this page renders correctly.<br><span style="display:inline-block;margin-top:8px">To see it properly right now: double-click <strong>preview.command</strong> in the package folder, or run <span style="'+k+'">cd site &amp;&amp; python3 -m http.server 8811</span> and open <strong>http://localhost:8811</strong>.</span>';document.body.insertBefore(d,document.body.firstChild);document.body.style.paddingTop=(d.offsetHeight+18)+'px';}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',show);}else{show();}})();</script>
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/sora-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mydrivingcost.com/#org",
+      "name": "MyDrivingCost.com",
+      "alternateName": "MyDrivingCost",
+      "url": "https://mydrivingcost.com/",
+      "slogan": "Know the Real Cost Before You Drive",
+      "description": "An independent publisher of vehicle ownership-cost calculators and reference data. Not a dealer, lender, insurer, broker or lead generator.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://mydrivingcost.com/#logo",
+        "url": "https://mydrivingcost.com/assets/img/logo.png",
+        "contentUrl": "https://mydrivingcost.com/assets/img/logo.png",
+        "width": 381,
+        "height": 198,
+        "caption": "MyDrivingCost.com"
+      },
+      "image": {
+        "@id": "https://mydrivingcost.com/#logo"
+      },
+      "email": "hello@mydrivingcost.com",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "hello@mydrivingcost.com",
+          "availableLanguage": "en-US"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "editorial corrections",
+          "email": "corrections@mydrivingcost.com",
+          "availableLanguage": "en-US"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "press",
+          "email": "press@mydrivingcost.com",
+          "availableLanguage": "en-US"
+        }
+      ],
+      "publishingPrinciples": "https://mydrivingcost.com/editorial-standards/",
+      "ethicsPolicy": "https://mydrivingcost.com/editorial-standards/",
+      "correctionsPolicy": "https://mydrivingcost.com/editorial-standards/",
+      "knowsAbout": [
+        "Vehicle ownership costs",
+        "Car depreciation",
+        "Auto loan financing",
+        "Car insurance premiums",
+        "Vehicle maintenance costs",
+        "Electric vehicle charging costs",
+        "Fuel economy"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mydrivingcost.com/#website",
+      "url": "https://mydrivingcost.com/",
+      "name": "MyDrivingCost.com",
+      "description": "Free, transparent calculators for the true, total cost of owning and running a vehicle.",
+      "publisher": {
+        "@id": "https://mydrivingcost.com/#org"
+      },
+      "inLanguage": "en-US",
+      "alternateName": "MyDrivingCost"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mydrivingcost.com/",
+      "url": "https://mydrivingcost.com/",
+      "name": "Car Ownership Cost Calculators",
+      "description": "Free calculators for the true cost of car ownership — depreciation, insurance, fuel, EV charging and maintenance. See your cost per mile and 5-year total.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://mydrivingcost.com/#website"
+      },
+      "publisher": {
+        "@id": "https://mydrivingcost.com/#org"
+      },
+      "about": {
+        "@id": "https://mydrivingcost.com/#org"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://mydrivingcost.com/#logo"
+      },
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-26"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "True Cost to Own Calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "url": "https://mydrivingcost.com/calculators/true-cost-to-own/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mydrivingcost.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the \"true cost\" of owning a car?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's every dollar the vehicle pulls out of your life, not just the loan. That includes depreciation (usually the largest cost), financing interest, insurance, fuel or electricity, maintenance and repairs, plus taxes, registration and fees. Our True Cost to Own calculator adds them all and divides by the miles you drive to give you a real cost per mile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is depreciation counted as a cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because it's real money you lose. If you buy for $34,000 and sell for $14,000 five years later, that $20,000 gap is the price you paid to use the car — often more than fuel, insurance and maintenance combined. It just doesn't show up as a monthly bill, which is exactly why people miss it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these calculators really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. No signup, no email wall, no lead forms. We don't sell cars, loans or insurance. The tools are free to use and the results are yours to share or print."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate are the estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our defaults are grounded in EPA fuel-economy data, IRS and AAA driving-cost studies, and observed depreciation curves — but every vehicle and driver is different. That's why every assumption is editable. Treat the output as a well-informed estimate to guide your decision, not a quote. The methodology page sets out every formula, default and source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cover electric and hybrid vehicles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The True Cost to Own calculator models gas, hybrid and fully electric powertrains — switching fuel to electricity (¢/kWh and efficiency) and adjusting maintenance and depreciation accordingly."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-skip>Skip to content</a>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="/" aria-label="MyDrivingCost.com — home">
+      <img class="brand-logo light-only" src="/assets/img/logo-h.png" alt="MyDrivingCost.com" width="209" height="38">
+      <img class="brand-logo dark-only" src="/assets/img/logo-h-dark.png" alt="MyDrivingCost.com" width="209" height="38">
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a class="nav-link active" href="/">Home</a>
+      <a class="nav-link" href="/calculators/">Calculators</a>
+      <div class="nav-drop">
+        <button type="button" class="nav-link nav-drop-btn" aria-expanded="false" aria-controls="topics-menu">Topics <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
+        <div class="nav-menu" id="topics-menu">
+          <div class="nav-menu-inner">
+            <a class="nav-menu-item" href="/fuel-and-ev/"><span class="nmi-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-2 8 9-12h-7l2-8z"/></svg></span><span><strong>Fuel &amp; EV</strong><em>Gas vs electric, cost per mile, charging</em></span></a>
+            <a class="nav-menu-item" href="/insurance/"><span class="nmi-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span><strong>Insurance</strong><em>What moves a premium and how to trim it</em></span></a>
+            <a class="nav-menu-item" href="/depreciation/"><span class="nmi-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></span><span><strong>Depreciation</strong><em>The biggest cost nobody bills you for</em></span></a>
+            <a class="nav-menu-item" href="/maintenance/"><span class="nmi-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-7 7 2 2 7-7a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2 2.3-2.3z"/></svg></span><span><strong>Maintenance</strong><em>Service and repair costs by age and mileage</em></span></a>
+            <a class="nav-menu-item" href="/buying-guides/"><span class="nmi-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg></span><span><strong>Buying guides</strong><em>Lease vs buy, new vs used, trade-in timing</em></span></a>
+            <a class="nav-menu-all" href="/guides/">All guides &amp; resources <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link" href="/about/">About</a>
+    </nav>
+    <div class="nav-spacer"></div>
+    <div class="nav-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm no-print" href="/calculators/true-cost-to-own/">Calculate cost</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow" data-reveal>The total cost of ownership, made clear</span>
+      <h1 data-reveal data-reveal-delay="1">Know the <span class="accent-text">real cost</span><br>before you drive.</h1>
+      <p class="lead" data-reveal data-reveal-delay="2">The sticker price and the monthly payment only tell a fraction of the story. We add up <strong>everything</strong> — depreciation, financing, insurance, fuel, maintenance, taxes and fees — so you see the true cost per mile and the full five-year total for any vehicle.</p>
+      <div class="hero-cta" data-reveal data-reveal-delay="3">
+        <a class="btn btn-primary btn-lg" href="/calculators/true-cost-to-own/">
+          Calculate your true cost
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-secondary btn-lg" href="/calculators/">Browse all calculators</a>
+      </div>
+      <div class="hero-trust" data-reveal data-reveal-delay="4">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 100% free</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> No signup</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Every assumption is editable</span>
+      </div>
+    </div>
+
+    <!-- Hero visual: sample result card -->
+    <div class="hero-visual" data-reveal data-reveal-delay="2">
+      <div class="card card-pad-lg" style="box-shadow:var(--shadow-lg)">
+        <div class="flex items-center" style="justify-content:space-between;gap:12px">
+          <div>
+            <div class="text-muted" style="font-size:.82rem;font-weight:600">Sample · 5-year ownership</div>
+            <div style="font-family:var(--font-display);font-weight:700;font-size:1.15rem;color:var(--ink-strong)">2024 Compact SUV</div>
+          </div>
+          <span class="pill pill-brand"><span class="dot"></span>$0.98 / mile</span>
+        </div>
+        <div style="margin:18px 0 8px">
+          <div class="text-muted" style="font-size:.82rem;font-weight:600">True 5-year cost</div>
+          <div class="num" style="font-family:var(--font-display);font-weight:800;font-size:2.6rem;letter-spacing:-.03em;color:var(--ink-strong);line-height:1">$58,928</div>
+        </div>
+        <div class="breakdown" style="margin-top:6px">
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-deprec)"></span><span class="bd-name">Depreciation</span><span class="bd-val num">$19,801</span></div>
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-insure)"></span><span class="bd-name">Insurance</span><span class="bd-val num">$12,480</span></div>
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-fuel)"></span><span class="bd-name">Fuel</span><span class="bd-val num">$8,000</span></div>
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-finance)"></span><span class="bd-name">Financing interest</span><span class="bd-val num">$6,525</span></div>
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-maint)"></span><span class="bd-name">Maintenance &amp; repairs</span><span class="bd-val num">$7,941</span></div>
+          <div class="bd-row" style="grid-template-columns:auto 1fr auto"><span class="bd-swatch" style="background:var(--c-tax)"></span><span class="bd-name">Taxes &amp; fees</span><span class="bd-val num">$4,180</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CREDIBILITY STRIP ==================== -->
+<div class="container">
+  <div class="card" style="padding:18px 26px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 30px;justify-content:center;text-align:center">
+    <span class="text-muted" style="font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Methodology grounded in</span>
+    <span class="text-muted" style="font-weight:600">IRS mileage data</span>
+    <span class="text-muted" style="font-weight:600">EPA fuel economy</span>
+    <span class="text-muted" style="font-weight:600">BLS &amp; AAA cost studies</span>
+    <span class="text-muted" style="font-weight:600">Real depreciation curves</span>
+    <a href="/methodology/" style="font-weight:700">Read the methodology</a>
+  </div>
+</div>
+
+<!-- ==================== VALUE PROP: PAYMENT ≠ COST ==================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow accent">The blind spot</span>
+      <h2>Your monthly payment is not your cost.</h2>
+      <p>Two drivers with the same $670 payment can have wildly different real costs. Depreciation, insurance, fuel and repairs often add more than the loan itself — and none of it shows up on the finance contract.</p>
+    </div>
+    <div class="reveal-compare" data-reveal data-reveal-delay="1">
+      <div class="rc rc-payment">
+        <div class="rc-k">What the dealer advertises</div>
+        <div class="rc-v num">$670<span style="font-size:1rem;color:var(--muted);font-weight:600">/mo</span></div>
+        <div class="rc-note">The financed payment on a $34,000 SUV, with tax and fees rolled in. This is the number most people compare — and the only one they plan around.</div>
+      </div>
+      <div class="rc rc-real">
+        <div class="rc-k">What it actually costs to drive</div>
+        <div class="rc-v num">$982<span style="font-size:1rem;color:var(--muted);font-weight:600">/mo</span></div>
+        <div class="rc-note">The same SUV, all-in: depreciation, insurance, fuel, maintenance, taxes and interest. That's <strong>47% more</strong> than the payment — about <strong>$18,700</strong> in cost across five years that the finance contract never mentions.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FEATURED FLAGSHIP ==================== -->
+<section class="section-tight">
+  <div class="container">
+    <div class="card card-pad-lg" data-reveal style="background:var(--grad-brand-soft);border-color:var(--brand-tint-2)">
+      <div class="grid grid-2" style="align-items:center;gap:36px">
+        <div>
+          <span class="pill pill-live"><span class="dot dot-pulse"></span>Flagship tool · Live</span>
+          <h2 style="font-size:var(--fs-h2);margin:16px 0 12px">True Cost to Own Calculator</h2>
+          <p class="text-muted" style="font-size:var(--fs-lead)">Enter a price and a few details. In one screen you'll see the complete five-year cost, your real cost per mile, a category-by-category breakdown, and a depreciation curve you can actually trust. Every assumption is visible and editable.</p>
+          <div class="hero-cta" style="margin-top:24px">
+            <a class="btn btn-primary btn-lg" href="/calculators/true-cost-to-own/">Open the calculator
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:14px">
+          <div class="stat-tile"><div class="k">Gas, hybrid &amp; EV</div><div class="v" style="font-size:1.25rem">All powertrains</div><div class="d">Fuel or kWh, modeled correctly</div></div>
+          <div class="stat-tile"><div class="k">Visual breakdown</div><div class="v" style="font-size:1.25rem">6 cost drivers</div><div class="d">Donut + depreciation charts</div></div>
+          <div class="stat-tile"><div class="k">Shareable</div><div class="v" style="font-size:1.25rem">Link &amp; print</div><div class="d">Your inputs saved in the URL</div></div>
+          <div class="stat-tile"><div class="k">Editable</div><div class="v" style="font-size:1.25rem">Your numbers</div><div class="d">Override any default</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CALCULATOR GRID ==================== -->
+<section class="section" id="calculators">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">The toolbox</span>
+      <h2>A calculator for every ownership question.</h2>
+      <p>Fifteen tools, all live and all free. Start with the flagship, or jump straight to the decision you're weighing. Every one shares the same <a href="/methodology/">documented set of assumptions</a>.</p>
+    </div>
+    <div class="grid grid-auto" id="calc-grid" data-reveal data-reveal-delay="1">
+      <!-- All fifteen calculators — live -->
+      <a class="calc-tile-link" href="/calculators/true-cost-to-own/">
+        <article class="card card-hover calc-tile">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 7h8M8 12h8M8 17h5"/></svg></span>
+          <h3>True Cost to Own</h3>
+          <p>The complete five-year cost of any car — depreciation, financing, insurance, fuel, maintenance and fees.</p>
+          <div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </article>
+      </a>
+      <a class="calc-tile-link" href="/calculators/cost-per-mile/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></span><h3>Cost Per Mile</h3><p>Turn every ownership expense into one honest number: what each mile really costs you.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/ten-year-cost/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Ten-Year Cost</h3><p>The long horizon, with the cumulative average that shows when keeping a car starts paying you back.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/lease-vs-buy/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2v6h6M4 22V6a2 2 0 0 1 2-2h8l6 6v12"/><path d="M8 13h8M8 17h8"/></svg></span><h3>Lease vs Buy</h3><p>Compare leasing, financing and paying cash across the same term — side by side.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/new-vs-used/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span><h3>New vs Used</h3><p>See whether a new car's warranty and reliability beat a used car's lower depreciation.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/trade-in-value/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M21 3l-7 7M8 21H3v-5M3 21l7-7"/></svg></span><h3>Trade-In vs Private Sale</h3><p>The private-sale premium against the trade-in's convenience and sales-tax credit.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/depreciation/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></span><h3>Depreciation</h3><p>Project a vehicle's resale value year by year and find where the value cliff hits.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/auto-loan/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><h3>Auto Loan</h3><p>Payment, total interest and payoff schedule for any price, rate and term.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/fuel-cost/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 21v-6h6v6"/></svg></span><h3>Fuel Cost</h3><p>Annual and per-mile fuel spend for any MPG, price and driving pattern.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/ev-charging/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-2 8 9-12h-7l2-8z"/></svg></span><h3>EV Charging</h3><p>Home vs public charging costs, cost per mile, and the gas-equivalent price.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/insurance-estimator/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3>Insurance Estimator</h3><p>Ballpark your premium by vehicle, driver profile and coverage level.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/maintenance-cost/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-7 7 2 2 7-7a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2 2.3-2.3z"/></svg></span><h3>Maintenance Cost</h3><p>What routine service and repairs will realistically run, year by year.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/affordability/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18l-2 13H5L3 6z"/><path d="M3 6 2 2M9 11v4M15 11v4"/></svg></span><h3>Vehicle Affordability</h3><p>Work backward from your budget to a price you can genuinely afford — all-in.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/monthly-budget/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20v-4"/></svg></span><h3>Transportation Budget</h3><p>Every transport line against your take-home pay, and the share of income it consumes.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+      <a class="calc-tile-link" href="/calculators/road-trip/"><article class="card card-hover calc-tile"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7A5 5 0 0 1 7 7h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8"/></svg></span><h3>Road Trip Cost</h3><p>Fuel or charging plus wear for any route — split it across your travelers.</p><div class="tile-foot"><span class="pill pill-live"><span class="dot"></span>Live</span><span class="go">Open<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article></a>
+    </div>
+    <div class="text-center" style="margin-top:34px">
+      <a class="btn btn-secondary" href="/calculators/">Browse all 15 calculators</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== METHODOLOGY / TRUST ==================== -->
+<section class="section bg-subtle">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Why you can trust the numbers</span>
+      <h2>Transparent by design. Never a black box.</h2>
+      <p>Most "cost" tools hide their math to push you toward a lender or a dealer. We do the opposite.</p>
+    </div>
+    <div class="grid grid-3" data-reveal data-reveal-delay="1">
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></span><div><h3>Every assumption is visible</h3><p>Depreciation rates, maintenance schedules, fuel prices — all shown on screen, all editable. If you disagree with a default, change it.</p></div></div>
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></span><div><h3>Grounded in real data</h3><p>Our defaults draw on EPA fuel economy, IRS and AAA cost-of-driving studies, and observed depreciation curves — not guesses.</p></div></div>
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><h3>No signup, no selling</h3><p>No email wall, no lead form, no "get matched with a dealer." Just the honest number, free, every time.</p></div></div>
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H5.2L4 18V4z"/><path d="M8 9h8M8 13h5"/></svg></span><div><h3>Built to be understood</h3><p>Alongside every result: worked examples, common mistakes, and plain-English explanations of what each number means.</p></div></div>
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20v-4"/></svg></span><div><h3>Whole-life thinking</h3><p>One, five, ten years — and the opportunity cost of the cash you tie up. We model the horizon that actually matters to you.</p></div></div>
+      <div class="feature"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/></svg></span><div><h3>Independent</h3><p>We don't sell cars, loans or insurance. Our only job is to help you see clearly before you commit.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TOPICAL HUBS ==================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Learn the drivers of cost</span>
+      <h2>Deep, evergreen guides behind every number.</h2>
+      <p>Each calculator sits inside a library of guides that explain the "why" behind the math. Five topic hubs, all live.</p>
+    </div>
+    <div class="grid grid-3" data-reveal data-reveal-delay="1">
+      <div class="card card-hover category-card" id="fuel-ev"><span class="icon-badge accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-2 8 9-12h-7l2-8z"/></svg></span><h3><a href="/fuel-and-ev/">Fuel &amp; EV</a></h3><p>Gas vs electric cost per mile, home charging economics, and when an EV actually pays off.</p><div class="cat-links"><a href="/calculators/fuel-cost/">Fuel cost</a><a href="/calculators/ev-charging/">EV charging</a></div></div>
+      <div class="card card-hover category-card" id="insurance"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3><a href="/insurance/">Insurance</a></h3><p>What moves a premium, how coverage levels change your all-in cost, and where to trim safely.</p><div class="cat-links"><a href="/calculators/insurance-estimator/">Estimator</a><a href="/methodology/">Methodology</a></div></div>
+      <div class="card card-hover category-card" id="maintenance"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-7 7 2 2 7-7a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2 2.3-2.3z"/></svg></span><h3><a href="/maintenance/">Maintenance</a></h3><p>Realistic service costs by age and mileage, and which brands quietly cost more to keep.</p><div class="cat-links"><a href="/calculators/maintenance-cost/">Cost tool</a><a href="/calculators/ten-year-cost/">Ten-year cost</a></div></div>
+      <div class="card card-hover category-card" id="depreciation"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></span><h3><a href="/depreciation/">Depreciation</a></h3><p>The single biggest cost of ownership — how to see it coming and buy on the right side of the curve.</p><div class="cat-links"><a href="/calculators/depreciation/">Depreciation tool</a><a href="/calculators/trade-in-value/">Trade-in value</a></div></div>
+      <div class="card card-hover category-card" id="buying"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg></span><h3><a href="/buying-guides/">Buying guides</a></h3><p>Lease vs buy, new vs used, trade-in timing — the decisions where the money is really won or lost.</p><div class="cat-links"><a href="/calculators/lease-vs-buy/">Lease vs buy</a><a href="/calculators/new-vs-used/">New vs used</a></div></div>
+      <div class="card card-hover category-card"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><h3><a href="/guides/">Everything else</a></h3><p>The full library — every guide, every calculator, and the standards the numbers are held to.</p><div class="cat-links"><a href="/guides/">All guides</a><a href="/editorial-standards/">Editorial standards</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAQ ==================== -->
+<section class="section bg-subtle" id="faq">
+  <div class="container container-narrow">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Questions</span>
+      <h2>The short version.</h2>
+    </div>
+    <div data-reveal data-reveal-delay="1">
+      <details class="faq-item"><summary>What is the "true cost" of owning a car?<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><div class="faq-a">It's every dollar the vehicle pulls out of your life, not just the loan. That includes depreciation (usually the largest cost), financing interest, insurance, fuel or electricity, maintenance and repairs, plus taxes, registration and fees. Our True Cost to Own calculator adds them all and divides by the miles you drive to give you a real cost per mile.</div></details>
+      <details class="faq-item"><summary>Why is depreciation counted as a cost?<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><div class="faq-a">Because it's real money you lose. If you buy for $34,000 and sell for $14,000 five years later, that $20,000 gap is the price you paid to use the car — often more than fuel, insurance and maintenance combined. It just doesn't show up as a monthly bill, which is exactly why people miss it.</div></details>
+      <details class="faq-item"><summary>Are these calculators really free?<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><div class="faq-a">Yes. No signup, no email wall, no lead forms. We don't sell cars, loans or insurance. The tools are free to use and the results are yours to share or print.</div></details>
+      <details class="faq-item"><summary>How accurate are the estimates?<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><div class="faq-a">Our defaults are grounded in EPA fuel-economy data, IRS and AAA driving-cost studies, and observed depreciation curves — but every vehicle and driver is different. That's why every assumption is editable. Treat the output as a well-informed estimate to guide your decision, not a quote. The <a href="/methodology/">methodology page</a> sets out every formula, default and source.</div></details>
+      <details class="faq-item"><summary>Do you cover electric and hybrid vehicles?<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><div class="faq-a">Yes. The True Cost to Own calculator models gas, hybrid and fully electric powertrains — switching fuel to electricity (¢/kWh and efficiency) and adjusting maintenance and depreciation accordingly.</div></details>
+      <p class="text-muted" style="margin-top:22px">More answers are on the <a href="/faq/">full FAQ</a>, and the reasoning behind every default is set out in the <a href="/methodology/">methodology</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CTA BAND ==================== -->
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band" data-reveal>
+      <h2>See what your next car really costs.</h2>
+      <p>Two minutes, no signup. Get the full five-year picture and your true cost per mile.</p>
+      <a class="btn btn-secondary btn-lg" href="/calculators/true-cost-to-own/">Open the True Cost to Own calculator</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="/" aria-label="MyDrivingCost.com — home">
+          <img class="brand-logo light-only" src="/assets/img/logo.png" alt="MyDrivingCost.com" width="127" height="66">
+          <img class="brand-logo dark-only" src="/assets/img/logo-dark.png" alt="MyDrivingCost.com" width="127" height="66">
+        </a>
+        <p class="footer-about">Know the real cost before you drive. Free, transparent tools for the true, total cost of vehicle ownership.</p>
+      </div>
+      <div class="footer-col"><h4>Calculators</h4><a href="/calculators/true-cost-to-own/">True Cost to Own</a><a href="/calculators/cost-per-mile/">Cost Per Mile</a><a href="/calculators/lease-vs-buy/">Lease vs Buy</a><a href="/calculators/auto-loan/">Auto Loan</a><a href="/calculators/fuel-cost/">Fuel Cost</a><a href="/calculators/ev-charging/">EV Charging</a><a href="/calculators/depreciation/">Depreciation</a><a href="/calculators/">All calculators</a></div>
+      <div class="footer-col"><h4>Topics</h4><a href="/fuel-and-ev/">Fuel &amp; EV</a><a href="/insurance/">Insurance</a><a href="/maintenance/">Maintenance</a><a href="/depreciation/">Depreciation</a><a href="/buying-guides/">Buying guides</a><a href="/guides/">All guides</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="/about/">About</a><a href="/methodology/">Methodology</a><a href="/editorial-standards/">Editorial standards</a><a href="/contact/">Contact</a><a href="/faq/">FAQ</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of use</a><a href="/disclaimer/">Disclaimer</a><a href="/sitemap.xml">Sitemap</a></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year>2026</span> MyDrivingCost.com · Know the Real Cost Before You Drive</p>
+      <p>Made for drivers, not dealerships.</p>
+    </div>
+    <p class="footer-disclaimer">The calculators and content on MyDrivingCost.com are provided for general informational and educational purposes only and represent estimates based on the assumptions you provide. They are not financial, tax, insurance, or purchasing advice, and actual costs will vary by vehicle, location, market conditions, driving behavior and other factors. Verify important figures independently and consult a qualified professional before making a purchase or financing decision.</p>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

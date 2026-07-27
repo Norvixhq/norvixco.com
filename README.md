@@ -21,7 +21,9 @@
 
 An evergreen utility site for understanding the true, total cost of vehicle ownership — fifteen interactive calculators plus the guide, hub and trust pages around them, built as a fast, dependency-free static site with no build step required to serve it.
 
-**Start here:** `preview.command` to look at it, `DEPLOY.md` to put it online, `MAINTENANCE.md` for the one number that ever needs updating, `REMAINING-ITEMS.md` for the honest list of what was deferred.
+**Start here:** `preview.command` to look at it, `DEPLOY.md` to put it online, `GITHUB-PAGES.md` if the host is GitHub Pages specifically, `MAINTENANCE.md` for the one number that ever needs updating, `REMAINING-ITEMS.md` for the honest list of what was deferred.
+
+> **Deploying to GitHub Pages?** Read `GITHUB-PAGES.md` first. Pushing this whole folder and publishing from the repository root makes GitHub render *this README* as your homepage while the real site sits one directory too deep with every asset 404-ing. It is a five-minute fix and there is a pre-laid-out package for it.
 
 ---
 
@@ -35,6 +37,8 @@ mydrivingcost/
 ├── generator/       ← the dev tool that produced site/. Never upload this.
 └── preview.command  ← double-click to view the site locally. Never upload this.
 ```
+
+**The word CONTENTS is doing real work in that first line.** Upload what is *inside* `site/`, so that `index.html` lands at the root of your domain. If the folder itself ends up on the host, every page will sit at `yourdomain.com/site/…` and every asset reference — all of which are root-absolute — will 404 against `yourdomain.com/assets/…`. The result looks identical to the `file://` problem above: correct HTML, no styling. This is the single most common way to misdeploy this site.
 
 `generator/` is Node scripts that write `site/`. It is how you add a page or change a number later. It is not needed to serve the site, and putting it on a public host would expose your source. `DEPLOY.md` says this again, louder.
 

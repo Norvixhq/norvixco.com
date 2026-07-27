@@ -19,9 +19,16 @@
 set -u
 cd "$(dirname "$0")" || exit 1
 
-if [ ! -f "site/index.html" ]; then
-  echo "Could not find site/index.html next to this script."
-  echo "Keep preview.command in the same folder as the site/ directory."
+# The site folder is called site/ in the standard package and docs/ in the
+# GitHub Pages layout, because GitHub only publishes from the repo root or
+# /docs. Accept either, so one launcher works for both.
+SITEDIR=""
+for d in site docs .; do
+  if [ -f "$d/index.html" ]; then SITEDIR="$d"; break; fi
+done
+if [ -z "$SITEDIR" ]; then
+  echo "Could not find index.html next to this script."
+  echo "Keep preview.command in the same folder as the site/ (or docs/) directory."
   echo
   read -r -p "Press Return to close. " _
   exit 1
@@ -39,7 +46,7 @@ URL="http://localhost:$PORT"
 echo
 echo "  MyDrivingCost.com — local preview"
 echo "  ---------------------------------"
-echo "  Serving: $(pwd)/site"
+echo "  Serving: $(cd "$SITEDIR" && pwd)"
 echo "  Address: $URL"
 echo
 echo "  Leave this window open while you browse."
@@ -56,7 +63,7 @@ echo
     sleep 0.4
   done ) &
 
-cd site || exit 1
+cd "$SITEDIR" || exit 1
 
 # --- serve, using whatever this machine happens to have -------------------
 # Each candidate is tried in turn. A server that dies within two seconds did

@@ -1,0 +1,76 @@
+# MyDrivingCost.com — Apache configuration for traditional / cPanel hosting.
+# Netlify, Vercel and Cloudflare Pages ignore this file and read their own.
+#
+# Goal: every URL the visitor sees is clean, slash-terminated and extension-free.
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Canonical host. Every page's <link rel="canonical"> points at the apex,
+  #    so www must not resolve independently or the whole site exists twice as
+  #    far as a crawler is concerned. Rewriting to https:// in the same rule
+  #    keeps http://www -> https://apex a single hop rather than two.
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+  # 2. Force HTTPS. Only the apex reaches this rule, so there is no risk of it
+  #    fighting the host rule above. The X-Forwarded-Proto test is ANDed, not
+  #    ORed — behind a TLS-terminating proxy HTTPS is off but the header says
+  #    https, and either one being satisfied means the request is already secure.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  # 3. Strip a visible /index.html from any URL.
+  RewriteCond %{THE_REQUEST} \s/(.*/)?index\.html[\s?] [NC]
+  RewriteRule ^(.*/)?index\.html$ /%1 [R=301,L]
+
+  # 4. Strip a visible .html extension: /about.html -> /about/
+  RewriteCond %{THE_REQUEST} \s/(.+)\.html[\s?] [NC]
+  RewriteRule ^(.+)\.html$ /$1/ [R=301,L]
+
+  # 5. Add the trailing slash to any real directory requested without one.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+
+  # 6. Serve /foo/ from /foo/index.html, and /foo from /foo.html if that is all
+  #    that exists. Internal rewrites only — the address bar never changes.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}index.html -f
+  RewriteRule ^(.*)/$ $1/index.html [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html                 "access plus 0 seconds"
+  ExpiresByType text/css                  "access plus 7 days"
+  ExpiresByType application/javascript    "access plus 7 days"
+  ExpiresByType image/png                 "access plus 30 days"
+  ExpiresByType image/svg+xml             "access plus 30 days"
+  ExpiresByType font/woff2                "access plus 1 year"
+  ExpiresByType application/xml           "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/json application/xml image/svg+xml
+</IfModule>

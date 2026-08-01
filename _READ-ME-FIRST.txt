@@ -1,0 +1,51 @@
+NORVIX PREVIEW BUILD — works on GitHub Pages OR normal web hosting
+==================================================================
+
+Upload the CONTENTS of this folder (not the folder itself) to your web root.
+
+Every page is set to noindex/nofollow and robots.txt blocks all crawlers, so
+this preview will not be indexed by Google and will not compete with the real
+rapidresponsedfw.com later.
+
+Build stamp is on line 1 of every page's HTML source.
+
+
+IF YOU ARE USING NORMAL WEB HOSTING (cPanel, FTP, shared hosting)
+-----------------------------------------------------------------
+Upload everything to public_html (or your web root).
+
+The .htaccess file is already included and handles the clean URLs
+(/about/ instead of /about.html). Make sure it uploads — FTP clients often
+hide files starting with a dot. In FileZilla: Server > Force showing hidden files.
+
+You can DELETE .nojekyll and CNAME — those are GitHub-only files and do
+nothing here.
+
+
+IF YOU ARE USING GITHUB PAGES
+-----------------------------
+Put everything at the REPOSITORY ROOT, not inside a subfolder.
+
+.nojekyll must be there — without it GitHub runs Jekyll, which ignores files
+and folders starting with an underscore and can break the build.
+
+Create a file named CNAME (no extension) containing ONLY your subdomain:
+
+    preview.norvixco.com
+
+Then in your DNS, add:
+
+    Type: CNAME    Name: preview    Value: YOURUSERNAME.github.io
+
+.htaccess does nothing on GitHub Pages — harmless, ignore it.
+
+
+TESTING LOCALLY FIRST
+---------------------
+Do not double-click index.html — the site uses root-relative paths and needs
+a server:
+
+    cd norvix-preview
+    python3 -m http.server 8000
+
+Then open http://localhost:8000

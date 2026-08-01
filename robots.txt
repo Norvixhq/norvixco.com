@@ -1,0 +1,8 @@
+# Rapid Response Restoration — https://rapidresponsedfw.com
+User-agent: *
+Allow: /
+
+# Housekeeping
+Disallow: /404.html
+
+Sitemap: https://rapidresponsedfw.com/sitemap.xml

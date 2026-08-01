@@ -1,0 +1,12 @@
+{
+  "name": "Rapid Response Restoration",
+  "short_name": "Rapid Response",
+  "description": "24/7 emergency restoration in Dallas-Fort Worth",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061229",
+  "theme_color": "#061229",
+  "icons": [
+    { "src": "/assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

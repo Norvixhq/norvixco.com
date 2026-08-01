@@ -1,0 +1,77 @@
+HOSTING ON norvixco.com (ROOT DOMAIN) VIA GITHUB PAGES
+======================================================
+
+The CNAME file in this folder already says:  norvixco.com
+
+
+STEP 1 — Upload
+---------------
+Put the CONTENTS of this folder at the ROOT of the repo
+(Norvixhq/norvixco.com), not inside a subfolder.
+
+index.html, CNAME and .nojekyll must all sit at the top level.
+
+
+STEP 2 — GitHub settings
+------------------------
+Repo > Settings > Pages > Custom domain:  norvixco.com   > Save
+
+
+STEP 3 — DNS  (this is the part that's different from a subdomain)
+------------------------------------------------------------------
+A root domain CANNOT use a CNAME record. It needs A records.
+
+FIRST: delete any existing A record on the root (@). Something is
+currently serving a placeholder page there and it will conflict.
+
+THEN add these four A records:
+
+    Type    Name    Value
+    A       @       185.199.108.153
+    A       @       185.199.109.153
+    A       @       185.199.110.153
+    A       @       185.199.111.153
+
+Optional but recommended, so www works too:
+
+    Type    Name    Value
+    CNAME   www     norvixhq.github.io
+
+Optional IPv6 (add alongside the A records, not instead of them):
+
+    AAAA    @       2606:50c0:8000::153
+    AAAA    @       2606:50c0:8001::153
+    AAAA    @       2606:50c0:8002::153
+    AAAA    @       2606:50c0:8003::153
+
+
+STEP 4 — Wait, then turn on HTTPS
+---------------------------------
+DNS takes 10 minutes to a few hours. In Settings > Pages the DNS check
+will go green, then the "Enforce HTTPS" box becomes tickable. That can
+take up to 24 hours — it is not broken, just slow.
+
+DO NOT send the link to the client until HTTPS is on. Without it, Chrome
+shows "Not secure" in the address bar.
+
+
+CHECK IT WORKED
+---------------
+Terminal:   dig +short norvixco.com
+
+Should return the four 185.199.x.x addresses above. If it returns
+anything else, the old records are still in place or DNS hasn't
+propagated.
+
+Then load these three, hard-refreshing with Cmd+Shift+R:
+    norvixco.com
+    norvixco.com/contact/
+    norvixco.com/service-areas/frisco/
+
+
+NOTE ON INDEXING
+----------------
+Every page is set to noindex/nofollow and robots.txt blocks all crawlers,
+so this will NOT be indexed and will NOT compete with the real
+rapidresponsedfw.com later. When you launch for real, use the v5 build
+instead — that one is indexable.

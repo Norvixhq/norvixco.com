@@ -487,9 +487,15 @@ body.nav-open .burger span::after { transform: translateY(-6px) rotate(-45deg); 
 
 /* ---------- 9. Cards / service grid ---------- */
 .grid { display: grid; gap: 1.15rem; }
-.grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.grid-3 { grid-template-columns: repeat(auto-fit, minmax(292px, 1fr)); }
-.grid-4 { grid-template-columns: repeat(auto-fit, minmax(232px, 1fr)); }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1000px) {
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+}
 
 .svc-card {
   position: relative; display: flex; flex-direction: column;
@@ -1095,9 +1101,6 @@ body.nav-open .burger span::after { transform: translateY(-6px) rotate(-45deg); 
   backdrop-filter: blur(6px); pointer-events: none; white-space: nowrap;
 }
 
-/* --- long strings (email addresses) must never blow out a column --- */
-.wrap-any { overflow-wrap: anywhere; word-break: break-word; }
-
 /* --- larger, better-aligned header logo ------------------------------- */
 .brand img {
   height: calc(var(--header-h) - 24px);
@@ -1236,7 +1239,7 @@ a.btn-outline, a.btn-outline:visited { color: var(--navy-800); }
    31. Cost factors + timeline (service pages)
    =================================================================== */
 .cost-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px; background: var(--mist-200);
   border: 1px solid var(--mist-200); border-radius: var(--r-lg); overflow: hidden;
 }
@@ -1269,6 +1272,8 @@ a.btn-outline, a.btn-outline:visited { color: var(--navy-800); }
 }
 .tl-body h3 { font-family: var(--display); font-size: 1.16rem; font-weight: 700; color: var(--ink); margin-bottom: .3rem; }
 .tl-body p { font-size: .96rem; line-height: 1.66; color: var(--slate-600); margin: 0; }
+@media (max-width: 900px) { .cost-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .cost-grid { grid-template-columns: 1fr; } }
 @media (max-width: 640px) {
   .tl-item { grid-template-columns: 1fr; gap: .45rem; padding: 1.25rem 0; }
   .tl-when { padding-top: 0; }
@@ -1346,3 +1351,37 @@ a.btn-outline, a.btn-outline:visited { color: var(--navy-800); }
 .cause-ico svg { width: 22px; height: 22px; }
 .cause h3 { font-family: var(--display); font-size: 1.16rem; font-weight: 700; color: var(--ink); }
 .cause p { font-size: .95rem; line-height: 1.7; color: var(--slate-600); margin: 0; }
+
+/* ===================================================================
+   34. Card flow — for sets whose count is arbitrary (29 cities, 19
+   services, 3-5 related items). Full rows fill edge to edge; only a
+   partial final row centres, so there is never a dead cell.
+   =================================================================== */
+.card-flow {
+  --cols: 4;
+  --flow-gap: 1.15rem;
+  display: flex; flex-wrap: wrap; gap: var(--flow-gap); justify-content: center;
+}
+.card-flow > * {
+  flex: 0 1 calc((100% - (var(--cols) - 1) * var(--flow-gap)) / var(--cols));
+  min-width: 0;
+}
+.card-flow.cols-3 { --cols: 3; }
+@media (max-width: 1000px) { .card-flow, .card-flow.cols-3 { --cols: 2; } }
+@media (max-width: 680px)  { .card-flow, .card-flow.cols-3 { --cols: 1; } }
+
+/* ===================================================================
+   35. Vertical rhythm — stop short article columns leaving a void
+   beside a tall sticky sidebar, and tighten section padding on phones.
+   =================================================================== */
+.article-layout { align-items: start; }
+.prose > h3 { margin-top: 1.9rem; margin-bottom: .55rem; }
+.prose > ol, .prose > ul { margin-bottom: 1.35rem; }
+.prose > ol li, .prose > ul li { margin-bottom: .55rem; }
+
+@media (max-width: 680px) {
+  .band { padding-block: 3rem; }
+  .sec-head { margin-bottom: 1.8rem; }
+  .cost-note { padding: 1rem 1.1rem; }
+  .timeline { max-width: none; }
+}

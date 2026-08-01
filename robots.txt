@@ -1,8 +1,3 @@
-# Rapid Response Restoration — https://rapidresponsedfw.com
+# Client preview — not for indexing.
 User-agent: *
-Allow: /
-
-# Housekeeping
-Disallow: /404.html
-
-Sitemap: https://rapidresponsedfw.com/sitemap.xml
+Disallow: /

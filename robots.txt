@@ -1,3 +1,2 @@
-# Temporary client preview hosted on norvixco.com — not for indexing.
 User-agent: *
 Disallow: /

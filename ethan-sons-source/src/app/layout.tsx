@@ -1,3 +1,4 @@
+import { asset } from '@/lib/seo';
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
@@ -17,11 +18,11 @@ export const metadata: Metadata = {
   applicationName: business.name,
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon-32.png', type: 'image/png', sizes: '32x32' },
-      { url: '/icon-512.png', type: 'image/png', sizes: '512x512' },
+      { url: asset('/favicon.ico'), sizes: 'any' },
+      { url: asset('/icon-32.png'), type: 'image/png', sizes: '32x32' },
+      { url: asset('/icon-512.png'), type: 'image/png', sizes: '512x512' },
     ],
-    apple: '/icon-180.png',
+    apple: asset('/icon-180.png'),
   },
   formatDetection: { telephone: true },
 };

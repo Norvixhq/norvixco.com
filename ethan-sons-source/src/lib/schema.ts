@@ -1,4 +1,5 @@
 import { business, addressLine } from '@/data/business';
+import { asset } from './seo';
 import { locations } from '@/data/locations';
 import type { Faq } from '@/data/types';
 
@@ -37,8 +38,8 @@ export function organizationSchema() {
     description: business.tagline,
     url: abs('/'),
     telephone: business.phoneRaw,
-    image: abs('/logo-mark.png'),
-    logo: abs('/logo.png'),
+    image: abs(asset('/logo-mark.png')),
+    logo: abs(asset('/logo.png')),
     address: postalAddress,
     geo: {
       '@type': 'GeoCoordinates',

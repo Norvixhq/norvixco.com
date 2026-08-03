@@ -37,7 +37,7 @@ export const business = {
   },
 
   /** Approximate coordinates for Addison, TX — used for the location panel only. */
-  geo: { lat: 32.9618, lng: -96.8292 },
+  geo: { lat: 32.9762743, lng: -96.8318903 },
 
   primaryCity: 'Addison',
   primaryCitySlug: 'addison',

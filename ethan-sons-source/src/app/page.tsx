@@ -15,7 +15,7 @@ import { Icon } from '@/components/Icon';
 import FaqAccordion from '@/components/FaqAccordion';
 import ContactPanel from '@/components/ContactPanel';
 import { faqSchema } from '@/lib/schema';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, asset } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: `Electricians in Addison, TX | ${business.name}`,
@@ -119,7 +119,7 @@ export default function HomePage() {
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <p className="eyebrow-dark">Circuit directory</p>
               <Image
-                src="/logo-mark-reverse.png"
+                src={asset("/logo-mark-reverse.png")}
                 alt=""
                 width={512}
                 height={512}

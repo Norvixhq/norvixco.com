@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import ContactPanel from '@/components/ContactPanel';
 import { SectionHeading, CheckList, PlaceholderNote } from '@/components/ui';
 import { CallButton, TextLink } from '@/components/CTAButtons';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, asset } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'About Us',
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </div>
           <div className="rounded-2xl border border-white/15 bg-white/[0.04] p-8 shadow-panel">
             <Image
-              src="/logo-reverse.png"
+              src={asset("/logo-reverse.png")}
               alt={business.name}
               width={1100}
               height={449}

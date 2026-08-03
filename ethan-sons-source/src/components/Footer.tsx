@@ -1,3 +1,4 @@
+import { asset } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, MapPin } from 'lucide-react';
@@ -16,7 +17,7 @@ export default function Footer() {
         <div className="grid gap-10 border-b border-white/10 pb-12 lg:grid-cols-[1.15fr_repeat(3,1fr)] lg:gap-12">
           <div>
             <Image
-              src="/logo-reverse.png"
+              src={asset("/logo-reverse.png")}
               alt={business.name}
               width={1100}
               height={449}

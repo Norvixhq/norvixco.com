@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { ChevronDown, Menu, X, MapPin, Phone } from 'lucide-react';
 import { primaryNav, type TopLevelItem } from '@/data/navigation';
 import { business, telHref, addressLine, mapsLink } from '@/data/business';
-import { cx } from '@/lib/seo';
+import { cx, asset } from '@/lib/seo';
 
 export default function Header() {
   const [open, setOpen] = useState<string | null>(null);
@@ -80,7 +80,7 @@ export default function Header() {
       <div className="shell flex h-[4.5rem] items-center justify-between gap-4 lg:h-[5.25rem]">
         <Link href="/" className="shrink-0" aria-label={`${business.name} — home`}>
           <Image
-            src="/logo.png"
+            src={asset("/logo.png")}
             alt={business.name}
             width={1100}
             height={449}
@@ -133,7 +133,7 @@ export default function Header() {
           />
           <div className="absolute inset-y-0 right-0 flex w-full max-w-[22rem] flex-col bg-white shadow-lift">
             <div className="flex h-[4.5rem] shrink-0 items-center justify-between border-b border-slate-100 px-5">
-              <Image src="/logo-mark.png" alt="" width={512} height={512} className="h-9 w-9" />
+              <Image src={asset("/logo-mark.png")} alt="" width={512} height={512} className="h-9 w-9" />
               <button
                 type="button"
                 onClick={() => setDrawer(false)}

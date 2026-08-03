@@ -1,0 +1,60 @@
+ETHAN & SONS — PREVIEW DEPLOY TO norvixco.com
+=============================================
+
+This build is compiled for the SUBFOLDER path:
+    https://norvixhq.github.io/norvixco.com/ethan-sons/
+
+That is the URL that works right now, before the custom domain resolves.
+
+
+STEP 1 — copy the folder in
+---------------------------
+Drop the whole `ethan-sons/` folder into the root of the
+Norvixhq/norvixco.com repo (alongside whatever is already there).
+Do NOT rename it — the folder name is baked into every asset path.
+
+
+STEP 2 — fix the custom domain
+------------------------------
+Copy `CNAME` (one line: norvixco.com) to the ROOT of the repo,
+NOT inside ethan-sons/. Commit it.
+
+This is why the domain keeps clearing itself: a GitHub Actions deploy
+replaces the published tree on every run, deleting the CNAME file that
+Settings > Pages writes. Keeping CNAME in source means it gets
+republished every time and the setting sticks.
+
+Then re-enter norvixco.com in Settings > Pages > Custom domain.
+
+If it still refuses to save, DNS is not pointing at GitHub yet.
+At your registrar, for the apex domain:
+    A  @  185.199.108.153
+    A  @  185.199.109.153
+    A  @  185.199.110.153
+    A  @  185.199.111.153
+and for www:
+    CNAME  www  norvixhq.github.io
+
+
+STEP 3 — after the domain works, rebuild
+----------------------------------------
+Once norvixco.com resolves, the path shortens and the build must match.
+From the source project:
+
+    NEXT_PUBLIC_BASE_PATH=/ethan-sons npm run build
+
+Recopy out/ into ethan-sons/. Site is then at:
+    https://norvixco.com/ethan-sons/
+
+At client launch on their own root domain, no env var at all:
+
+    npm run build
+
+
+NOTE — .nojekyll
+----------------
+There is a hidden `.nojekyll` file inside ethan-sons/. Do not delete it.
+GitHub Pages runs Jekyll by default, and Jekyll ignores any directory
+starting with an underscore — which would silently drop the entire
+_next/ folder and serve the site with no CSS or JavaScript.
+Make sure your git client is not filtering dotfiles when you commit.

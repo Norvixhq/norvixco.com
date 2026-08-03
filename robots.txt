@@ -1,2 +1,5 @@
-User-agent: *
-Disallow: /
+User-Agent: *
+Allow: /
+
+Host: https://www.ethanandsonselectricians.com
+Sitemap: https://www.ethanandsonselectricians.com/sitemap.xml

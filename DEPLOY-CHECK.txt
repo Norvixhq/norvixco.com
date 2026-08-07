@@ -1,0 +1,21 @@
+Paste these into Terminal, one at a time, against your live preview URL.
+
+1. Is the page being served at all?
+   curl -sI https://norvixhq.github.io/norvixco.com/ | head -3
+   -> want: HTTP/2 200      (301/302 means a redirect is still configured)
+
+2. Is the stylesheet reaching the browser?
+   curl -sI https://norvixhq.github.io/norvixco.com/assets/site.css | head -3
+   -> want: HTTP/2 200 and content-type: text/css
+   -> 404 means assets/ did not get pushed, or Jekyll removed it
+
+3. Did the hidden file make it?
+   curl -sI https://norvixhq.github.io/norvixco.com/.nojekyll | head -1
+   -> want: HTTP/2 200
+   -> 404 means Finder skipped the dotfile. Re-copy with:
+        cp -a dist/preview/. /path/to/your/repo/
+      or turn on hidden files in Finder with  Cmd + Shift + .
+
+4. Is a stray CNAME still published?
+   curl -s https://norvixhq.github.io/norvixco.com/CNAME
+   -> want: a 404 page. If it prints a domain, a CNAME is still committed.

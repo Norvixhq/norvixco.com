@@ -1,0 +1,142 @@
+{
+  "aerial-weathered-shingle-roof": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "aerial-charcoal-roof-replacement": {
+    "width": 1091,
+    "height": 694,
+    "ratio": 0.6361,
+    "widths": [
+      480,
+      800,
+      1091
+    ]
+  },
+  "brick-home-gray-shingle-roof": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "red-brick-home-gutters-downspouts": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "aerial-gray-shingle-roof-crew": {
+    "width": 906,
+    "height": 576,
+    "ratio": 0.6358,
+    "widths": [
+      480,
+      800,
+      906
+    ]
+  },
+  "aerial-storm-roof-tearoff-dumpster": {
+    "width": 906,
+    "height": 576,
+    "ratio": 0.6358,
+    "widths": [
+      480,
+      800,
+      906
+    ]
+  },
+  "brick-home-brown-shingle-roof": {
+    "width": 1036,
+    "height": 659,
+    "ratio": 0.6361,
+    "widths": [
+      480,
+      800,
+      1036
+    ]
+  },
+  "cedar-privacy-fence-gate": {
+    "width": 850,
+    "height": 709,
+    "ratio": 0.8341,
+    "widths": [
+      480,
+      800,
+      850
+    ]
+  },
+  "stained-fence-side-yard": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "stained-fence-corner-run": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "fence-posts-set-string-line": {
+    "width": 814,
+    "height": 1280,
+    "ratio": 1.5725,
+    "widths": [
+      480,
+      800,
+      814
+    ]
+  },
+  "stained-deck-rail-and-steps": {
+    "width": 1280,
+    "height": 815,
+    "ratio": 0.6367,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "brick-home-dark-roof-garage": {
+    "width": 1280,
+    "height": 813,
+    "ratio": 0.6352,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  },
+  "brick-home-gutters-rear-elevation": {
+    "width": 1280,
+    "height": 814,
+    "ratio": 0.6359,
+    "widths": [
+      480,
+      800,
+      1280
+    ]
+  }
+}

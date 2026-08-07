@@ -1,0 +1,1627 @@
+{
+  "_editing": "Optional per-service expansion, keyed by service slug. Every field is optional and its section simply does not render when absent, so adding depth to a page is additive and safe. Fields: specs [{k,v}], deepDive [{h, p:[], list:[]}], expect [{t,d}], mistakes [{t,d}], maintenance [].",
+  "_roadmap": "Written for the priority services first. Secondary services render without these sections by design — the brief allows shorter secondary pages, and padding them would mean repeating paragraphs across pages, which is exactly what hurts rankings.",
+  "roof-replacement": {
+    "specs": [
+      {
+        "k": "Typical duration",
+        "v": "1–2 days on site"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      },
+      {
+        "k": "Deck inspection",
+        "v": "Included at tear-off"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What a replacement actually replaces",
+        "p": [
+          "Homeowners are quoted shingles. What they are buying is a system, and the shingles are the last few hours of it. Underneath sits the decking, the underlayment, the ice-and-water membrane at the vulnerable points, the drip edge at the perimeter, the valley treatment, the flashing at every wall and chimney, fresh boots on every penetration, and the ventilation that lets the whole assembly breathe.",
+          "Any one of those can be skipped without a homeowner ever noticing on completion day. Reused flashing looks identical from the driveway. A missing starter course is invisible. Valley membrane that was left out shows up in year six as a stain on a bedroom ceiling. This is the entire reason estimates from different companies can differ by thousands of dollars while describing what sounds like the same job.",
+          "When you compare quotes, compare those lines rather than the headline number. If an estimate does not name the underlayment, say whether flashing and boots are new or reused, or account for decking repair, it is not describing the same work."
+        ]
+      },
+      {
+        "h": "The hour after tear-off is the most useful hour of the job",
+        "p": [
+          "Once the old roofing is off, the deck is exposed and telling the truth for the first time in twenty years. Soft or delaminated plywood, dark staining around a chimney, a patch where somebody fixed a leak by nailing a scrap over it, sheathing that was never fastened properly to begin with — all of it becomes visible at once, and only for a few hours.",
+          "We photograph what is there and show you before anything gets covered. If sheathing needs replacing, you see the specific sheets and get the cost before we proceed. That is the opposite of how decking commonly appears on an invoice, which is as a lump sum after the fact.",
+          "It is also why we do not recommend roofing over an existing layer. A layover skips this step entirely, adds weight the structure was not designed for, traps heat against the new shingles, and makes the next tear-off more expensive. It saves money once and costs money twice."
+        ]
+      },
+      {
+        "h": "Why complexity matters more than square footage",
+        "p": [
+          "Two roofs of identical area can differ substantially in both price and risk. A simple hip roof over a single-story ranch is mostly field — large uninterrupted planes where the work is repetitive and forgiving. A cut-up roofline with six gables, three dormers, two chimneys, and a dozen penetrations is mostly edges, and edges are where roofs leak.",
+          "Newer North Texas construction trends heavily toward the second kind. It photographs beautifully from the street, and it means valleys, transitions, and flashing details drive both the labour and the long-term outcome. When you are comparing estimates on a complex roof, the line items that matter are the ones covering valley treatment and flashing, not the shingle brand."
+        ]
+      },
+      {
+        "h": "Choosing a colour you will still like in fifteen years",
+        "p": [
+          "Shingle colour is the one decision that is genuinely yours, and the one most often made in a hurry from a small sample board in bad light. We bring physical samples and hold them against your actual brick, stone, and trim, in daylight, on the elevation people see from the street.",
+          "A few things worth knowing before you choose. Blends read differently at full scale than on a sample — a shingle that looks strongly brown in your hand often reads as neutral across a whole roof. Darker roofs run hotter, though attic ventilation and insulation influence your energy bill far more than colour does. And if you are in an HOA, check the approved palette before falling in love with something."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "A few days before",
+        "d": "We confirm the schedule and the weather window. Material gets delivered, usually the day before or the morning of. It is heavy, so we will agree where it goes."
+      },
+      {
+        "t": "Morning of, before anything comes off",
+        "d": "Tarps and protection go over landscaping, AC units, windows, and the driveway. Move vehicles out of the garage — you will not want to move them mid-day."
+      },
+      {
+        "t": "Tear-off",
+        "d": "The loudest part, and genuinely loud. Things on walls can vibrate. If you work from home, or have small children or a nervous dog, plan to be elsewhere for this stretch."
+      },
+      {
+        "t": "Deck inspection",
+        "d": "We stop, photograph anything wrong underneath, and talk to you before covering it. No surprise line items after the fact."
+      },
+      {
+        "t": "Dry-in and installation",
+        "d": "Underlayment goes down first so the house is protected, then flashing, boots, shingles, ridge, and ventilation."
+      },
+      {
+        "t": "Cleanup and walkthrough",
+        "d": "Magnets across the yard, beds, and drive. Debris hauled off. Then we walk it with you before we call it finished."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Flashing reused to save an hour",
+        "d": "Old step and counter flashing left in place under new shingles. It was corroded before the new roof went on and it will outlive nothing."
+      },
+      {
+        "t": "Nails driven above the nail line",
+        "d": "High nailing leaves the fastener holding one layer instead of two. The roof passes a glance and fails in the first serious wind."
+      },
+      {
+        "t": "No valley membrane",
+        "d": "The highest-volume part of the roof, built without the protection underneath that the manufacturer specifies."
+      },
+      {
+        "t": "Pipe boots caulked, not replaced",
+        "d": "A ten-dollar part skipped on a five-figure job, then sealed over. It cracks again within a couple of Texas summers."
+      },
+      {
+        "t": "Exhaust vents added, intake ignored",
+        "d": "More vents on the roof with the soffits still packed with insulation. The attic cannot breathe and the new shingles age early from underneath."
+      },
+      {
+        "t": "Debris left in the gutters",
+        "d": "Tear-off grit packed into the troughs, so the first heavy rain after a brand-new roof produces an overflow at the foundation."
+      }
+    ],
+    "maintenance": [
+      "Have the roof looked at once a year, and after any significant hail or wind",
+      "Keep valleys and the area behind the chimney clear of leaf and needle build-up",
+      "Trim limbs that touch or overhang the roof — abrasion in wind wears granules off",
+      "Clear gutters before storm season so water leaves the roof edge rather than backing up",
+      "Keep your photographs and estimate on file; documented condition history is useful later"
+    ]
+  },
+  "roof-repair": {
+    "specs": [
+      {
+        "k": "Diagnosis first",
+        "v": "Source traced, then priced"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Typical duration",
+        "v": "Often a few hours"
+      },
+      {
+        "k": "Repair or replace",
+        "v": "Answered in writing"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Why the stain is not the leak",
+        "p": [
+          "Water entering a roof rarely falls straight down. It hits the underside of the decking, runs along the grain until it meets a rafter, travels the length of that rafter, soaks into insulation, and finally shows itself on a ceiling that can be a considerable distance from where it got in. On a low-slope roof, the horizontal run can be substantial.",
+          "This is why repairs aimed at the visible stain so often fail. Somebody replaces shingles directly above the mark, the homeowner pays, and the ceiling stains again after the next storm — because the actual entry point was a cracked boot two rafter bays over.",
+          "A proper diagnosis works backwards. Interior evidence first, then the attic to find where the water is landing and which direction it has travelled, then the roof surface at the point that path leads to. It takes longer than a glance, and it is the only way to be sure you are paying to fix the right thing."
+        ]
+      },
+      {
+        "h": "When repair is the right answer, and when it is not",
+        "p": [
+          "A repair makes sense when the roof is fundamentally healthy and one component has failed. A single cracked pipe boot, a section of wind-lifted shingles on one slope, a chimney flashing detail that was sealed instead of built, a worn valley on a roof that is otherwise sound — all of those are repairs, and doing them well can buy real years.",
+          "Repair stops making sense when the failures are distributed. Hail bruising across several elevations, three leaks in three seasons in three different places, shingle mat exposed across whole slopes, or a visible dip in the roof plane all point the same direction. At that stage, repair money is being spent on something that is going to be replaced anyway.",
+          "There is also a middle case worth naming honestly: a roof that could be repaired but where matching material has become impossible. That is a legitimate reason to replace, and it is an appearance decision rather than a performance one. We will tell you which of the three you are in."
+        ],
+        "list": [
+          "One failure on an otherwise sound roof — repair",
+          "Damage spread across multiple slopes — replacement",
+          "Repeated leaks in different locations — replacement",
+          "Repairable but unmatchable — your call, and we will say so"
+        ]
+      },
+      {
+        "h": "The repairs nobody wants to quote",
+        "p": [
+          "Small roofing jobs are unprofitable relative to the effort of getting a crew and equipment to the address, which is why plenty of companies will not return the call for one. It is also why so many homeowners are told a leak requires a full replacement when it does not — the replacement is worth the trip.",
+          "We take small repairs seriously, and we would rather do a good one now and be the company you call in eight years. The economics of that are perfectly obvious to us and they still work out."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Describe what you are seeing",
+        "d": "Where the stain is, when it appeared, whether it grows after rain. That narrows the search before we arrive."
+      },
+      {
+        "t": "Interior and attic first",
+        "d": "We start where the evidence is and work upward, because the entry point is usually not where you think it is."
+      },
+      {
+        "t": "The roof itself",
+        "d": "The detail the water path leads to gets inspected, plus the surrounding field to check the repair will not be pointless."
+      },
+      {
+        "t": "You see the failure",
+        "d": "A photograph of the actual entry point, not a description of it. Then a written estimate scoped to that repair."
+      },
+      {
+        "t": "The work",
+        "d": "The failed component is replaced and the detail rebuilt properly — flashing replaced rather than resealed where that is what it needs."
+      },
+      {
+        "t": "Verification",
+        "d": "Completed repair photographed and reviewed with you, and the area left clean."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Sealant used as the repair",
+        "d": "A bead of caulk over a flashing problem. It buys a season or two in Texas heat, then cracks and the leak returns."
+      },
+      {
+        "t": "Shingles face-nailed down",
+        "d": "Wind-lifted shingles nailed through the face instead of properly re-sealed. That is a new hole in the roof, added on purpose."
+      },
+      {
+        "t": "Patching above the stain",
+        "d": "Work done at the ceiling mark rather than the entry point. The homeowner pays and the leak comes back."
+      },
+      {
+        "t": "Boots covered instead of replaced",
+        "d": "A cracked collar smeared over and left. The cheapest real fix on a roof, skipped."
+      },
+      {
+        "t": "Valley debris never cleared",
+        "d": "The leak is treated as a shingle failure when it is actually water backing up behind packed leaves."
+      }
+    ],
+    "maintenance": [
+      "Photograph any new stain when you first notice it, so you can tell later whether it is growing",
+      "Check the attic after heavy rain — damp insulation shows up long before a ceiling does",
+      "Keep valleys and the uphill side of the chimney clear",
+      "Have penetrations checked every few years; rubber boots fail long before shingles do"
+    ]
+  },
+  "residential-roofing": {
+    "specs": [
+      {
+        "k": "Service area",
+        "v": "DFW and North Texas"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      },
+      {
+        "k": "Documentation",
+        "v": "Photographs are yours"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What North Texas does to a roof, in order",
+        "p": [
+          "Spring brings the hail. It knocks granules off the surface and fractures the mat underneath, and it rarely leaks straight away — it simply moves the roof's expiry date forward by several years without telling anyone.",
+          "Ahead of those same storms comes straight-line wind, which does the damage homeowners consistently underestimate. Gusts get under a shingle's leading edge, break the factory seal strip, and fold the shingle back. It settles down again looking completely normal. It is no longer bonded to anything.",
+          "Then comes the heat. Surface temperatures on a dark roof through a North Texas July are punishing, and the daily expansion and contraction works every sealant joint and ages the asphalt mat. Attic air sits against the underside of the deck all afternoon and ages the same shingles from the other side.",
+          "A roof system rated well past twenty years in a mild climate frequently does not get there here. And when it fails, it almost never fails in the middle of a slope. It fails at a boot, a valley, a piece of flashing, or a ventilation problem — the details."
+        ]
+      },
+      {
+        "h": "Reading your own roof from the ground",
+        "p": [
+          "You cannot diagnose a roof from the driveway, but you can tell whether it deserves a closer look. Stand back far enough to see a whole slope at once, ideally in low-angle morning or evening light, which shows surface texture that midday sun flattens out.",
+          "Look for uneven tone across a plane, which usually means granule loss. Look for lines that should be straight and are not — sagging ridges, wavy courses, a dip in the field. Look at the ridge and hip caps, which are more exposed and show impact before field shingles do. Then look at things that are not the roof at all: dented gutters and downspouts, dented vent housings, and flattened AC condenser fins are all strong evidence of hail.",
+          "What you cannot see from down there is the entire category that matters most. Bruising, broken wind seals, cracked pipe boots, and flashing that was caulked instead of built are all invisible at that distance. That is what the free inspection is for."
+        ]
+      },
+      {
+        "h": "Different eras, different problems",
+        "p": [
+          "The Metroplex contains roughly seventy years of residential construction, and roof problems sort fairly reliably by vintage. Homes from the 1960s and 1970s across Garland, Mesquite, Hurst, and Bedford tend toward simple hip geometry on single-story footprints — easy to inspect and straightforward to replace, but usually on their second or third roof, with the small components long past their service life and prior work of wildly varying quality hiding underneath.",
+          "The 1980s and 1990s build-out through Plano, Arlington, and Carrollton brought two-story homes with steeper front elevations and more articulation. Damage on the upper slopes goes unseen from the ground for years.",
+          "The 2000s onward — Frisco, Allen, Prosper, Celina, Rockwall — brought large, heavily cut-up rooflines with high valley and penetration counts. Those are impressive from the street, harder to inspect safely, and they concentrate water into details that have to be built correctly. They are also new enough that entire subdivisions reach the end of their original roof within a season or two of each other."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "You call or send the form",
+        "d": "Tell us what you are seeing and where you are. Active leaks move to the front of the line."
+      },
+      {
+        "t": "A licensed inspector comes out",
+        "d": "Usually under an hour for a typical single-family home, longer for large or complex rooflines."
+      },
+      {
+        "t": "The roof gets looked at properly",
+        "d": "Walked where that is safe, flown where it is not. Every slope, every penetration, every transition, and the attic where it is accessible."
+      },
+      {
+        "t": "You see what we saw",
+        "d": "Photographs, and a plain explanation of what is urgent, what to watch, and what is fine."
+      },
+      {
+        "t": "A written estimate, or nothing",
+        "d": "Free and itemized if work is warranted. If your roof is fine, we say so and leave you the report."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Ventilation nobody looked at",
+        "d": "Soffit intake blocked solid with insulation while turbines spin on the ridge. The attic cannot breathe and the shingles cook from below."
+      },
+      {
+        "t": "Chimneys with no cricket",
+        "d": "A wide chimney with nothing diverting water around its uphill side. A recurring cause of chronic leaks on brick-heavy North Texas homes."
+      },
+      {
+        "t": "Boots at the end of their life",
+        "d": "Rubber collars split by a decade of UV, on roofs that otherwise have years left."
+      },
+      {
+        "t": "Layovers hiding bad decking",
+        "d": "Two or three layers of shingles, with whatever went wrong under the first one still sitting there."
+      },
+      {
+        "t": "Satellite mounts abandoned in place",
+        "d": "Old dishes removed and the fasteners left, sealed with something that gave up years ago."
+      }
+    ],
+    "maintenance": [
+      "One inspection a year, plus after any significant hail or wind event",
+      "Keep the attic's soffit intake clear — baffles at the eaves are cheap insurance",
+      "Trim back anything touching or overhanging the roof",
+      "Clear gutters and valleys ahead of storm season",
+      "Keep dated photographs of your roof's condition; they are useful long before you need them"
+    ]
+  },
+  "roof-inspections": {
+    "specs": [
+      {
+        "k": "Cost",
+        "v": "Free, no obligation"
+      },
+      {
+        "k": "Performed by",
+        "v": "Licensed inspector"
+      },
+      {
+        "k": "Typical duration",
+        "v": "Under an hour"
+      },
+      {
+        "k": "You receive",
+        "v": "Photographs to keep"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What separates an inspection from a sales visit",
+        "p": [
+          "A great many free roof inspections in this market are a sales call with a ladder attached. Somebody goes up, comes down, and delivers a verdict. There is no documentation, no slope-by-slope account, and no version of the conversation that ends with your roof being fine.",
+          "An actual inspection produces a record. Every slope assessed separately, because hail and wind damage are directional and a roof does not have one overall condition. Ridge and hip caps looked at specifically, since they take impact first. Every penetration checked individually. Flashing at each wall, chimney, and skylight. Gutters and drainage. The attic where it can be reached, for daylight, staining, and whether the ventilation is doing anything at all.",
+          "And then photographs, handed to you, with a plain explanation of what they show. You should not have to take anyone's word for the condition of your own roof."
+        ]
+      },
+      {
+        "h": "Walking versus flying",
+        "p": [
+          "Some roofs should be walked and some should not. Steep pitches, brittle ageing shingles, fragile tile, and high two-story elevations all carry genuine risk, and a heavy person walking a marginal roof can cause damage that was not there before.",
+          "Drone imagery is not a shortcut on those roofs — it is the better record. An overhead pass captures every plane, valley, and penetration in a consistent set of frames, including areas that are simply not visible from anywhere on the property. On the large cut-up rooflines common through Frisco, Prosper, and Southlake, it is the only way to document the whole thing honestly.",
+          "We use whichever is right for your roof, and we will tell you which we used and why."
+        ]
+      },
+      {
+        "h": "The inspection that finds nothing is still worth having",
+        "p": [
+          "A documented set of photographs establishing that your roof was in sound condition on a specific date is a genuinely useful thing to own. It gives you a baseline to compare against after the next storm, it is handy when selling, and it settles the question of whether the contractor who knocked on your door after the last hail event was describing your roof or somebody else's.",
+          "It costs nothing, and there is no version of this where we would rather find damage."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Booking",
+        "d": "Call or send the form. We confirm a window that works around your day."
+      },
+      {
+        "t": "Arrival",
+        "d": "We introduce ourselves, confirm what prompted the call, and ask about attic access."
+      },
+      {
+        "t": "Exterior assessment",
+        "d": "Slope by slope, walked or flown depending on pitch, height, material, and safety."
+      },
+      {
+        "t": "Attic, where accessible",
+        "d": "Daylight, staining, insulation condition, deck condition, and whether the ventilation is functioning."
+      },
+      {
+        "t": "The walkthrough",
+        "d": "We go through the photographs with you and separate what is urgent from what is cosmetic."
+      },
+      {
+        "t": "What happens next",
+        "d": "A free written estimate if work is warranted. If not, you keep the report and we leave."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "“Whole roof” verdicts",
+        "d": "A single condition given for an entire roof. Damage is directional; a real assessment reports per slope."
+      },
+      {
+        "t": "No photographs offered",
+        "d": "If nobody can show you the damage they are describing, there is no reason to accept the description."
+      },
+      {
+        "t": "The attic never opened",
+        "d": "Half the useful evidence about a roof is on the inside of it, and it takes ten minutes."
+      },
+      {
+        "t": "Soft metals ignored",
+        "d": "Gutters, vents, and AC fins corroborate hail. Skipping them means skipping the easiest evidence there is."
+      }
+    ],
+    "maintenance": [
+      "Annually is a sensible baseline for most North Texas homes",
+      "Always after hail, high wind, or limbs coming down in the yard",
+      "Before listing a home, and before a builder warranty period ends",
+      "Keep each report; a condition history is more useful than any single inspection"
+    ]
+  },
+  "storm-damage-roof-repair": {
+    "specs": [
+      {
+        "k": "Post-storm inspection",
+        "v": "Free, documented"
+      },
+      {
+        "k": "Our role",
+        "v": "Roofing contractor only"
+      },
+      {
+        "k": "Insurance",
+        "v": "We document, you decide"
+      },
+      {
+        "k": "Active leaks",
+        "v": "Prioritised — call"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Why hail swaths make neighbours disagree",
+        "p": [
+          "Hail in the Metroplex falls in narrow, erratic corridors. A swath can be a couple of miles wide, and within a single suburb the damage line frequently runs down the middle of a street. One side gets replaced, the other side genuinely does not need it, and both households are convinced the other has been misled.",
+          "This is also why regional storm reports are a starting point rather than an answer. Knowing that hail fell in your city tells you very little about your address. It is the reason a property-specific, documented inspection is worth an hour of your time and a driveway opinion is worth almost nothing."
+        ]
+      },
+      {
+        "h": "The delay that costs people the most",
+        "p": [
+          "Storm damage on an asphalt roof frequently does not leak. Not that week, not that season, sometimes not for a year or more. The shingle sits there looking approximately fine while the exposed mat degrades under UV, and the roof quietly loses several years of service life.",
+          "By the time water finally comes through a ceiling, connecting that leak to a specific storm has become considerably harder, and any timeline in your policy has usually run out. The people who come out of a hail season well are almost always the ones who got the roof documented while the evidence was fresh, whether or not they did anything about it at the time."
+        ]
+      },
+      {
+        "h": "About the contractors who arrive with the storm",
+        "p": [
+          "A significant hail event draws crews from several states. Many are competent. Some are not, and some will not exist in a year. The ones to be careful of are identifiable by what they say rather than by how they look.",
+          "Be cautious of anyone who promises a specific insurance outcome, offers to cover or absorb your deductible, wants a signature on the doorstep, or describes a document as “just authorising an inspection.” Ask where the company is based, how long it has worked in this area, and who you would call in two years. Those three questions are a very effective filter, and nobody legitimate minds answering them."
+        ],
+        "list": [
+          "No signatures on the doorstep, including inspection authorisations",
+          "No promises about what a carrier will approve",
+          "No offers to waive, absorb, or discount a deductible",
+          "Scope in writing, itemized, before you agree to anything"
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Call, and stay off the roof",
+        "d": "Wet shingles and possible structural damage make that genuinely dangerous, and there is nothing up there an inspection will not find."
+      },
+      {
+        "t": "Photograph from the ground",
+        "d": "Debris in the yard, dented gutters and vents, damaged fencing, and every interior stain. Same-day photographs are worth far more than next-week ones."
+      },
+      {
+        "t": "Documented inspection",
+        "d": "A licensed inspector records the roof slope by slope, with soft metals checked as corroborating evidence."
+      },
+      {
+        "t": "You see the findings",
+        "d": "We separate what is storm-related from ordinary wear, and explain both in plain terms."
+      },
+      {
+        "t": "A written scope",
+        "d": "Free, itemized, describing the roofing work specifically. Yours to use however you choose."
+      },
+      {
+        "t": "The work, if you want it",
+        "d": "Repair or replacement once you approve the scope, then cleanup and a walkthrough."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Only the roof inspected",
+        "d": "The same storm dents gutters, cracks gable siding, tears soffit, and flattens fences. Those get missed and then handled months later by someone else."
+      },
+      {
+        "t": "Creasing recorded as “no damage”",
+        "d": "Shingles folded back by wind and settled down again are broken shingles. If nobody hand-tested the seals, nobody checked."
+      },
+      {
+        "t": "Undated documentation",
+        "d": "Photographs with no clear connection to a specific event are much less useful later than they would have been on the day."
+      },
+      {
+        "t": "Temporary covering treated as a repair",
+        "d": "Protection is a short-term measure. Sun and wind degrade it, and it needs replacing with real work."
+      }
+    ],
+    "maintenance": [
+      "Get the roof documented after any hail, whether or not anything is leaking",
+      "Keep dated photographs and any receipts for emergency work",
+      "Read your own policy for its deadlines and requirements — they vary",
+      "Ask any contractor at your door where they are based and who you call in two years"
+    ]
+  },
+  "hail-damage-roof-repair": {
+    "specs": [
+      {
+        "k": "Assessment",
+        "v": "Slope by slope"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Evidence",
+        "v": "Photographed and dated"
+      },
+      {
+        "k": "Claim outcomes",
+        "v": "Your carrier's call"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What a hailstone actually does to a shingle",
+        "p": [
+          "An asphalt shingle is a fibreglass mat saturated in asphalt with a layer of ceramic granules bonded to the surface. The granules are not decoration — they are the shingle's UV shield, and the asphalt underneath them degrades quickly once exposed.",
+          "A hail impact does two things at once. It knocks granules loose in a roughly circular area, and it fractures the mat beneath. What you see afterwards is a dark spot, sometimes soft to the touch, often described as a bruise. The shingle is still lying flat and still shedding water. What it has lost is time.",
+          "Damage potential rises sharply with stone size, and dense stones do more than their diameter suggests. Older, more brittle shingles fracture where a newer one might absorb the same hit. And because hail here almost never falls straight down, the slopes facing the storm's approach take disproportionate damage — which is exactly why an inspection has to report per slope rather than giving the roof one grade."
+        ]
+      },
+      {
+        "h": "Telling hail apart from everything else",
+        "p": [
+          "Plenty of things on a roof look like damage and are not. Blistering from manufacturing or heat produces small round marks that can resemble impact. Foot traffic scuffs granules along a predictable path. Mechanical damage from a ladder or a satellite installation clusters in one spot. Ordinary ageing sheds granules fairly evenly across a whole slope.",
+          "Hail has a signature that is fairly hard to fake: the pattern is random rather than following the courses or a walking route, it is directional across the roof, and it is corroborated by soft metals. Dented gutters, dented downspouts, dented vent housings, torn window screens, and flattened AC condenser fins all took the same storm, and none of them dent from age.",
+          "We record all of it, and we are equally clear about what is ordinary wear. Reporting normal ageing as storm damage does a homeowner no favours at all."
+        ]
+      },
+      {
+        "h": "Impact-resistant shingles, honestly",
+        "p": [
+          "Class 4 impact-rated products are worth a real conversation in a hail corridor, particularly if you have already been hit more than once. They are tested to tolerate impact better than standard shingles and they generally do.",
+          "They are also not indestructible, they cost more, and the marketing around them is enthusiastic. Some insurance carriers treat them differently in premium terms and some do not — that is a question for your carrier, and we will not make claims about your policy in order to help sell a product. What we will do is explain the trade-offs and let you decide whether the maths works for your house."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Book the inspection",
+        "d": "Sooner is better. Documentation close in time to the storm is more useful than documentation months later."
+      },
+      {
+        "t": "Soft metals first",
+        "d": "Gutters, downspouts, vents, screens, and AC fins. They confirm quickly whether the property took impact at all."
+      },
+      {
+        "t": "Slope-by-slope survey",
+        "d": "Impact density recorded per elevation, because hail is directional and one grade for the whole roof means nothing."
+      },
+      {
+        "t": "Ridge and hip caps",
+        "d": "More exposed, sitting over a bend, and often showing fractures before the field does."
+      },
+      {
+        "t": "Findings walkthrough",
+        "d": "You see representative impacts photographed with location context, and hear what is hail and what is age."
+      },
+      {
+        "t": "Written scope",
+        "d": "Free and itemized. What you do with it — including nothing — is entirely your decision."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Test squares never used",
+        "d": "Without a consistent method for recording impact density, an assessment is just an impression."
+      },
+      {
+        "t": "Blistering called hail",
+        "d": "Heat blistering and manufacturing defects get reported as impact by people who have not looked closely."
+      },
+      {
+        "t": "Only the front slope checked",
+        "d": "The elevation facing the street is not necessarily the one that faced the storm."
+      },
+      {
+        "t": "Collateral damage skipped",
+        "d": "Gable siding, garage doors, and fence caps take the same hail and rarely make it into the report."
+      }
+    ],
+    "maintenance": [
+      "Get the roof documented after every meaningful hail event, leak or no leak",
+      "Photograph hailstones against something of known size before they melt",
+      "Keep gutters clear; granule wash after a storm is itself a data point",
+      "Ask your carrier directly about impact-resistant shingles rather than taking a contractor's word"
+    ]
+  },
+  "roof-leak-repair": {
+    "specs": [
+      {
+        "k": "First step",
+        "v": "Find the real source"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Active leaks",
+        "v": "Prioritised — call"
+      },
+      {
+        "k": "Usual cause",
+        "v": "Penetrations and flashing"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "The short list, in order of how often it is the answer",
+        "p": [
+          "Roof leaks in North Texas homes are not evenly distributed across the possible causes. A small number of failures account for the large majority of them, and knowing the order saves a great deal of guessing.",
+          "Pipe boots come first by a clear margin. The rubber collar around a plumbing vent stack cracks after eight to twelve Texas summers, well before the shingles are finished, and the repair is one of the cheapest on the roof. Flashing at walls and chimneys comes second, and in most of those cases the flashing itself was fine until somebody 'repaired' it with sealant during a previous job. Valleys are third — they carry water from two planes at once and they clog with debris. Then shingles that lost their seal in a wind event, then skylights, then drainage backing up over the roof edge.",
+          "Notably, none of those six is the middle of a slope, and none of them requires a new roof."
+        ],
+        "list": [
+          "Cracked pipe boots at plumbing vents",
+          "Wall and chimney flashing, usually sealed rather than rebuilt",
+          "Worn or debris-packed valleys",
+          "Shingles unsealed by wind, admitting wind-driven rain",
+          "Skylight units and their flashing kits",
+          "Clogged or undersized gutters pushing water back under the edge"
+        ]
+      },
+      {
+        "h": "Leaks that only happen sometimes",
+        "p": [
+          "Intermittent leaks are the ones homeowners find maddening, and they are actually among the more diagnosable. A roof that leaks in a driving storm but sheds ordinary rain without complaint is telling you something specific: the water is arriving from an angle the detail was never built to handle.",
+          "That points at a short list — an unsealed shingle field, an open flashing joint, a wall transition, or a ridge or rake detail. Wind-driven rain gets underneath and behind things that gravity alone would never reach. The useful part is that these leaks leave physical evidence in the attic even when they are not actively dripping: staining, mineral deposits, rusted fastener tips, or matted insulation in one specific area.",
+          "So the fact that it is not leaking on the day we come out is rarely a problem."
+        ]
+      },
+      {
+        "h": "When it turns out not to be the roof",
+        "p": [
+          "HVAC condensate lines, plumbing inside a wall, window and door flashing, and even severe attic condensation all produce stains that get attributed to the roof. It happens often enough that ruling them out is part of a proper diagnosis rather than an afterthought.",
+          "If that is what we find, we will tell you plainly and point you toward the right trade. There is no version of this business where selling somebody roofing work they do not need is a good outcome."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Contain it inside",
+        "d": "Move what you can out of the water's path and put something down. Do not stand under a bulging ceiling."
+      },
+      {
+        "t": "We start indoors",
+        "d": "Interior evidence, then the attic, tracing the water path back upward to where it is actually entering."
+      },
+      {
+        "t": "The roof detail",
+        "d": "The penetration, flashing, or valley the path leads to, plus the surrounding field."
+      },
+      {
+        "t": "You see the source",
+        "d": "A photograph of the actual entry point, and a written estimate scoped to fixing it."
+      },
+      {
+        "t": "The repair",
+        "d": "Failed component replaced and the detail rebuilt correctly rather than sealed over."
+      },
+      {
+        "t": "Verification",
+        "d": "Completed work photographed and reviewed with you."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Caulk as a strategy",
+        "d": "Sealant over a flashing joint. It shrinks and cracks in this climate, usually within two seasons."
+      },
+      {
+        "t": "Nobody went in the attic",
+        "d": "The water path is written in the insulation and on the underside of the deck. Skipping it means guessing."
+      },
+      {
+        "t": "Insulation left wet",
+        "d": "The roofing repair gets done and saturated insulation stays in place, feeding a mould problem in a hot attic."
+      },
+      {
+        "t": "Skylight blamed for the wall",
+        "d": "Water travels. Attributing a leak to the nearest visible feature is how repairs get repeated."
+      }
+    ],
+    "maintenance": [
+      "Check the attic after the first heavy rain of the season",
+      "Have pipe boots inspected every few years — they age faster than everything around them",
+      "Keep valleys and the uphill side of chimneys clear of debris",
+      "Deal with a small leak promptly; what the water touches costs more than the roofing repair"
+    ]
+  },
+  "wind-damage-roof-repair": {
+    "specs": [
+      {
+        "k": "Key evidence",
+        "v": "Creasing and broken seals"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Assessed first",
+        "v": "Windward slopes"
+      },
+      {
+        "k": "Often missed",
+        "v": "Nothing visibly gone"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Damage with nothing missing",
+        "p": [
+          "The most common wind damage on a North Texas roof leaves every shingle exactly where it started. Gusts get under a leading edge, break the factory seal strip, and fold the shingle backward. It lies back down. From the driveway the roof looks untouched.",
+          "It is not untouched. That shingle is no longer bonded to the one below it, the fold left a fracture line across the mat, and the next storm will take it — usually along with its neighbours, because the seal failure rarely stops at one shingle. Wind-driven rain gets underneath in the meantime.",
+          "This is why a wind assessment involves hand-testing seal integrity on representative shingles rather than counting gaps in the roof. A properly sealed shingle resists. One that lifts with almost no resistance is damaged, whatever it looks like from below."
+        ]
+      },
+      {
+        "h": "Why the edges go first",
+        "p": [
+          "Uplift pressure across a roof is not uniform. It concentrates at the perimeter — rakes, eaves, ridges, hips, and especially corners — where airflow separates and pressure drops sharply. Wind engineering has understood this for decades, and it is the reason manufacturers specify a heavier fastening pattern at the edges than in the field.",
+          "It is also where installation shortcuts show up first. A missing starter course at the eave, ridge caps fastened lightly, or drip edge that was never properly secured all become visible in the first serious storm. On an older roof with heat-weakened seal strips, the wind speed needed to cause real damage is considerably lower than most homeowners assume."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Check the yard first",
+        "d": "Shingle fragments in beds, along the fence line, or in a neighbour's yard are the fastest confirmation there is."
+      },
+      {
+        "t": "Windward slopes assessed first",
+        "d": "Wind damage is strongly directional, so that is where a proper inspection starts."
+      },
+      {
+        "t": "Seals hand-tested",
+        "d": "Representative shingles lifted by hand across each elevation to establish how far the unsealed area extends."
+      },
+      {
+        "t": "Creasing documented",
+        "d": "Folded shingles photographed even where nothing is missing, because that is the damage people miss."
+      },
+      {
+        "t": "The repair",
+        "d": "Damaged and creased shingles replaced and properly re-sealed, with flashing and edge metal addressed."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Only missing shingles counted",
+        "d": "The shingles still on the roof but no longer bonded are the larger part of the problem."
+      },
+      {
+        "t": "Replacements face-nailed",
+        "d": "New shingles nailed through the face to hold them down. That is a deliberate hole in a roof."
+      },
+      {
+        "t": "Ridge caps left alone",
+        "d": "The most exposed line on the roof, routinely skipped in a quick repair."
+      },
+      {
+        "t": "Drip edge not re-secured",
+        "d": "Peeled edge metal left bent back, giving water a direct route behind the gutter."
+      }
+    ],
+    "maintenance": [
+      "Walk the yard and fence line after any high-wind event and look for shingle fragments",
+      "Have seals checked after a storm even if nothing appears to be missing",
+      "Keep gutters and edge metal secure — loose components catch wind"
+    ]
+  },
+  "gutter-installation": {
+    "specs": [
+      {
+        "k": "Common sizing",
+        "v": "5″ and 6″ K-style"
+      },
+      {
+        "k": "Formed",
+        "v": "Seamless, on site"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      },
+      {
+        "k": "Checked first",
+        "v": "Fascia condition"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Gutters are a foundation question here",
+        "p": [
+          "Much of the Metroplex sits on expansive clay. It swells when it takes on water and shrinks when it dries out, and it does this seasonally, every year, underneath your house. Foundation movement is close to a defining feature of North Texas homeownership.",
+          "Gutters will not solve a structural problem and nobody honest will tell you otherwise. What controlled roof drainage does is remove one large, entirely avoidable source of moisture swing right where it matters most — the first few feet of soil against the foundation. A single moderate storm on an average roof moves a genuinely large volume of water, and without gutters most of it lands in a narrow band around the perimeter.",
+          "That is the actual argument for gutters, and it is a better one than the appearance argument that usually gets made."
+        ]
+      },
+      {
+        "h": "Sizing, slope, and where the outlets go",
+        "p": [
+          "Most gutter failures blamed on clogging are really capacity failures. A five-inch trough on a large, steeply pitched roof plane cannot carry what that plane sheds in a hard Texas downpour, and no amount of cleaning changes the arithmetic. Roof area, pitch, and run length together decide whether five inches is enough or whether six is warranted.",
+          "Outlets matter as much as trough size, because a gutter can only discharge as fast as its downspouts allow. Too few downspouts on a long run produces overflow at the low end regardless of capacity upstream. And a two-story roof draining onto a single-story wing concentrates enormous volume at one transition — that junction is where placement has to be deliberate rather than aesthetic.",
+          "Slope is the quiet one. Too little and water stands in the trough, holding debris against the seams and working the sealant. Too much and it reads wrong from the street. There is a correct answer and it is worth getting right."
+        ],
+        "list": [
+          "Roof area and pitch feeding each run decide 5″ versus 6″",
+          "Downspout count and size cap the system's real capacity",
+          "Two-story-onto-one-story transitions need deliberate outlet placement",
+          "Fascia has to be sound before anything is hung on it",
+          "Discharge needs to land meaningfully away from the foundation"
+        ]
+      },
+      {
+        "h": "What happens to the water after the downspout",
+        "p": [
+          "A downspout that empties at the base of the wall has moved the problem about eight feet. In clay soil that is not far enough to matter much. Extensions, splash blocks, and buried drainage all work, and which one is right depends on your grade, your lot, and where the water can reasonably go.",
+          "It is the least glamorous part of the job and frequently the part that determines whether the gutters were worth installing."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "We walk the elevations",
+        "d": "Roof area feeding each run, existing slope, fascia condition, and where water currently ends up."
+      },
+      {
+        "t": "A drainage plan, not just a price",
+        "d": "Sizing, downspout count, and discharge points, itemized in a free written estimate."
+      },
+      {
+        "t": "Colour selection",
+        "d": "Chosen against your actual fascia, trim, and brick rather than from a chart."
+      },
+      {
+        "t": "Formed on site",
+        "d": "Continuous runs formed to the exact length of each elevation, so no joints get created mid-span."
+      },
+      {
+        "t": "Hung and tested",
+        "d": "Correct slope and hanger spacing, outlets fitted, then water run through it before we leave."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Hung on rotted fascia",
+        "d": "New gutters fastened into wood that has already gone soft from years of the old ones overflowing."
+      },
+      {
+        "t": "One downspout for a very long run",
+        "d": "Capacity limited at the outlet, so the far end overflows in every real storm."
+      },
+      {
+        "t": "No drip edge behind the gutter",
+        "d": "Water wicks back and runs down the fascia instead of into the trough."
+      },
+      {
+        "t": "Discharge at the foundation",
+        "d": "Water collected carefully off the roof and then delivered to the worst possible place."
+      }
+    ],
+    "maintenance": [
+      "Clear troughs and downspouts before storm season, and again after autumn leaf fall",
+      "Check for standing water in the trough — it indicates a slope problem, not just debris",
+      "Watch for granule build-up; a sudden heavy deposit means the roof shed a lot at once",
+      "Make sure extensions have not been kicked out of place by mowing"
+    ]
+  },
+  "asphalt-shingle-roofing": {
+    "specs": [
+      {
+        "k": "Most common here",
+        "v": "Architectural laminate"
+      },
+      {
+        "k": "Hail option",
+        "v": "Class 4 impact-rated"
+      },
+      {
+        "k": "Samples",
+        "v": "Viewed against your brick"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What actually differs between products",
+        "p": [
+          "Shingle marketing runs on names and colours. The specifications that change how a roof performs in North Texas are a shorter list: wind rating, impact rating, weight and laminate construction, and the fastening pattern the manufacturer requires.",
+          "Architectural shingles are laminated — two or more layers bonded together, giving them dimensional shadow lines, more weight, and meaningfully better wind performance than the three-tab products that cover many older homes here. That extra weight and the wider nailing zone are most of why they hold up better, not the appearance.",
+          "Impact rating is measured separately from wind. A Class 4 product has been tested against impact specifically, and in a hail corridor that is a distinct and relevant question from how it handles a gust."
+        ]
+      },
+      {
+        "h": "The accessories decide more than the shingle does",
+        "p": [
+          "A premium shingle installed over reused flashing, with no valley membrane and cracked boots left in place, will underperform a mid-range shingle installed properly. This is consistently true and consistently under-discussed, because accessories do not have brand recognition.",
+          "The list worth asking about on any estimate: synthetic underlayment across the deck, ice-and-water membrane in valleys and around penetrations, new drip edge, new step and counter flashing at walls and chimneys, new pipe boots on every vent, correct starter course at eaves and rakes, and a ventilation plan that accounts for intake as well as exhaust.",
+          "Those lines are where estimates genuinely differ, and they are also where a roof's real service life is decided."
+        ]
+      },
+      {
+        "h": "Colour, heat, and the energy claim",
+        "p": [
+          "Darker shingles run hotter at the surface. That is straightforwardly true. What is frequently oversold is the leap from that fact to a meaningful change in your electricity bill.",
+          "Attic insulation depth and functioning ventilation influence what you actually pay far more than shingle colour does. If someone is selling you a lighter roof primarily on energy savings and has not looked in your attic, they have skipped the part that matters. We would rather fix your intake ventilation and let you pick the colour you like."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Narrow the field",
+        "d": "We reduce the options to products that suit your roof geometry, exposure, and budget rather than reciting a catalogue."
+      },
+      {
+        "t": "Samples on site",
+        "d": "Physical samples held against your brick, stone, and trim in daylight — blends read very differently at full scale."
+      },
+      {
+        "t": "HOA check",
+        "d": "If you are in one, the approved palette is worth confirming before you settle on anything."
+      },
+      {
+        "t": "Itemized estimate",
+        "d": "Broken out by material and accessory so you can compare quotes honestly."
+      },
+      {
+        "t": "Installed to spec",
+        "d": "Manufacturer nailing pattern, correct starter course, and proper ridge treatment."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Premium shingle, skipped accessories",
+        "d": "The expensive part done well and the cheap parts that decide the outcome left out."
+      },
+      {
+        "t": "Nailing pattern ignored",
+        "d": "Field pattern used at the edges, where uplift pressure is highest and the spec calls for more."
+      },
+      {
+        "t": "Colour chosen from a chart",
+        "d": "A blend picked in a showroom that reads completely differently across a whole roof against your brick."
+      }
+    ]
+  },
+  "emergency-roof-tarping": {
+    "specs": [
+      {
+        "k": "What it is",
+        "v": "Temporary protection"
+      },
+      {
+        "k": "What it is not",
+        "v": "A repair"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free"
+      },
+      {
+        "k": "Priority",
+        "v": "Open roofs first"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "What temporary protection buys you",
+        "p": [
+          "Covering an open roof is not repairing it, and any company that lets you believe otherwise is doing you harm. What it does is stop the second, third, and fourth rounds of water from turning a roofing problem into a renovation.",
+          "The costs it prevents are real and they escalate fast in this climate: saturated insulation loses its R-value and has to come out, wet drywall stains then sags then fails, flooring cups and delaminates, and a hot Texas attic with standing moisture in it grows mould in a matter of days rather than weeks. The roofing repair is very often the smallest line on the eventual bill.",
+          "North Texas storms also tend to arrive in sequence, with a second round hours or days behind the first. That gap is exactly when an open roof does its worst damage."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Call and describe it",
+        "d": "What is open, where, and whether water is coming in. We will tell you honestly how soon we can be there rather than promise a time we cannot hold."
+      },
+      {
+        "t": "Protect what is inside",
+        "d": "Move belongings out of the path, contain drips, and stay clear of any bulging ceiling."
+      },
+      {
+        "t": "Safe access assessed",
+        "d": "Some areas cannot be reached safely in the conditions. If that is the case we will say so plainly rather than take the risk."
+      },
+      {
+        "t": "Covering installed",
+        "d": "Secured to shed water clear of the opening rather than into it."
+      },
+      {
+        "t": "Documented",
+        "d": "Damage and the temporary work photographed, then the permanent repair inspection scheduled."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Covering left on for months",
+        "d": "Sun and wind degrade any temporary material. It is a bridge to a repair, not a substitute for one."
+      },
+      {
+        "t": "Fastened straight through good roofing",
+        "d": "Sloppy anchoring that creates new penetrations in undamaged areas."
+      },
+      {
+        "t": "Wet insulation left in place",
+        "d": "The opening gets covered and the saturated material underneath is never dealt with."
+      }
+    ]
+  },
+  "insurance-restoration-support": {
+    "specs": [
+      {
+        "k": "We are",
+        "v": "A roofing contractor"
+      },
+      {
+        "k": "We are not",
+        "v": "Adjuster or attorney"
+      },
+      {
+        "k": "We provide",
+        "v": "Documentation and scope"
+      },
+      {
+        "k": "Deductibles",
+        "v": "Never waived"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Why this page exists at all",
+        "p": [
+          "Most roofing websites treat insurance as a marketing opportunity. The language drifts toward implying the contractor will handle the claim, work with the adjuster, or get it approved. Some of that is careless wording and some of it is deliberate, and in Texas some of it crosses into activity that requires a licence a roofer does not hold.",
+          "So we would rather state the boundaries in writing, on a page you can point at, than leave anything to interpretation.",
+          "We can document visible damage, explain the roofing scope, and provide project information that homeowners may share with their insurance carrier. That documentation belongs to you. What you do with it is entirely your decision."
+        ]
+      },
+      {
+        "h": "The deductible question",
+        "p": [
+          "If a contractor offers to cover, waive, absorb, or discount your deductible — or offers to “work something out” so you do not have to pay it — stop and look into what Texas law says about that arrangement before agreeing to anything.",
+          "Beyond the legal question, an offer like that tells you something useful about the company making it. A business comfortable structuring a job that way is unlikely to be scrupulous about the parts of your roof you cannot see."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Free documented inspection",
+        "d": "A licensed inspector records the visible damage with dated photographs, slope by slope."
+      },
+      {
+        "t": "You receive the documentation",
+        "d": "Photographs and a written description of the roofing scope. Yours to keep and use however you choose."
+      },
+      {
+        "t": "You contact your carrier",
+        "d": "The claim relationship is between you and your insurer. We do not act as your representative."
+      },
+      {
+        "t": "Roofing questions answered",
+        "d": "We will explain roofing terms and details in plain language at any point, without pretending to speak for anyone else."
+      },
+      {
+        "t": "The work",
+        "d": "If and when you decide to move forward, we perform the roofing work to the approved scope."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Approval promised up front",
+        "d": "Nobody outside your insurance company can make that call, and anyone claiming otherwise is telling you something they cannot know."
+      },
+      {
+        "t": "Doorstep signatures",
+        "d": "Documents described as “just authorising an inspection” that are structured as something considerably more binding."
+      },
+      {
+        "t": "Scope never itemized",
+        "d": "A single number with no breakdown, which makes comparison impossible and change orders easy."
+      }
+    ]
+  },
+  "gutter-repair": {
+    "specs": [
+      {
+        "k": "Usually fixable",
+        "v": "Slope, hangers, seams"
+      },
+      {
+        "k": "Also checked",
+        "v": "Fascia behind the gutter"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      },
+      {
+        "k": "Verified",
+        "v": "Water-tested"
+      }
+    ],
+    "expect": [
+      {
+        "t": "We find the actual failure",
+        "d": "Standing water, hanger spacing, seam and corner condition, downspout flow, and the fascia behind it all get checked."
+      },
+      {
+        "t": "Scoped honestly",
+        "d": "Repair where repair holds. If a run is genuinely past it, we will say so rather than quietly patch it again."
+      },
+      {
+        "t": "The work",
+        "d": "Re-hung to correct slope, seams and corners rebuilt, damaged sections replaced and matched, blockages cleared."
+      },
+      {
+        "t": "Water tested",
+        "d": "We run water through it and watch where it goes before calling it done."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Sealant over a slope problem",
+        "d": "Joints resealed on a run that is standing water. The sealant fails again because the cause was never addressed."
+      },
+      {
+        "t": "Rotted fascia ignored",
+        "d": "Gutters re-hung into soft wood, which holds for about a season."
+      },
+      {
+        "t": "Clog cleared, capacity never questioned",
+        "d": "Repeated cleaning on a system that was undersized for the roof from the start."
+      }
+    ]
+  },
+  "fence-installation": {
+    "specs": [
+      {
+        "k": "Common material",
+        "v": "Cedar"
+      },
+      {
+        "k": "Decided by",
+        "v": "Post depth and setting"
+      },
+      {
+        "k": "Locates",
+        "v": "Arranged before digging"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemized"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "A fence is a post problem wearing pickets",
+        "p": [
+          "Almost every failed wood fence in North Texas failed at the posts, and almost every fence still standing straight after a decade got its posts right. Everything visible — pickets, rails, cap and trim — is comparatively easy and comparatively cheap to replace.",
+          "Two forces work against those posts here. Expansive clay swells and shrinks with the seasons, levering each post back and forth a little at a time. And a solid privacy fence is a wall to the wind, so straight-line gusts push against the full height of it with real force. Depth, diameter, and setting method are not details in that environment.",
+          "The other perennial failure point is gates, because gates are the only part of a fence with moving parts and daily use. A gate frame that is undersized or unbraced racks out of square, and then it drags, and then it will not latch."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Walk the line together",
+        "d": "Grade changes, drainage, gate locations and swing, and any HOA style requirements you know about."
+      },
+      {
+        "t": "Property line certainty",
+        "d": "If there is any doubt, resolve it before posts go in. A survey is far cheaper than moving a fence."
+      },
+      {
+        "t": "Utility locates",
+        "d": "Arranged before any digging. Non-negotiable, and it takes a few days."
+      },
+      {
+        "t": "Posts set and left alone",
+        "d": "Set to depth and given time before the structure goes on them."
+      },
+      {
+        "t": "Framing, pickets, gates",
+        "d": "Rails and pickets fastened at correct spacing, gates built square and braced as their own piece of work."
+      },
+      {
+        "t": "Cleanup",
+        "d": "Old material and offcuts hauled away rather than stacked behind the shed."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Posts set too shallow",
+        "d": "The single best predictor of a fence that leans within a few seasons."
+      },
+      {
+        "t": "Gates hung without bracing",
+        "d": "Square on day one, dragging by the second summer."
+      },
+      {
+        "t": "Rails in contact with soil",
+        "d": "Wood touching dirt or mulch wicks moisture and rots from the bottom up."
+      },
+      {
+        "t": "Built before locates came back",
+        "d": "Fast, and occasionally very expensive."
+      }
+    ],
+    "maintenance": [
+      "Keep mulch and soil pulled back from the bottom of pickets and rails",
+      "Check gate hardware annually and tighten before it racks",
+      "Expect new cedar to weather to grey over a season or two — that is normal",
+      "After a high-wind event, walk the line and check posts before pickets"
+    ]
+  },
+  "exterior-storm-damage-repair": {
+    "specs": [
+      {
+        "k": "Scope",
+        "v": "Whole exterior, not just the roof"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      },
+      {
+        "k": "Estimate",
+        "v": "Itemized by area"
+      },
+      {
+        "k": "Documentation",
+        "v": "Photographs you keep"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "The damage that gets found months late",
+        "p": [
+          "After a hail event almost all the attention goes to the roof, reasonably enough. What tends to get missed is everything the same storm hit on the way down: dented gutters and downspouts, cracked gable siding two storeys up, soffit panels peeled back by uplift, bent vent housings, torn window screens, and fence sections pushed flat.",
+          "Those are rarely urgent, which is exactly why they slide. Six months later the homeowner is arranging a second contractor, a second visit, and a second round of documentation for damage that could have been recorded in the same hour as the roof.",
+          "We inspect the exterior as one system and itemize the estimate by area, so you can take it in one go or stage it — but at least you are deciding with the whole picture in front of you."
+        ]
+      },
+      {
+        "h": "Why gable siding is the usual casualty",
+        "p": [
+          "Most North Texas homes are predominantly masonry with siding limited to gables, dormers, and rear elevations. Those sections sit high, face the weather, and are almost never examined from the ground.",
+          "They are also where wind-driven hail hits at the steepest angle. Cracked or punctured panels there let water behind the cladding, and because there is no ceiling directly below, nothing stains and nothing announces itself until the sheathing has been wet for a season or two."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "One inspection, whole exterior",
+        "d": "Roof, gutters, fascia, soffit, siding, and fencing recorded in a single visit."
+      },
+      {
+        "t": "Soft metals first",
+        "d": "Gutters and vents confirm quickly whether the property took impact at all."
+      },
+      {
+        "t": "Photographs by area",
+        "d": "Organized so you can see what belongs to which elevation rather than one undifferentiated pile."
+      },
+      {
+        "t": "Itemized estimate",
+        "d": "Broken out by area, so staging the work is a real option rather than all-or-nothing."
+      },
+      {
+        "t": "Sensible sequencing",
+        "d": "If you take it in stages, we order the work so nothing gets undone by what follows."
+      },
+      {
+        "t": "Final walkthrough",
+        "d": "Every area reviewed with you, and the site cleared."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Roof-only inspections",
+        "d": "The most common gap. The report covers the roof and stops, and everything else surfaces months later."
+      },
+      {
+        "t": "Gable siding never examined",
+        "d": "Two storeys up, facing the storm, and invisible from the driveway."
+      },
+      {
+        "t": "Soffit damage read as cosmetic",
+        "d": "Torn panels open the attic to pests and break the intake ventilation the roof depends on."
+      },
+      {
+        "t": "Fence damage left off the scope",
+        "d": "Recorded separately or not at all, though it came from the same hour of weather."
+      }
+    ]
+  },
+  "storm-damage-inspections": {
+    "specs": [
+      {
+        "k": "Cost",
+        "v": "Free, no obligation"
+      },
+      {
+        "k": "Performed by",
+        "v": "Licensed inspector"
+      },
+      {
+        "k": "Method",
+        "v": "Walked or flown, per roof"
+      },
+      {
+        "k": "You receive",
+        "v": "Dated photographs"
+      }
+    ],
+    "expect": [
+      {
+        "t": "Call as soon as it is safe",
+        "d": "Documentation close in time to the event is worth considerably more than documentation months later."
+      },
+      {
+        "t": "Stay off the roof",
+        "d": "Wet shingles and possible structural damage make that genuinely dangerous, and there is nothing up there we will not find."
+      },
+      {
+        "t": "Slope-by-slope survey",
+        "d": "Recorded per elevation, because hail and wind are directional and one grade for a whole roof means nothing."
+      },
+      {
+        "t": "Soft-metal corroboration",
+        "d": "Gutters, vents, screens, and AC fins checked as supporting evidence."
+      },
+      {
+        "t": "Findings walkthrough",
+        "d": "You see the photographs and hear what is storm damage and what is ordinary age."
+      },
+      {
+        "t": "Your decision",
+        "d": "A free written estimate if work is warranted, and no pressure if it is not."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "One grade for the whole roof",
+        "d": "Damage is directional. A single verdict tells you almost nothing about which slopes were hit."
+      },
+      {
+        "t": "Seals never hand-tested",
+        "d": "Wind damage frequently leaves every shingle in place. If nobody lifted any, nobody checked."
+      },
+      {
+        "t": "Undated photographs",
+        "d": "Images with no clear tie to a specific event lose most of their usefulness later."
+      },
+      {
+        "t": "Ordinary wear reported as storm damage",
+        "d": "It does the homeowner no favours and it is obvious to anyone who looks closely."
+      }
+    ]
+  },
+  "seamless-gutters": {
+    "specs": [
+      {
+        "k": "Fabricated",
+        "v": "On site, to length"
+      },
+      {
+        "k": "Seams",
+        "v": "Corners and outlets only"
+      },
+      {
+        "k": "Sizes",
+        "v": "5-inch and 6-inch"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemised"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Why the seams are the whole point",
+        "p": [
+          "A sectional gutter is assembled from pre-cut lengths joined every few feet, and every one of those joints is a place where sealant eventually fails. It does not fail dramatically — it weeps, and the water runs down the fascia behind the gutter where nobody sees it until the board is soft.",
+          "Seamless gutter is rolled on site from a continuous coil, cut to the exact length of the run. The only joints are at corners and outlets, where they can be made properly and inspected. On a long North Texas eave that is the difference between four joints and twenty."
+        ]
+      },
+      {
+        "h": "Sizing for the roof, not for the house",
+        "p": [
+          "Standard 5-inch gutter handles most single-storey roofs comfortably. What it does not handle is a large steep plane dumping into a short run, which is common where a two-storey section discharges onto a lower roof and then into one gutter.",
+          "That is where 6-inch runs and larger outlets earn their cost. The sizing question is about roof area and pitch feeding each run, not about the size of the house, and any estimate that quotes one size for the whole property has not looked at it properly."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Measure and assess fascia",
+        "d": "We check what the gutter will hang from before quoting to hang anything on it."
+      },
+      {
+        "t": "Colour selection in daylight",
+        "d": "Chosen against your actual fascia, trim, and brick rather than from a chart indoors."
+      },
+      {
+        "t": "Rolled on site",
+        "d": "Each run formed to the exact length of the eave, so joints only occur at corners and outlets."
+      },
+      {
+        "t": "Hidden hangers set",
+        "d": "Concealed hangers at correct spacing, rather than spikes through the face."
+      },
+      {
+        "t": "Outlets and downspouts",
+        "d": "Placed for capacity and for where the water needs to go, not only where they are least visible."
+      },
+      {
+        "t": "Water tested",
+        "d": "Flow run through every run and outlet before we leave."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Hung on rotten fascia",
+        "d": "New gutter fastened to soft board pulls loose within a season or two."
+      },
+      {
+        "t": "Too few downspouts",
+        "d": "Capacity is set by the outlets as much as the trough. Long runs with one outlet back up in heavy rain."
+      },
+      {
+        "t": "Discharge at the slab",
+        "d": "Extending the downspout costs very little and matters a great deal in expansive clay."
+      },
+      {
+        "t": "Insufficient fall",
+        "d": "A run set dead level holds standing water, which is how the seams and hangers fail early."
+      }
+    ]
+  },
+  "fence-repair": {
+    "specs": [
+      {
+        "k": "Common failure",
+        "v": "Posts, not pickets"
+      },
+      {
+        "k": "Post options",
+        "v": "Timber or steel"
+      },
+      {
+        "k": "Gates",
+        "v": "Re-squared and re-hung"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, section by section"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Almost every failed fence failed at the post",
+        "p": [
+          "Pickets weather, rails sag, and gates drop, but the thing that actually ends a fence is the posts. North Texas clay swells and shrinks through the year, and it works a post loose the way a tooth loosens — slowly, then all at once.",
+          "That is why replacing pickets on a fence with failing posts is money spent twice. The new boards go up straight, and then follow the posts over the next two seasons. An honest assessment starts by pushing on every post, not by counting boards."
+        ]
+      },
+      {
+        "h": "When repair is genuinely the right answer",
+        "p": [
+          "A fence with sound posts and tired pickets is worth repairing, and the repair will last. So is a fence where a single section came down in wind while the rest held. So is a gate that has racked out of square on an otherwise solid run.",
+          "What is not worth repairing is a fence where more than a third of the posts move when you lean on them. At that point you are paying for labour on a structure that will need doing properly within a couple of years, and we will tell you that rather than take the work."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Every post tested",
+        "d": "We push on all of them, not a sample, because that is what decides repair or replace."
+      },
+      {
+        "t": "Sections priced separately",
+        "d": "You see what each run costs so you can stage the work if you want to."
+      },
+      {
+        "t": "Gates assessed on their own",
+        "d": "Gates fail first and fastest, and they are frequently the only part that needs anything."
+      },
+      {
+        "t": "Matching where possible",
+        "d": "New timber will not match weathered boards exactly, and we will say so before starting."
+      },
+      {
+        "t": "Post setting done properly",
+        "d": "Depth and concrete matter more here than anywhere, because the soil moves."
+      },
+      {
+        "t": "Debris removed",
+        "d": "Old posts, concrete and offcuts hauled away rather than stacked behind the shed."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "New pickets on failing posts",
+        "d": "The most common wasted repair in this trade. The boards outlive the structure holding them."
+      },
+      {
+        "t": "Posts set too shallow",
+        "d": "In expansive clay, depth is what resists seasonal movement. Short posts work loose within a few years."
+      },
+      {
+        "t": "Gates rebuilt without bracing",
+        "d": "An unbraced gate frame racks under its own weight and drags within a season."
+      },
+      {
+        "t": "Concrete poured against timber",
+        "d": "Traps moisture at exactly the point where the post is most likely to rot."
+      }
+    ]
+  },
+  "outdoor-home-improvements": {
+    "specs": [
+      {
+        "k": "Scope",
+        "v": "Decks, fences, staining, exteriors"
+      },
+      {
+        "k": "Sequencing",
+        "v": "Planned so work is not undone"
+      },
+      {
+        "k": "Contractor",
+        "v": "Roofing and general"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised by project"
+      }
+    ],
+    "deepDive": [
+      {
+        "h": "Sequencing is most of the value",
+        "p": [
+          "Homeowners rarely have one outdoor project. They have four, arrived at over two years, and they get done in whatever order each contractor was available — which is how a freshly stained deck ends up underneath a roof tear-off, and how new fencing gets damaged by the crew bringing material to the back of the house.",
+          "Handling them together means they can be ordered sensibly: anything overhead before anything below it, access routes established before the surfaces along them are refinished, staining last rather than first. That costs nothing and saves the most annoying kind of money."
+        ]
+      },
+      {
+        "h": "Why staining is not cosmetic",
+        "p": [
+          "Untreated timber in North Texas greys within a season and starts checking within two. The sun does most of it — UV breaks down the lignin at the surface, the fibres lift, and once water can sit in those checks the board is on a much shorter clock.",
+          "Sealing new timber before its first full summer is the single highest-return thing you can do to a deck or fence here. It is also the thing most often deferred, because a new fence looks fine and the consequence is two years away."
+        ]
+      }
+    ],
+    "expect": [
+      {
+        "t": "Whole-exterior walkthrough",
+        "d": "We look at everything at once so the plan accounts for all of it."
+      },
+      {
+        "t": "Projects priced separately",
+        "d": "Itemised so you can stage the work rather than commit to all of it."
+      },
+      {
+        "t": "Sequence agreed first",
+        "d": "Order set so nothing gets undone by what follows it."
+      },
+      {
+        "t": "Access planned",
+        "d": "Routes for material and debris established before surfaces along them are refinished."
+      },
+      {
+        "t": "Weather windows",
+        "d": "Staining and sealing scheduled for conditions that let them cure properly."
+      },
+      {
+        "t": "Final walkthrough",
+        "d": "Every project reviewed with you and the site cleared before we call it done."
+      }
+    ],
+    "mistakes": [
+      {
+        "t": "Refinishing before overhead work",
+        "d": "A stained deck under a roof tear-off is a deck that needs doing twice."
+      },
+      {
+        "t": "Staining timber too soon or too late",
+        "d": "Green timber will not take it; timber left a year has already started to grey."
+      },
+      {
+        "t": "Ignoring access routes",
+        "d": "The path a crew takes to the back of the house is where damage happens."
+      },
+      {
+        "t": "Sealing over trapped moisture",
+        "d": "Coating damp timber locks the water in and the finish fails from underneath."
+      }
+    ]
+  }
+}

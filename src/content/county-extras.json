@@ -1,0 +1,835 @@
+{
+  "_note": "Deep content per county. 'facts' renders as a key-facts panel, 'civic' as the local-authority panel, 'context' as long-form sections, 'issues' as the regional findings grid, 'faqs' as the accordion. Nothing here invents an address, phone number or fee — the civic panel states the county seat (verifiable) and explains how permitting works, and leaves specifics to the city.",
+  "dallas-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Dallas"
+      },
+      {
+        "k": "Character",
+        "v": "Dense, fully built out"
+      },
+      {
+        "k": "Housing",
+        "v": "1950s through 2020s"
+      },
+      {
+        "k": "Soil",
+        "v": "Highly expansive clay"
+      }
+    ],
+    "context": [
+      {
+        "h": "The oldest roofing stock in the region",
+        "p": [
+          "Dallas County was built out earlier than anywhere else in North Texas, and that shapes almost every roof conversation here. A large share of its housing is on its second, third, or fourth generation of shingles, laid over decking that has been fastened and re-fastened across decades.",
+          "The practical consequence is that the shingle is rarely the oldest thing on the roof. Flashing, drip edge, valley metal, and vent boots are routinely left in place through successive replacements, so the components most likely to leak are frequently the ones nobody has touched since the house was built."
+        ]
+      },
+      {
+        "h": "Clay, runoff, and why gutters matter more here",
+        "p": [
+          "The soil across most of Dallas County is highly expansive. It swells when wet and shrinks when dry, and that movement is the single largest cause of foundation problems in the region.",
+          "Roof runoff is one of the few parts of that equation a homeowner controls. Concentrating several hundred square feet of roof drainage at one corner of a slab creates exactly the uneven moisture that moves clay. Extending downspouts clear of the foundation is inexpensive, and it is the reason gutter work here is a structural question rather than a cosmetic one."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Original detail metal",
+        "d": "Flashing and boots that predate the current shingles by decades on second- and third-generation roofs."
+      },
+      {
+        "t": "Layered roofs",
+        "d": "Older properties sometimes carry more than one layer, concealing the deck and adding weight."
+      },
+      {
+        "t": "Discharge at the slab",
+        "d": "Downspouts ending at the foundation, in the most expansive soil in the region."
+      },
+      {
+        "t": "Mature canopy",
+        "d": "Established streets keep valleys and gutters loaded through most of the year."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a permit to replace a roof in Dallas County?",
+        "a": "Almost certainly, though the permit comes from your city rather than the county — nearly every incorporated municipality here requires one for a reroof. We pull it as part of the job. If your property is unincorporated, the county handles it instead. Either way it is our responsibility, not yours."
+      },
+      {
+        "q": "Why do so many Dallas County roofs need decking work?",
+        "a": "Because most have been replaced several times. Every tear-off puts new fasteners into the same sheathing, and any past leak leaves soft spots that only become visible once the old roof is off. It is the single most common reason a Dallas County estimate changes after work starts."
+      }
+    ]
+  },
+  "tarrant-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Fort Worth"
+      },
+      {
+        "k": "Character",
+        "v": "Established mid-cities"
+      },
+      {
+        "k": "Housing",
+        "v": "1960s through 2020s"
+      },
+      {
+        "k": "Terrain",
+        "v": "Rolling, well treed"
+      }
+    ],
+    "context": [
+      {
+        "h": "Two counties in one",
+        "p": [
+          "Tarrant County contains two quite different roofing markets. The mid-cities — Hurst, Euless, Bedford, North Richland Hills — are established suburbs whose housing dates largely from the 1960s to the 1990s, on compact lots under sixty years of tree growth.",
+          "The northern and southern edges are something else entirely: Southlake, Colleyville, Keller and Mansfield carry large custom homes on generous lots, with rooflines complex enough that the cost of a replacement sits in the detail work rather than the shingle field."
+        ]
+      },
+      {
+        "h": "Why tree cover changes the maintenance picture",
+        "p": [
+          "Tarrant County kept substantially more canopy than the newer counties north of Dallas. Mature trees over a roof are not neutral. Organic debris settles in valleys and behind chimneys, holds moisture against the shingle surface, and keeps that area damp through the part of the cycle that should be drying it.",
+          "Overhanging limbs add mechanical wear on top of that. A branch touching the roof in a gust abrades granules in a narrow line that is effectively invisible from the ground, which is why documentation from above matters more here than on open ground."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Second-generation detail metal",
+        "d": "Mid-cities roofs where the flashing is decades older than the shingles above it."
+      },
+      {
+        "t": "Debris-loaded valleys",
+        "d": "Mature canopy keeps organic material on the roof through most of the year."
+      },
+      {
+        "t": "Complex custom rooflines",
+        "d": "Northern Tarrant homes with far more valley and flashing per square than production housing."
+      },
+      {
+        "t": "Limb abrasion",
+        "d": "Narrow lines of granule loss from branches touching the roof, invisible from below."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should I trim the trees before a roof replacement?",
+        "a": "Anything overhanging or touching the roof, yes — it stops abrasion and reduces what lands in the valleys, and it makes access safer for the crew. You do not need to remove trees. We will point out which limbs actually matter, though the trimming itself is arborist work rather than ours."
+      },
+      {
+        "q": "Is a custom roof much more expensive to replace?",
+        "a": "Per square, not dramatically. What changes is how many squares of detail work there are — valleys, step flashing, penetration boots, ridge and hip runs. A complex Southlake or Colleyville roof can carry two or three times the linear feet of detail that a simple gable roof does, and that is where the difference sits."
+      }
+    ]
+  },
+  "collin-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "McKinney"
+      },
+      {
+        "k": "Character",
+        "v": "Fast growth, cohort housing"
+      },
+      {
+        "k": "Housing",
+        "v": "Predominantly 1995 onward"
+      },
+      {
+        "k": "Storms",
+        "v": "High hail frequency"
+      }
+    ],
+    "context": [
+      {
+        "h": "Roofs that age as a cohort",
+        "p": [
+          "Collin County grew faster than almost anywhere in the country for two decades, and that produced a distinctive roofing pattern: whole neighbourhoods shingled within a season or two of each other, arriving at the end of their service life together.",
+          "That is why a street in Plano, Frisco or Murphy gets re-roofed almost at once. It is not a sales wave; it is a cohort reaching the same age at the same time, usually accelerated by whichever hail event hit that block hardest."
+        ]
+      },
+      {
+        "h": "Why Collin County claims run high",
+        "p": [
+          "Collin County sits on the north-eastern approach that spring cells follow across North Texas. Storms reaching this line have often crossed comparatively little built-up ground, so they arrive organised and frequently still strengthening.",
+          "The damage those storms leave rarely announces itself. Hail bruises the mat beneath the granules without opening a water path, and the roof can look entirely normal for a year or more before it leaks — by which point the connection to a specific storm is far harder to establish."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Cohort-age shingles",
+        "d": "Whole streets installed in the same year, reaching the same condition together."
+      },
+      {
+        "t": "Bruising without leaks",
+        "d": "Broken mat that has not yet opened a path for water, and leaks a year later."
+      },
+      {
+        "t": "Storm-chaser workmanship",
+        "d": "Fast repairs after major events, usually reusing flashing and ignoring ventilation."
+      },
+      {
+        "t": "Builder-grade ventilation",
+        "d": "Common across the 1995–2015 stock, and it ages shingles from the deck side."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My neighbours are all getting new roofs. Is that a scam?",
+        "a": "Not necessarily, and not necessarily legitimate either. Same-age roofs on the same street genuinely do reach the end together, especially after a hail event. What tells you which is happening is a free inspection of your own roof with photographs — evidence about your house rather than about the crew on the block."
+      },
+      {
+        "q": "How soon after a hail storm should I call?",
+        "a": "Sooner is better, and the reason is documentation rather than urgency. Damage recorded close in time to the event is worth considerably more than the same damage found a year later, when the roof has weathered and the storm link has to be argued rather than shown."
+      }
+    ]
+  },
+  "denton-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Denton"
+      },
+      {
+        "k": "Character",
+        "v": "Lakeside and rolling"
+      },
+      {
+        "k": "Housing",
+        "v": "1980s through 2020s"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open water on several sides"
+      }
+    ],
+    "context": [
+      {
+        "h": "What Lewisville and Grapevine Lakes do to a roof",
+        "p": [
+          "A large share of Denton County's housing sits within reach of open water — The Colony, Little Elm, Highland Village and Flower Mound all border a lake. Wind crossing open water arrives with less turbulence and more sustained force than wind that has crossed a built-up suburb.",
+          "That pressure concentrates on the roof perimeter rather than the field. Starter courses at the eaves, rake edges, and ridge caps do measurably more work on a lakeside property, and those are precisely the components most often skipped or reused on a quick installation."
+        ]
+      },
+      {
+        "h": "Rolling ground and uneven weathering",
+        "p": [
+          "Denton County's terrain is more varied than the flat prairie further east, which means roof planes on the same house frequently face genuinely different exposures. One elevation takes sustained wind and afternoon sun; another sits shaded and damp.",
+          "The result is that weathering varies more within a single Denton County roof than it does on flatter ground. A roof can be sound on three slopes and near the end on the fourth, and that changes whether the right answer is a repair, one slope, or the whole thing."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Perimeter uplift",
+        "d": "Lakeside exposure puts sustained pressure on eaves, rakes and ridge lines."
+      },
+      {
+        "t": "Uneven slope ageing",
+        "d": "Water-facing and sun-facing planes age faster than sheltered ones on the same roof."
+      },
+      {
+        "t": "Ridge cap reuse",
+        "d": "The most exposed line on the roof, and among the most often left in place at replacement."
+      },
+      {
+        "t": "Canopy on the wooded west",
+        "d": "Highland Village and Flower Mound keep debris in valleys through the year."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I replace just the bad slope?",
+        "a": "Sometimes, and we will tell you honestly when it makes sense. It works when the other elevations have real life left and you accept that the new slope will not match the weathered ones. It does not work when the rest is two or three years behind — then you are paying mobilisation twice."
+      },
+      {
+        "q": "Does a lakeside home need a different shingle?",
+        "a": "Rarely. Most architectural shingles carry a wind rating well above what they will actually see. What fails on a lakeside roof is the perimeter detail — the starter course, the nailing pattern, the rake edge. Specify those properly and the shingle grade becomes a secondary question."
+      }
+    ]
+  },
+  "rockwall-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Rockwall"
+      },
+      {
+        "k": "Character",
+        "v": "Lakeside, rapid growth"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1998 onward"
+      },
+      {
+        "k": "Exposure",
+        "v": "Lake Ray Hubbard, open prairie"
+      }
+    ],
+    "context": [
+      {
+        "h": "The smallest county in Texas, and one of the most exposed",
+        "p": [
+          "Rockwall County wraps the eastern side of Lake Ray Hubbard, and much of its housing either fronts the water or sits on open prairie beyond it. Neither offers much windbreak, and the roofs here take sustained loading that inland stock never sees.",
+          "It has also grown very fast. Fate and Royse City in particular have added a great deal of housing in a short window, which means most of the county's roofs are still on their original builder installation."
+        ]
+      },
+      {
+        "h": "Original installations meeting real weather",
+        "p": [
+          "On young roofs the failures are not wear. They are the details: ventilation that was never balanced against the attic volume, flashing fitted quickly, valleys cut short, starter courses substituted with cut shingles.",
+          "Those shortcuts are invisible on a finished roof and stay invisible until sustained wind or a hail event finds them. That is why a documented baseline inspection is worth more in Rockwall County than in places where roofs have already proved themselves."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Unbroken exposure",
+        "d": "Lake frontage and open prairie leave rooflines taking wind directly."
+      },
+      {
+        "t": "Original builder details",
+        "d": "Nearly all roofs still carry whatever the builder specified."
+      },
+      {
+        "t": "Starter course substitution",
+        "d": "Cut shingles in place of a bonded starter strip, invisible once finished."
+      },
+      {
+        "t": "No condition history",
+        "d": "Newer housing rarely has a dated record to support a later claim."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is a baseline inspection worth?",
+        "a": "On a young Rockwall County roof, quite a lot. It costs nothing and produces a dated photographic record of the roof before anything happens to it. After the first serious hail event the whole conversation becomes what was already there versus what the storm did, and that is much easier to answer with a before."
+      },
+      {
+        "q": "My builder warranty is still active. Does that cover storm damage?",
+        "a": "Generally no. A builder warranty covers workmanship and materials, not weather. If what you have is a defect, start with the builder. If it is hail or wind, that is a different route. A free inspection will tell you which you are looking at."
+      }
+    ]
+  },
+  "ellis-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Waxahachie"
+      },
+      {
+        "k": "Character",
+        "v": "Historic towns, open prairie"
+      },
+      {
+        "k": "Housing",
+        "v": "Victorian core through new build"
+      },
+      {
+        "k": "Storms",
+        "v": "Southern approach corridor"
+      }
+    ],
+    "context": [
+      {
+        "h": "Historic architecture and modern subdivisions",
+        "p": [
+          "Ellis County holds one of the more significant collections of Victorian-era architecture in Texas around the Waxahachie courthouse square, alongside decades of ordinary suburban growth in Midlothian, Red Oak and Ennis.",
+          "Those are different jobs. A steep Victorian pitch with decorative detailing cannot be assessed the way a 2015 hip roof can, and it frequently cannot be walked safely at all — which is exactly why those roofs go uninspected for years."
+        ]
+      },
+      {
+        "h": "The southern storm approach",
+        "p": [
+          "Ellis County sits on the corridor that spring cells follow up from the south-west. Storms reaching it have usually crossed open country rather than the built-up Metroplex, so they arrive with less broken up in front of them.",
+          "Combined with prairie exposure and very little windbreak between properties, that makes perimeter detailing — starter courses, rake edges, ridge caps — disproportionately important here."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Steep historic pitches",
+        "d": "Roofs too steep to walk safely, which is precisely why they are rarely assessed properly."
+      },
+      {
+        "t": "Open prairie wind",
+        "d": "Little between properties to slow gusts before they reach the roof edge."
+      },
+      {
+        "t": "Frequent hail",
+        "d": "The southern approach delivers cells that have not yet weakened."
+      },
+      {
+        "t": "Airborne grit",
+        "d": "Sustained wind across open ground accelerates granule loss on windward slopes."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you inspect a roof nobody can walk on?",
+        "a": "Yes — that is what drone documentation is for, and steep historic roofs are exactly the ones that need it. We photograph every plane from above, and you keep the images whether or not you hire us."
+      },
+      {
+        "q": "Is impact-resistant shingle worth it out here?",
+        "a": "It is a more reasonable question in Ellis County than in most of DFW. Class 4 products cost more and are not indestructible, but where impact events are frequent the maths changes, and some insurers discount for them. We will price both so you are comparing real numbers."
+      }
+    ]
+  },
+  "kaufman-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Kaufman"
+      },
+      {
+        "k": "Character",
+        "v": "Rural, rapidly suburbanising"
+      },
+      {
+        "k": "Housing",
+        "v": "Older towns plus new growth"
+      },
+      {
+        "k": "Exposure",
+        "v": "Flat, open, high hail"
+      }
+    ],
+    "context": [
+      {
+        "h": "Two housing stocks, one weather pattern",
+        "p": [
+          "Kaufman County spans older established towns — Terrell, Kaufman itself — and very fast recent growth around Forney. Roof assessments differ sharply between them: one is layered replacements over decades-old decking, the other is original builder installations barely out of warranty.",
+          "What they share is exposure. The ground east of Dallas is flat and open, and there is very little upwind of any of these roofs."
+        ]
+      },
+      {
+        "h": "Rural properties and the buildings nobody inspects",
+        "p": [
+          "A meaningful share of Kaufman County housing sits on acreage, and acreage means outbuildings. Barns, shops and covered structures almost never appear in a roof assessment, which is why a failure there tends to be well advanced before anyone notices.",
+          "They are also usually simpler roofs, which means they are cheaper to put right if caught early and considerably more expensive once the decking has gone."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Outbuildings excluded",
+        "d": "Barns, shops and covered structures routinely left out of any assessment."
+      },
+      {
+        "t": "Flat open exposure",
+        "d": "Nothing upwind to break gusts before they reach the roofline."
+      },
+      {
+        "t": "High hail frequency",
+        "d": "The eastern corridor takes cells that are frequently still organised."
+      },
+      {
+        "t": "Layered older stock",
+        "d": "In-town properties carrying several past replacements over original decking."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will you look at the barn as well as the house?",
+        "a": "Yes, and on an acreage property it is worth including. Outbuilding roofs are simpler but they are also the ones nobody checks, so problems there are usually well advanced by the time they are noticed. We document them in the same visit."
+      },
+      {
+        "q": "Do you actually service Kaufman County?",
+        "a": "Yes, routinely. It is inside our normal working area east of Dallas. Distance affects scheduling rather than whether we come, and we will give you an honest answer about timing rather than one that sounds good."
+      }
+    ]
+  },
+  "parker-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Weatherford"
+      },
+      {
+        "k": "Character",
+        "v": "Historic, semi-rural"
+      },
+      {
+        "k": "Housing",
+        "v": "Historic core, acreage, new growth"
+      },
+      {
+        "k": "Storms",
+        "v": "Among the most hail-prone locally"
+      }
+    ],
+    "context": [
+      {
+        "h": "The western approach",
+        "p": [
+          "Parker County sits west of Fort Worth on the corridor that storms take crossing into North Texas. Cells reaching it have had nothing to break them up, and the county is consistently among the more hail-exposed parts of the region.",
+          "That changes the calculation on materials. Impact-resistant shingles are a marginal upgrade in much of DFW and a genuinely reasonable question here, particularly where a property has already been through more than one event."
+        ]
+      },
+      {
+        "h": "Acreage, outbuildings, and long gutter runs",
+        "p": [
+          "Much of Parker County is acreage rather than subdivision, which brings barns, shops and covered structures into the picture alongside the house. Those roofs are simpler but they are also the ones that go unlooked at for years.",
+          "Wide properties also mean long eave runs, and standard gutter sizing frequently falls short of what a large roof plane actually sheds in a heavy North Texas downpour."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Frequent impact events",
+        "d": "The western approach delivers hail more often than most of the Metroplex sees."
+      },
+      {
+        "t": "Unassessed outbuildings",
+        "d": "Barns and shops left out of most roof inspections entirely."
+      },
+      {
+        "t": "Open country wind",
+        "d": "No windbreak at all around most rural rooflines."
+      },
+      {
+        "t": "Undersized gutter runs",
+        "d": "Standard sizing struggling with the roof areas common on acreage properties."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are impact-resistant shingles worth the extra cost here?",
+        "a": "In Parker County it is worth pricing properly rather than dismissing. Class 4 costs more and will still bruise under a large enough stone, but where events are frequent it changes the replacement cycle, and some insurers offer a premium reduction. We will quote both so the decision is yours on real numbers."
+      },
+      {
+        "q": "How far into Parker County do you work?",
+        "a": "We travel roughly two hours from Dallas for the right project, which covers Weatherford and Aledo comfortably. Whether a given job makes sense depends on scope as much as distance, and we would rather say so than pad an estimate to cover the drive."
+      }
+    ]
+  },
+  "johnson-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Cleburne"
+      },
+      {
+        "k": "Character",
+        "v": "Historic seat, growing north"
+      },
+      {
+        "k": "Housing",
+        "v": "Older core plus new subdivisions"
+      },
+      {
+        "k": "Storms",
+        "v": "South-western approach"
+      }
+    ],
+    "context": [
+      {
+        "h": "Growth on one end, history on the other",
+        "p": [
+          "Johnson County's northern edge — Burleson in particular — has absorbed a great deal of Fort Worth's outward growth, while Cleburne retains a historic county-seat core with much older housing around it.",
+          "That produces two very different roofing conversations within a short drive: original builder installations on one side, and roofs several generations deep over original decking on the other."
+        ]
+      },
+      {
+        "h": "Cells that arrive intact",
+        "p": [
+          "Johnson County sits on the south-western approach, where storms cross open country before reaching the Metroplex. They arrive having lost comparatively little energy, and there is limited windbreak on the newer edges to slow the wind that comes with them.",
+          "For roofs that means perimeter wear ahead of field wear, and impact damage that is worth documenting close in time to the event rather than a year later."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Two housing generations",
+        "d": "Newer Burleson subdivisions and much older Cleburne stock need different assessments."
+      },
+      {
+        "t": "Reused detail metal",
+        "d": "Common on the second-generation roofs across the older neighbourhoods."
+      },
+      {
+        "t": "Open exposure north",
+        "d": "Recent development with little mature windbreak."
+      },
+      {
+        "t": "Rural outbuildings",
+        "d": "Acreage properties with structures that go unassessed for years."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are you local, or driving down from Dallas?",
+        "a": "We work across DFW and North Texas from the Metroplex, and Johnson County is inside our normal service area. We will not claim an office on your street. What matters more is that we are local to the region and reachable next season, rather than a crew that followed a storm in from out of state."
+      },
+      {
+        "q": "How quickly can you get to a leak down here?",
+        "a": "Call and you will get a real answer rather than a number that sounds good. Active water intrusion moves to the front of the line wherever it is, but travel time is travel time, and we would rather tell you honestly than promise a window we cannot hold."
+      }
+    ]
+  },
+  "wise-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Decatur"
+      },
+      {
+        "k": "Character",
+        "v": "Rural, north-west of Fort Worth"
+      },
+      {
+        "k": "Housing",
+        "v": "Small towns and acreage"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open country, few windbreaks"
+      }
+    ],
+    "context": [
+      {
+        "h": "Open country roofing",
+        "p": [
+          "Wise County sits north-west of Fort Worth where the Metroplex gives way to genuinely open country. Properties are further apart, windbreaks are scarce, and roofs take weather that has crossed a great deal of nothing before arriving.",
+          "The practical effect is that perimeter components carry more load here than almost anywhere in our service area. Starter courses, rake edges and ridge caps fail long before the field of the roof shows anything."
+        ]
+      },
+      {
+        "h": "Fewer contractors, more storm chasers",
+        "p": [
+          "Rural counties have fewer resident roofing companies, and after a significant event that gap gets filled by crews from outside the area. They are quick, they are cheap, and they are gone.",
+          "The test worth applying is simple: ask where the company was last year and where it will be next year, and ask for a physical address you could actually visit. A warranty is only as good as the company standing behind it."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Extreme perimeter exposure",
+        "d": "Almost nothing upwind of these roofs to slow sustained gusts."
+      },
+      {
+        "t": "Outbuildings overlooked",
+        "d": "Acreage properties with barns and shops that go years without inspection."
+      },
+      {
+        "t": "Out-of-area crews",
+        "d": "Fewer resident contractors, so storm chasers fill the gap after events."
+      },
+      {
+        "t": "Long gutter runs",
+        "d": "Wide rural properties needing more outlets than standard sizing provides."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do I tell a real local contractor from a storm chaser?",
+        "a": "Ask for a physical address you could drive to, and check it. Ask where they worked last season. A crew that appeared after the storm, quotes from a truck, and wants a deposit before anything is scheduled is not who you want holding your warranty in five years."
+      },
+      {
+        "q": "Is Wise County inside your service area?",
+        "a": "It is at the edge of it. We travel roughly two hours from Dallas for the right project, which reaches Decatur, but whether a specific job makes sense depends on scope. Call with your address and what you need and we will give you a straight answer."
+      }
+    ]
+  },
+  "hunt-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Greenville"
+      },
+      {
+        "k": "Character",
+        "v": "Rural, historic seat"
+      },
+      {
+        "k": "Housing",
+        "v": "Older core, acreage"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open, north-eastern corridor"
+      }
+    ],
+    "context": [
+      {
+        "h": "Older stock in an exposed corridor",
+        "p": [
+          "Hunt County sits north-east of the Metroplex, well out along the corridor spring cells follow. Storms reaching this far have usually not broken up, and there is very little on this ground to slow the wind that comes with them.",
+          "Its housing runs older than the suburban counties, particularly around Greenville, which means roofs several generations deep with detail metal that has never been replaced."
+        ]
+      },
+      {
+        "h": "Why documentation matters more at distance",
+        "p": [
+          "The further a property sits from the centre of the Metroplex, the fewer resident contractors there are, and the larger the share of post-storm work done by crews from elsewhere.",
+          "A dated set of photographs of your roof — taken before you need them — is the most useful thing you can have in that environment. It settles what was already there and what the storm did, without depending on anyone's recollection."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Multi-generation roofs",
+        "d": "Older properties carrying several past replacements over original decking."
+      },
+      {
+        "t": "Original detail metal",
+        "d": "Flashing and boots decades older than the shingles above them."
+      },
+      {
+        "t": "Open corridor exposure",
+        "d": "Cells arriving with force largely intact and little windbreak on the ground."
+      },
+      {
+        "t": "Out-of-area crews after storms",
+        "d": "Fewer resident contractors, so external crews absorb the demand."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why does everyone recommend photographs?",
+        "a": "Because memory is not evidence and roofs weather. A dated set of images from before an event settles a question that otherwise becomes an argument — what was already worn versus what the storm caused. It costs nothing to have, and it is worth a great deal at exactly the moment you need it."
+      },
+      {
+        "q": "Do you come out to Hunt County?",
+        "a": "Yes, within our roughly two-hour radius from Dallas. Distance affects scheduling and whether a very small job makes sense, not whether we serve the area. We will be straight with you about both."
+      }
+    ]
+  },
+  "grayson-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Sherman"
+      },
+      {
+        "k": "Character",
+        "v": "Historic towns, new industry"
+      },
+      {
+        "k": "Housing",
+        "v": "Century-old core plus new build"
+      },
+      {
+        "k": "Exposure",
+        "v": "Far north, open ground"
+      }
+    ],
+    "context": [
+      {
+        "h": "An old county growing quickly again",
+        "p": [
+          "Grayson County has a long-established housing stock around Sherman and Denison, and it has recently taken on significant new development alongside major industrial investment in the area.",
+          "That has produced an unusually divided market: century-old properties near the historic cores, and brand-new subdivisions on the edges. The first group needs deck and detail assessment; the second needs installation-quality assessment. Very little in between."
+        ]
+      },
+      {
+        "h": "The northern approach",
+        "p": [
+          "Sitting at the northern limit of our service area, Grayson County takes weather crossing from the north-west that has had nothing to break it up. Roofs here are as exposed as any we work on.",
+          "Older properties compound that, because steep historic pitches are the roofs least likely to have been inspected properly — they cannot be walked safely, so they get looked at from the ground and assumed to be fine."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Divided housing stock",
+        "d": "Century-old properties and new subdivisions needing entirely different assessments."
+      },
+      {
+        "t": "Steep historic pitches",
+        "d": "Roofs that cannot be walked, and therefore rarely get assessed properly."
+      },
+      {
+        "t": "Open northern exposure",
+        "d": "Weather arriving from the north-west with nothing in front of it."
+      },
+      {
+        "t": "Rapid new build",
+        "d": "Fast construction is where ventilation and flashing shortcuts appear first."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Grayson County within your range?",
+        "a": "It is at the outer edge. We travel roughly two hours from Dallas for the right project, which reaches Sherman and Denison. A full replacement makes that trip sensible; a single small repair probably does not, and we would rather tell you than quietly build the drive into the price."
+      },
+      {
+        "q": "My house is over a hundred years old. Can you work on it?",
+        "a": "Usually, with one honest caveat: if the roof needs a specialist — original slate, certain metal systems, or decorative work we should not be touching — we will say so rather than learn it halfway through. Drone documentation lets us assess it properly before anyone commits."
+      }
+    ]
+  },
+  "hood-county": {
+    "facts": [
+      {
+        "k": "County seat",
+        "v": "Granbury"
+      },
+      {
+        "k": "Character",
+        "v": "Lake community, historic square"
+      },
+      {
+        "k": "Housing",
+        "v": "Lakefront plus historic core"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open water and open country"
+      }
+    ],
+    "context": [
+      {
+        "h": "Lake Granbury and the wind that comes with it",
+        "p": [
+          "A large share of Hood County's housing sits along Lake Granbury, and waterfront property means sustained wind rather than gusty wind. It arrives with less turbulence and more consistent force, and it concentrates on the roof perimeter.",
+          "Water-facing elevations on a Granbury home routinely look older than the sheltered side of the same roof, and that difference is often what decides whether the right answer is one slope or the whole thing."
+        ]
+      },
+      {
+        "h": "At the edge of the Metroplex",
+        "p": [
+          "Hood County sits at the south-western limit of our service area, on open country where weather arrives having crossed very little. Between that exposure and the hail frequency in this part of Texas, perimeter detailing matters more here than in most of DFW.",
+          "It also has fewer resident contractors than the counties closer in, which means post-storm work draws crews from outside the area. The usual caution applies."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Sustained lake wind",
+        "d": "Open water giving gusts a clear run at eaves, rakes and ridge lines."
+      },
+      {
+        "t": "Uneven slope ageing",
+        "d": "Water-facing planes weathering visibly faster than the sheltered side."
+      },
+      {
+        "t": "Historic square properties",
+        "d": "Older structures needing a different approach from lakeside builds."
+      },
+      {
+        "t": "Out-of-area crews",
+        "d": "Fewer local contractors, so external crews move in after events."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Granbury inside your service area?",
+        "a": "It is at the outer edge of it. We travel roughly two hours from Dallas for the right project, which reaches Granbury. Whether a given job makes sense depends on scope — call with your address and what you need and we will give you an honest answer rather than a maybe."
+      },
+      {
+        "q": "One side of my roof looks far worse than the other. Why?",
+        "a": "On a lakeside property that is expected. The elevation facing the water takes sustained wind and wind-carried grit that the sheltered side never sees, so it ages faster. Whether that means one slope or the whole roof depends on how far apart they actually are, and that is what the inspection establishes."
+      }
+    ]
+  }
+}

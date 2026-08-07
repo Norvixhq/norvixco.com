@@ -1,0 +1,212 @@
+{
+  "_editing": "One entry per supplied photograph. Descriptions deliberately describe only what is VISIBLE in the frame. City, material, and year stay null until Drew confirms them \u2014 the templates hide null fields rather than printing 'unknown'. Add a photo by dropping it in the source folder, adding it to scripts/optimize-images.py, then adding an entry here.",
+
+  "_privacyNote": "brick-home-dark-roof-garage had a legible vehicle plate; it is pixelated in the pipeline before any derivative is written. fence-posts-set-string-line was supplied sideways and is rotated during processing. No exact residential address appears anywhere on the site.",
+
+  "categories": [
+    { "slug": "roof-replacement", "name": "Roof Replacement" },
+    { "slug": "gutters", "name": "Gutters" },
+    { "slug": "fences", "name": "Fencing" },
+    { "slug": "decks", "name": "Decks & Structures" },
+    { "slug": "exterior-improvements", "name": "Exterior Improvements" },
+    { "slug": "drone-views", "name": "Drone Views" }
+  ],
+
+  "projects": [
+    {
+      "slug": "charcoal-architectural-roof-aerial",
+      "title": "Charcoal Architectural Shingle Roof",
+      "image": "aerial-charcoal-roof-replacement",
+      "alt": "Aerial view of a completed charcoal architectural shingle roof with a skylight, ridge vents, and a debris container in the driveway",
+      "categories": ["roof-replacement", "drone-views"],
+      "featured": true,
+      "city": null, "material": "Architectural asphalt shingle, charcoal", "year": null,
+      "service": "roof-replacement",
+      "summary": "A full architectural shingle roof photographed from directly overhead after installation. The overhead angle shows the finished course lines, the ridge and hip runs, and how the field was cut in around the skylight and roof penetrations.",
+      "challenges": "The roof combines a long primary ridge with several intersecting planes, which puts a substantial amount of the water load into the valleys. Penetrations and the skylight sit close enough to the valley lines that flashing and course layout around them had to be planned rather than improvised.",
+      "outcome": "Uniform course lines across every plane, clean valley intersections, and roof penetrations properly integrated into the field. The debris container in the driveway is part of the process \u2014 tear-off material goes into it and leaves with us.",
+      "related": ["roof-replacement", "asphalt-shingle-roofing", "roof-inspections"]
+    },
+    {
+      "slug": "gray-shingle-roof-brick-home",
+      "title": "Gray Shingle Roof on a Brick Home",
+      "image": "brick-home-gray-shingle-roof",
+      "alt": "Street view of a light brick single-story home with a completed gray architectural shingle roof, arched entry, and multiple front-facing gables at dusk",
+      "categories": ["roof-replacement", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": "Architectural asphalt shingle, gray", "year": null,
+      "service": "roof-replacement",
+      "summary": "A completed roof on a brick home with the front elevation style common across North Texas suburbs \u2014 an arched entry, multiple forward-facing gables, and a mix of hip and gable planes across a single-story footprint.",
+      "challenges": "Front elevations like this one are almost entirely visible from the street, so course alignment across the separate gable faces has to read straight from the curb as well as from the roof.",
+      "outcome": "Consistent shingle lines across each gable face, clean ridge and hip caps, and a colour that sits well against light brick and white trim.",
+      "related": ["roof-replacement", "residential-roofing", "asphalt-shingle-roofing"]
+    },
+    {
+      "slug": "red-brick-home-gutters",
+      "title": "Roof and Gutter System, Red Brick Two-Story",
+      "image": "red-brick-home-gutters-downspouts",
+      "alt": "Two-story red brick home with a dark shingle roof and copper-toned gutters and downspouts running along the eaves and gable ends",
+      "categories": ["gutters", "roof-replacement", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": null, "year": null,
+      "service": "gutter-installation",
+      "summary": "A two-story brick home with a dark shingle roof and a full gutter system carried around the eaves and down the gable ends. Downspout placement is visible on both the front elevation and the return along the side.",
+      "challenges": "A two-story roof over a single-story wing feeds a great deal of water into a short run of gutter at the transition. Downspout placement and capacity at that junction matter more than anywhere else on the house.",
+      "outcome": "Continuous runs along each elevation with downspouts placed to carry volume away from the foundation rather than simply where they would be least visible.",
+      "related": ["gutter-installation", "seamless-gutters", "roof-replacement"]
+    },
+    {
+      "slug": "roof-replacement-in-progress-aerial",
+      "title": "Roof Replacement in Progress",
+      "image": "aerial-storm-roof-tearoff-dumpster",
+      "alt": "Aerial view of a large residential roof during replacement, with a debris container in the driveway, work trucks at the curb, and crew members on site",
+      "categories": ["roof-replacement", "drone-views"],
+      "featured": true,
+      "city": null, "material": "Architectural asphalt shingle", "year": null,
+      "service": "roof-replacement",
+      "summary": "An overhead view of an active replacement, with the debris container staged in the driveway and crew on site. Drone imagery like this is how we document large, complex rooflines both during and after the work.",
+      "challenges": "This roof carries a high number of planes and direction changes for a single-family home, which multiplies valleys, hips, and transitions \u2014 the details that decide whether a roof leaks in year six.",
+      "outcome": "Consistent coverage across every plane with the tear-off debris contained on site rather than spread across the yard and street.",
+      "related": ["roof-replacement", "storm-damage-roof-repair", "roof-inspections"]
+    },
+    {
+      "slug": "gray-roof-aerial-crew",
+      "title": "Gray Shingle Roof, Overhead Documentation",
+      "image": "aerial-gray-shingle-roof-crew",
+      "alt": "Overhead drone view of a gray architectural shingle roof on a large single-story home, with a crew member working near the rear slope",
+      "categories": ["roof-replacement", "drone-views"],
+      "city": null, "material": "Architectural asphalt shingle, gray", "year": null,
+      "service": "roof-inspections",
+      "summary": "Overhead documentation of a large single-story roof. This is the perspective a drone gives that a ladder cannot \u2014 every plane, every penetration, and the full run of every ridge and valley in one frame.",
+      "challenges": "Wide, shallow-pitched roofs like this one hide problems well from the ground. Vent placement and valley condition across the middle of the roof are effectively invisible from any point on the property.",
+      "outcome": "Complete overhead documentation of the roof surface, giving the homeowner a record of areas they would otherwise never see.",
+      "related": ["roof-inspections", "storm-damage-inspections", "roof-replacement"]
+    },
+    {
+      "slug": "brown-shingle-roof-brick-home",
+      "title": "Brown Shingle Roof on Light Brick",
+      "image": "brick-home-brown-shingle-roof",
+      "alt": "Single-story light brick home with a completed brown architectural shingle roof, arched entry, and gable dormers under a clear blue sky",
+      "categories": ["roof-replacement", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": "Architectural asphalt shingle, brown", "year": null,
+      "service": "roof-replacement",
+      "summary": "A completed roof on a light brick home with a hip-and-gable front elevation and a prominent arched entry. Warm brown shingles were carried across the main roof and the forward gables.",
+      "challenges": "Hip roofs with forward-facing gables create several short valleys near the front of the house, all clearly visible from the street and all carrying water toward the entry.",
+      "outcome": "Even course lines across the hip planes, tidy valley work at each gable intersection, and a shingle tone that reads warm against the brick rather than fighting it.",
+      "related": ["roof-replacement", "residential-roofing", "asphalt-shingle-roofing"]
+    },
+    {
+      "slug": "dark-shingle-roof-single-story",
+      "title": "Dark Shingle Roof, Single-Story Brick",
+      "image": "brick-home-dark-roof-garage",
+      "alt": "Single-story red brick home with a completed dark shingle roof, a low front hip, and an open attached garage at dusk",
+      "categories": ["roof-replacement"],
+      "city": null, "material": "Architectural asphalt shingle, dark", "year": null,
+      "service": "roof-replacement",
+      "summary": "A completed dark shingle roof on a compact single-story red brick home. The low hip over the entry and the forward garage gable are the two planes that read from the street.",
+      "challenges": "Shallow hips on smaller homes leave very little margin at the eaves, so drip edge and starter course placement have to be exact or the line reads crooked from the kerb.",
+      "outcome": "A straight, even eave line across both planes and a dark shingle that grounds the red brick rather than competing with it.",
+      "related": ["roof-replacement", "residential-roofing", "roof-inspections"]
+    },
+    {
+      "slug": "gutter-run-rear-elevation",
+      "title": "Gutter Run, Rear Elevation",
+      "image": "brick-home-gutters-rear-elevation",
+      "alt": "Rear corner of a brick home showing a brown shingle roof with continuous tan gutters carried around the eaves and a downspout at the corner",
+      "categories": ["gutters", "roof-replacement", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": "Seamless aluminium gutter", "year": null,
+      "service": "gutter-installation",
+      "summary": "The side and rear elevations of a brick home, where the gutter work is usually least considered and most useful. Continuous runs carry around the corner with a downspout placed at the low end.",
+      "challenges": "Rear elevations frequently get skipped or under-specified, which leaves roof water discharging straight against the slab on the side of the house nobody photographs.",
+      "outcome": "Continuous runs around the corner returns, colour matched to the fascia, and discharge routed away from the foundation rather than at it.",
+      "related": ["gutter-installation", "seamless-gutters", "gutter-repair"]
+    },
+    {
+      "slug": "weathered-roof-aerial",
+      "title": "Aged Shingle Roof, Drone Documentation",
+      "image": "aerial-weathered-shingle-roof",
+      "alt": "Aerial view of a weathered brown shingle roof on a large single-story home showing granule loss, uneven surface tone, and mature trees along the property line",
+      "categories": ["drone-views"],
+      "city": null, "material": "Aged asphalt shingle", "year": null,
+      "service": "roof-inspections",
+      "summary": "Overhead documentation of an ageing shingle roof. Uneven surface tone across the planes is the visual signature of granule loss, and it is far more legible from above than from the ground.",
+      "challenges": "This is a large roof with several direction changes and long valley runs, sitting under mature trees on two sides \u2014 a combination that puts continuous debris load into the valleys carrying the most water.",
+      "outcome": "A complete overhead record of the roof's condition for the homeowner, showing surface wear and valley condition across areas not visible from the property.",
+      "related": ["roof-inspections", "roof-replacement", "roof-maintenance"]
+    },
+    {
+      "slug": "cedar-privacy-fence",
+      "title": "Cedar Privacy Fence and Gate",
+      "image": "cedar-privacy-fence-gate",
+      "alt": "Weathered cedar privacy fence with a full-height gate, latch hardware, and a horizontal top rail against a clear blue sky",
+      "categories": ["fences", "exterior-improvements"],
+      "city": null, "material": "Cedar", "year": null,
+      "service": "fence-installation",
+      "summary": "A cedar privacy fence with a full-height gate section. The gate is the part of any fence that gets used every day and the part most likely to fail first, so it is framed and hung as its own piece of work.",
+      "challenges": "Gates rack over time when the frame is undersized or unbraced, and the resulting sag shows up as a gate that drags or will not latch.",
+      "outcome": "A continuous privacy line with a gate that sits square in its opening, latching hardware set at a workable height, and a level top line across the run.",
+      "related": ["fence-installation", "fence-repair", "outdoor-home-improvements"]
+    },
+    {
+      "slug": "fence-posts-set-string-line",
+      "title": "Fence Posts Set to a String Line",
+      "image": "fence-posts-set-string-line",
+      "alt": "New timber fence posts set into a lawn along a taut string line, with deck framing and a brick home behind",
+      "categories": ["fences", "decks", "exterior-improvements"],
+      "city": null, "material": "Treated timber posts", "year": null,
+      "service": "fence-installation",
+      "summary": "The stage of a fence job that decides how it looks in ten years. Posts set to depth against a string line, given time before any structure goes on them, with the deck framing visible behind.",
+      "challenges": "Almost every failed wood fence in North Texas failed at the posts. Expansive clay works them seasonally and a solid privacy fence is a wall to the wind, so depth, spacing, and alignment are the job rather than a detail of it.",
+      "outcome": "A straight, evenly spaced post line set to a string, ready for rails and pickets once the posts have cured.",
+      "related": ["fence-installation", "fence-repair", "outdoor-home-improvements"]
+    },
+    {
+      "slug": "stained-privacy-fence-run",
+      "title": "Stained Privacy Fence, Side Yard",
+      "image": "stained-fence-side-yard",
+      "alt": "Freshly stained brown privacy fence running along a narrow side yard beside a brick home, with steel posts and a crew member working at the far end",
+      "categories": ["fences", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": "Stained timber on steel posts", "year": null,
+      "service": "fence-repair",
+      "summary": "A long fence run along a narrow side yard, freshly stained. Steel posts carry the timber, which is a common and sensible combination in soil that moves as much as ours does.",
+      "challenges": "Side yards are the hardest part of any fence to work in and the easiest to do badly \u2014 tight access, uneven grade, and a run that is visible the whole length once you are in it.",
+      "outcome": "An even stain across the full run with a consistent top line, and the timber sealed before another Texas summer gets at it.",
+      "related": ["fence-repair", "fence-installation", "outdoor-home-improvements"]
+    },
+    {
+      "slug": "stained-fence-corner",
+      "title": "Stained Fence Corner and Return",
+      "image": "stained-fence-corner-run",
+      "alt": "Corner of a freshly stained brown privacy fence enclosing a green lawn, with steel line posts and an extension ladder resting on the grass",
+      "categories": ["fences", "exterior-improvements"],
+      "city": null, "material": "Stained timber on steel posts", "year": null,
+      "service": "fence-repair",
+      "summary": "The corner return on a stained privacy fence, where two runs meet and the top line has to stay true through the turn. Photographed on completion, before the site was cleared.",
+      "challenges": "Corners are where a fence's alignment errors accumulate. If the runs are not set true, the corner is where it becomes obvious.",
+      "outcome": "A square corner with both runs meeting at a consistent height, stained evenly across the return.",
+      "related": ["fence-repair", "fence-installation", "outdoor-home-improvements"]
+    },
+    {
+      "slug": "stained-deck-rail-and-steps",
+      "title": "Stained Deck, Rail and Steps",
+      "image": "stained-deck-rail-and-steps",
+      "alt": "Stained timber deck with a matching handrail, steps down to the lawn, and skirting boards enclosing the deck edge beside a brick home",
+      "categories": ["decks", "exterior-improvements"],
+      "featured": true,
+      "city": null, "material": "Stained timber", "year": null,
+      "service": "outdoor-home-improvements",
+      "summary": "A timber deck finished in a warm brown stain, with the handrail, steps, and skirting carried in the same tone so the structure reads as one piece rather than three.",
+      "challenges": "Decks take the same weather a roof does and get walked on daily. Steps and handrails wear fastest, and skirting sits closest to ground moisture, so those are the parts that decide how long the finish holds.",
+      "outcome": "An even finish across decking, rail, steps, and skirting, with the timber sealed against the sun before it starts to grey.",
+      "related": ["outdoor-home-improvements", "fence-installation", "exterior-painting"]
+    }
+  ],
+
+  "testimonials": {
+    "_note": "Empty by design. The site renders this section ONLY when real, approved testimonials exist here. Do not add placeholder or sample reviews \u2014 review schema for content that is not real is a policy violation and a Google penalty risk.",
+    "items": []
+  }
+}

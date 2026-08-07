@@ -1,0 +1,354 @@
+{
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Roofing",
+      "href": "/roofing/",
+      "children": [
+        {
+          "label": "Residential Roofing",
+          "href": "/roofing/residential-roofing/"
+        },
+        {
+          "label": "Roof Replacement",
+          "href": "/roofing/roof-replacement/"
+        },
+        {
+          "label": "Roof Repair",
+          "href": "/roofing/roof-repair/"
+        },
+        {
+          "label": "Roof Inspections",
+          "href": "/roofing/roof-inspections/"
+        },
+        {
+          "label": "Roof Leak Repair",
+          "href": "/roofing/roof-leak-repair/"
+        },
+        {
+          "label": "Asphalt Shingle Roofing",
+          "href": "/roofing/asphalt-shingle-roofing/"
+        }
+      ]
+    },
+    {
+      "label": "Exterior Services",
+      "href": "/exteriors/",
+      "children": [
+        {
+          "label": "Gutter Installation",
+          "href": "/exteriors/gutter-installation/"
+        },
+        {
+          "label": "Seamless Gutters",
+          "href": "/exteriors/seamless-gutters/"
+        },
+        {
+          "label": "Gutter Repair",
+          "href": "/exteriors/gutter-repair/"
+        },
+        {
+          "label": "Fence Installation",
+          "href": "/exteriors/fence-installation/"
+        },
+        {
+          "label": "Fence Repair",
+          "href": "/exteriors/fence-repair/"
+        },
+        {
+          "label": "Outdoor Improvements",
+          "href": "/exteriors/outdoor-home-improvements/"
+        }
+      ],
+      "short": "Exteriors"
+    },
+    {
+      "label": "Storm Damage",
+      "href": "/storm-damage/",
+      "children": [
+        {
+          "label": "Storm Damage Repair",
+          "href": "/roofing/storm-damage-roof-repair/"
+        },
+        {
+          "label": "Hail Damage",
+          "href": "/roofing/hail-damage-roof-repair/"
+        },
+        {
+          "label": "Wind Damage",
+          "href": "/roofing/wind-damage-roof-repair/"
+        },
+        {
+          "label": "Storm Inspections",
+          "href": "/roofing/storm-damage-inspections/"
+        },
+        {
+          "label": "Insurance Restoration",
+          "href": "/roofing/insurance-restoration-support/"
+        },
+        {
+          "label": "Exterior Storm Repair",
+          "href": "/exteriors/exterior-storm-damage-repair/"
+        }
+      ]
+    },
+    {
+      "label": "Projects",
+      "href": "/projects/"
+    },
+    {
+      "label": "Service Areas",
+      "href": "/service-areas/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Resources",
+      "href": "/resources/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ],
+  "valueCards": [
+    {
+      "title": "Roofing Expertise",
+      "body": "Replacements, repairs, and everything the details demand — flashing, valleys, penetrations, and ventilation. The parts that decide whether a roof lasts.",
+      "icon": "roof"
+    },
+    {
+      "title": "Honest Inspections",
+      "body": "Licensed inspectors, photo documentation, and a straight answer. If your roof does not need work, that is what we will tell you.",
+      "icon": "inspect"
+    },
+    {
+      "title": "Quality Exterior Work",
+      "body": "Gutters, fencing, and outdoor improvements handled with the same standard as the roof, because it is all the same weather.",
+      "icon": "exterior"
+    },
+    {
+      "title": "North Texas Coverage",
+      "body": "Dallas–Fort Worth as our core market, with regular work across surrounding North Texas communities and roughly a two-hour radius from Dallas.",
+      "icon": "texas"
+    }
+  ],
+  "process": [
+    {
+      "n": "01",
+      "title": "Request an inspection",
+      "body": "Call or send the form. Tell us what you are seeing and where you are."
+    },
+    {
+      "n": "02",
+      "title": "Property and roof evaluation",
+      "body": "A licensed inspector assesses the roof and, where accessible, the attic — documenting condition with photographs."
+    },
+    {
+      "n": "03",
+      "title": "Review findings and options",
+      "body": "We show you the photos and explain what is urgent, what can wait, and what is cosmetic. In plain language."
+    },
+    {
+      "n": "04",
+      "title": "Approve the project scope",
+      "body": "You get a free written estimate. Nothing is ordered or scheduled until you approve the scope."
+    },
+    {
+      "n": "05",
+      "title": "Complete the work",
+      "body": "Property protected, materials delivered, and the work performed by our crew."
+    },
+    {
+      "n": "06",
+      "title": "Final walkthrough and cleanup",
+      "body": "Magnet sweep for nails, debris hauled off, and a walkthrough with you before we leave."
+    }
+  ],
+  "whyTimber": [
+    {
+      "title": "Integrity-first recommendations",
+      "body": "The recommendation is whatever the roof actually needs. Sometimes that is a repair. Sometimes it is nothing at all."
+    },
+    {
+      "title": "Free inspections and estimates",
+      "body": "No charge, no obligation, and you keep the photographs either way."
+    },
+    {
+      "title": "Fully insured",
+      "body": "Coverage is in place before anyone sets foot on your property."
+    },
+    {
+      "title": "Licensed inspectors",
+      "body": "Your roof is assessed by a licensed inspector, not by whoever was available with a ladder."
+    },
+    {
+      "title": "Quality roofing work",
+      "body": "The system built correctly — underlayment, flashing, penetrations, and ventilation, not just shingles on top."
+    },
+    {
+      "title": "Clear communication",
+      "body": "You will know what is happening, when, and why. Surprises belong in other industries."
+    },
+    {
+      "title": "Respectful job sites",
+      "body": "Landscaping protected, nails swept, debris hauled. Your property is left the way we found it."
+    },
+    {
+      "title": "Local and regional",
+      "body": "Based in DFW and working across North Texas, roughly two hours out from Dallas for the right project."
+    }
+  ],
+  "stormItems": [
+    {
+      "title": "Hail damage",
+      "body": "Impact bruising and granule loss, frequently invisible from the ground."
+    },
+    {
+      "title": "Wind damage",
+      "body": "Broken seals, creased shingles, and uplift along rakes and ridges."
+    },
+    {
+      "title": "Missing or lifted shingles",
+      "body": "Exposed underlayment and shingles that no longer bond."
+    },
+    {
+      "title": "Roof leaks",
+      "body": "Active intrusion traced to its real entry point, not the nearest stain."
+    },
+    {
+      "title": "Fallen debris",
+      "body": "Limb impact, punctures, and damaged decking."
+    },
+    {
+      "title": "Emergency tarping",
+      "body": "Temporary protection to stop further water damage while a repair is scheduled."
+    },
+    {
+      "title": "Post-storm inspections",
+      "body": "Documented assessment while the evidence is fresh."
+    }
+  ],
+  "homeFaqs": [
+    {
+      "q": "Are your inspections and estimates really free?",
+      "a": "Yes. Free inspections and free estimates, with no obligation. You keep the photo documentation whether or not you hire us."
+    },
+    {
+      "q": "How do I know if my roof has storm damage?",
+      "a": "Usually you cannot tell from the ground, which is the whole problem. Dented gutters, granule wash in the driveway, and shingle debris in the yard are good hints. A free inspection settles it."
+    },
+    {
+      "q": "Do I need a full replacement or will a repair work?",
+      "a": "It depends on how widespread the damage is and how much life the roof has left. If a repair will genuinely hold, we will tell you that — even though the replacement would be the bigger invoice."
+    },
+    {
+      "q": "How far do you travel from Dallas?",
+      "a": "Dallas–Fort Worth is our core market, and we work throughout surrounding North Texas. We will travel roughly two hours in any direction from Dallas for the right project. Call with your address and we will give you a straight answer."
+    },
+    {
+      "q": "Will you handle my insurance claim?",
+      "a": "No. We are not a public adjuster, attorney, or insurer. We can document visible damage, explain the roofing scope, and provide project information that you may share with your carrier. The claim itself is between you and your insurance company."
+    },
+    {
+      "q": "How long does a roof replacement take?",
+      "a": "Many single-family homes are a one to two day job once materials are on site, depending on size, pitch, complexity, and weather. You will get a realistic window with your estimate."
+    },
+    {
+      "q": "What happens to the mess and the nails?",
+      "a": "Debris goes into a container on site and leaves with us, and we run magnets across the yard, beds, and driveway. Nails in tires are the most common complaint about roofing crews and it is entirely preventable."
+    },
+    {
+      "q": "Who actually inspects my roof?",
+      "a": "A licensed inspector. Where a roof is too steep or too fragile to walk safely, we document it with drone imagery instead — which gives a better record anyway."
+    }
+  ],
+  "footerServices": [
+    {
+      "label": "Roof Replacement",
+      "href": "/roofing/roof-replacement/"
+    },
+    {
+      "label": "Roof Repair",
+      "href": "/roofing/roof-repair/"
+    },
+    {
+      "label": "Roof Inspections",
+      "href": "/roofing/roof-inspections/"
+    },
+    {
+      "label": "Storm Damage Repair",
+      "href": "/roofing/storm-damage-roof-repair/"
+    },
+    {
+      "label": "Hail Damage Repair",
+      "href": "/roofing/hail-damage-roof-repair/"
+    },
+    {
+      "label": "Gutter Installation",
+      "href": "/exteriors/gutter-installation/"
+    },
+    {
+      "label": "Gutter Repair",
+      "href": "/exteriors/gutter-repair/"
+    },
+    {
+      "label": "Fence Installation",
+      "href": "/exteriors/fence-installation/"
+    },
+    {
+      "label": "Outdoor Improvements",
+      "href": "/exteriors/outdoor-home-improvements/"
+    }
+  ],
+  "footerAreas": [
+    "dallas",
+    "fort-worth",
+    "plano",
+    "frisco",
+    "mckinney",
+    "arlington",
+    "irving",
+    "garland",
+    "denton",
+    "allen",
+    "richardson",
+    "rockwall"
+  ],
+  "formOptions": {
+    "services": [
+      "Roof inspection",
+      "Roof replacement",
+      "Roof repair",
+      "Roof leak",
+      "Storm or hail damage",
+      "Gutters",
+      "Fencing",
+      "Other exterior work",
+      "Not sure yet"
+    ],
+    "propertyTypes": [
+      "Single-family home",
+      "Townhome or condo",
+      "Rental property",
+      "Commercial",
+      "Other"
+    ],
+    "urgency": [
+      "Emergency — active leak or open roof",
+      "Soon — within a couple of weeks",
+      "Planning ahead — no rush",
+      "Just want it looked at"
+    ],
+    "contactMethods": [
+      "Phone call",
+      "Text message",
+      "Email"
+    ]
+  }
+}

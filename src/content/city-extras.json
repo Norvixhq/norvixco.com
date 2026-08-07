@@ -1,0 +1,3131 @@
+{
+  "_editing": "Optional per-city expansion, keyed by city slug. All fields optional; sections simply do not render when absent. Fields: stats [{k,v}], weather [paragraphs], sections [{h, p:[]}], issues [{t,d}], faqs [{q,a}]. Every line must be genuinely specific to that city — if you find yourself about to paste the same paragraph into a second city, do not. That is the exact pattern that gets location pages devalued.",
+  "_roadmap": "Written for the priority cities first. Cities without an entry still carry their own unique intro, housing, and local paragraphs from cities.json plus a city-specific FAQ. The build prints which live cities are still awaiting expansion.",
+  "dallas": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Dominant material",
+        "v": "Architectural asphalt"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Mature tree canopy"
+      }
+    ],
+    "weather": [
+      "Dallas sits inside one of the most hail-active corridors in the United States, and spring storms tracking northeast across the county regularly bring both impact and straight-line wind in the same hour. Summer then delivers months of surface temperatures that punish sealants, pipe boots, and any detail that was installed marginally."
+    ],
+    "sections": [
+      {
+        "h": "Roof age varies by block, not by neighbourhood",
+        "p": [
+          "Dallas is unusual among Metroplex cities in how little you can infer from an address. A single street in East Dallas or Oak Cliff can hold a 1930s bungalow, a 1960s infill, and a rebuild finished last year, each on a completely different roof timeline. Assumptions based on the neighbourhood are unreliable here in a way they are not in a master-planned suburb.",
+          "That mix also means an unusually wide range of roof geometry. Prewar homes near Lakewood and Munger Place carry steeper pitches, tighter valleys, dormers, and detailing that needs a careful hand. Postwar ranch stock across the northeast and southern parts of the city is shallow, simple hip roofing that is straightforward to walk and quick to replace. Newer construction closer to the tollway runs to large, articulated rooflines with high penetration counts."
+        ]
+      },
+      {
+        "h": "The tree canopy is the local variable",
+        "p": [
+          "The mature oaks and pecans that make older Dallas neighbourhoods what they are also drive a large share of the roofing problems we find here. Continuous leaf and twig fall packs valleys and gutters, which holds water against the roof surface exactly where volume is highest. Limbs that overhang or touch shingles abrade granules off every time the wind moves them.",
+          "It follows that a meaningful number of Dallas leaks are drainage problems rather than shingle problems, and they get solved by clearing valleys, correcting gutter capacity, and trimming back what is overhead — not by replacing a roof."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Debris-packed valleys",
+        "d": "Under heavy canopy, valleys fill faster than anything else on the roof and back water up under the shingle edges."
+      },
+      {
+        "t": "Reused flashing from earlier re-roofs",
+        "d": "On housing stock this old, most roofs are on their second or third replacement, and old chimney and wall flashing frequently stayed put."
+      },
+      {
+        "t": "Undersized gutters on large older roofs",
+        "d": "Five-inch troughs on generous mid-century footprints, overflowing at the foundation in every real storm."
+      },
+      {
+        "t": "Limb abrasion on shaded slopes",
+        "d": "Granules worn off in a distinct pattern where branches touch, usually on the north or east side."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a permit to replace a roof in Dallas?",
+        "a": "Roofing work in the City of Dallas is generally permitted, and requirements do change. We handle permitting where it applies to the work we perform and will tell you what your specific project requires."
+      },
+      {
+        "q": "My house is nearly a hundred years old. Is that a problem?",
+        "a": "It is a different job, not a harder one to justify. Older Dallas rooflines carry steeper pitches, more intersections, and detailing that needs care at the transitions. Tell us about the house when you call so we bring the right approach."
+      }
+    ]
+  },
+  "fort-worth": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant County"
+      },
+      {
+        "k": "Storm position",
+        "v": "Western approach"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Leading-edge wind"
+      }
+    ],
+    "weather": [
+      "Fort Worth's position on the western side of the Metroplex means storm systems tracking east frequently reach Tarrant County before they reach Dallas. Roofs here take the leading edge of spring squall lines, and that leading edge is where the strongest straight-line wind usually sits — often ahead of the rain and ahead of the hail."
+    ],
+    "sections": [
+      {
+        "h": "Wind first, hail second",
+        "p": [
+          "The practical consequence of being first in the storm track is that Fort Worth inspections turn up proportionally more wind damage than hail damage compared with the eastern side of the Metroplex. That matters because wind damage is the kind homeowners are least likely to notice.",
+          "Shingles folded back by a gust settle down again looking normal. The seal is broken, the mat is creased, and nothing is missing from the roof. Unless somebody hand-tests seal integrity on the windward elevations, the inspection records a roof in good condition that is actually one storm from losing a slope."
+        ]
+      },
+      {
+        "h": "Three cities' worth of housing stock",
+        "p": [
+          "Fort Worth covers a very large footprint, and the roof conditions inside it differ substantially. The historic neighbourhoods near downtown and along the near south side carry older, steeper, more complicated rooflines. The mid-century belt spreading west and south is simpler hip geometry, mostly on its second or third roof.",
+          "North Fort Worth toward Alliance is a different story again: large tracts built rapidly in the same window, which means whole neighbourhoods approach the end of their original roof's service life together. When that happens, contractor volume in the area spikes and quality becomes very uneven."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Creased shingles on west-facing slopes",
+        "d": "The elevation that meets incoming systems first, and the one most often skipped in a quick assessment."
+      },
+      {
+        "t": "Ridge cap damage",
+        "d": "Uplift pressure peaks at the ridge, and caps sit over a bend that fractures readily."
+      },
+      {
+        "t": "Drip edge peeled back",
+        "d": "Edge metal lifted by wind, leaving a direct path for water behind the gutter."
+      },
+      {
+        "t": "Whole-subdivision roof age",
+        "d": "In the newer northern developments, the timing of failure is shared across the street rather than staggered."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Storms usually hit us before Dallas. Does that change anything?",
+        "a": "It means you are often first, and it means roofing crews reach your neighbourhood first too. Take your time, verify who you are talking to, and be careful with anyone wanting a signature on the doorstep."
+      },
+      {
+        "q": "Do you cover all of Fort Worth?",
+        "a": "We work across Fort Worth and the surrounding Tarrant County communities. Give us your address and we will confirm scheduling."
+      }
+    ]
+  },
+  "plano": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin County"
+      },
+      {
+        "k": "Build era",
+        "v": "Largely 1980s–1990s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Repeat hail history"
+      }
+    ],
+    "weather": [
+      "Plano sits squarely in the corridor that has taken repeated hail over the past two decades. A large number of homes here are on a roof that was itself a storm replacement, which changes what an inspection has to establish — not just whether there is damage, but whether it is new."
+    ],
+    "sections": [
+      {
+        "h": "When a roof is already a storm roof",
+        "p": [
+          "On a house that has been re-roofed once or twice after hail, documentation matters more than usual. The question in front of an inspector is not simply whether damage exists but whether it postdates the last replacement, and answering that honestly requires looking at the whole system rather than counting marks on a slope.",
+          "It also means the quality of the previous work is a live variable. Storm-season replacements done at volume are where we most often find the shortcuts: flashing reused under new shingles, nails driven above the line, valleys built without membrane, and boots that were caulked instead of replaced. Those are invisible on completion day and they show up years later as a leak somebody blames on the shingles."
+        ]
+      },
+      {
+        "h": "West Plano and east Plano are different roofs",
+        "p": [
+          "The 1990s build-out through west Plano produced two-story homes with steep, articulated front elevations — multiple gables, prominent dormers, and a high count of valleys near the front of the house where they are most visible and most loaded.",
+          "The earlier east-side neighbourhoods are lower, simpler, and easier to inspect, but further along in their life cycle and more likely to be carrying original-era ventilation that was never adequate. Both need looking at; they need looking at for different things."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Damage layered over a previous storm roof",
+        "d": "Establishing what is new requires more than a glance, particularly where a prior replacement was done at volume."
+      },
+      {
+        "t": "Valley membrane missing from a prior job",
+        "d": "A recurring find on roofs installed quickly during a busy hail season."
+      },
+      {
+        "t": "Steep front elevations nobody has seen",
+        "d": "The upper slopes on west Plano two-story homes are effectively invisible from the ground."
+      },
+      {
+        "t": "Original attic ventilation left as-is",
+        "d": "Exhaust replaced during a re-roof while blocked soffit intake was never touched."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My neighbours all replaced their roofs after the last storm. Should I?",
+        "a": "It is worth an inspection, but hail is genuinely patchy even within a single Plano subdivision. We will document your roof specifically rather than assume it matches the street."
+      },
+      {
+        "q": "My roof was replaced after a storm a few years ago. Is it fine?",
+        "a": "Not automatically. Storm-season work varies a great deal in quality, and we find shortcuts on relatively new roofs fairly regularly. An inspection will tell you what was actually done up there."
+      }
+    ]
+  },
+  "frisco": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin County"
+      },
+      {
+        "k": "Roof geometry",
+        "v": "Complex, cut-up"
+      },
+      {
+        "k": "Inspection method",
+        "v": "Usually drone"
+      }
+    ],
+    "weather": [
+      "Frisco takes the same active hail corridor as the rest of central Collin County, with spring systems arriving across relatively open ground to the north and west. Newer subdivisions with young landscaping offer very little windbreak, so full wind load reaches the roof."
+    ],
+    "sections": [
+      {
+        "h": "Complexity is the defining local factor",
+        "p": [
+          "Frisco homes tend toward large footprints with heavily articulated rooflines: multiple pitches, prominent front gables, dormers, turret elements, and a high count of valleys and penetrations. It is impressive architecture and it concentrates risk in specific places.",
+          "Every valley carries water from two planes at once. Every transition and every penetration is a detail that has to be built correctly rather than approximately. On a simple hip roof, a mediocre installer can produce an adequate result. On a Frisco roofline, the same installer produces something that leaks in year six, and the leak appears at a valley or a wall transition rather than in the field."
+        ]
+      },
+      {
+        "h": "Whole neighbourhoods reaching the same milestone",
+        "p": [
+          "Because so much of Frisco's housing stock was built inside a narrow window, entire subdivisions reach the end of their original roof's service life within a season or two of each other. That has two consequences worth planning around.",
+          "The first is that a hail event here produces an unusually concentrated wave of roofing activity, which draws volume crews and stretches quality thin. The second is that your neighbours' timelines are genuinely informative about yours in a way they are not in an older, mixed-age neighbourhood — though they still tell you nothing about whether your specific roof took impact."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Valley detailing on cut-up rooflines",
+        "d": "The highest-volume, highest-risk part of a Frisco roof, and the first place a rushed install shows."
+      },
+      {
+        "t": "Upper slopes never inspected",
+        "d": "Steep, high elevations that cannot be seen from anywhere on the property or safely walked."
+      },
+      {
+        "t": "High penetration counts",
+        "d": "More vents, stacks, and mechanical roof openings than an older home, each one a separate detail with its own service life."
+      },
+      {
+        "t": "Full wind exposure on new streets",
+        "d": "Young landscaping provides no shelter, so uplift reaches rakes and ridges at full strength."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My roof is steep and I cannot see most of it. How do you inspect it?",
+        "a": "Drone imagery. On the steep, cut-up rooflines common in Frisco, flying the roof gives a better and safer record than walking it does — every plane, valley, and penetration in one consistent set of frames."
+      },
+      {
+        "q": "My house is only about ten years old. Can it really need work?",
+        "a": "Yes. Hail does not care how recently the shingles went on, and installation shortcuts from the original build tend to surface somewhere between years six and twelve."
+      }
+    ]
+  },
+  "mckinney": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin County"
+      },
+      {
+        "k": "Two housing eras",
+        "v": "Historic and new-build"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Match and appearance"
+      }
+    ],
+    "weather": [
+      "McKinney sees the full Collin County storm exposure — spring hail and the straight-line wind that runs ahead of it — arriving over open ground from the north and west with little to slow it down."
+    ],
+    "sections": [
+      {
+        "h": "Two cities' worth of roofing, in one city",
+        "p": [
+          "The historic district and the older neighbourhoods around it hold homes with steep pitches, complicated intersections, and original architectural character. On those roofs, appearance is not a secondary consideration — a replacement that waterproofs perfectly but reads wrong from the street has failed at part of the job. Material choice, colour, and how ridges and valleys are finished all matter more here.",
+          "West of US 75, the newer subdivisions are conventional large-footprint suburban construction with the high valley and penetration counts typical of that era. Different roof, different priorities, same free inspection."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Historic rooflines detailed carelessly",
+        "d": "Complex intersections on older homes finished with a production-build approach that neither seals nor looks right."
+      },
+      {
+        "t": "Colour and profile mismatch",
+        "d": "On a character home, the wrong shingle undermines the elevation even when the installation is sound."
+      },
+      {
+        "t": "Aged flashing at masonry",
+        "d": "Older brick and stone chimneys where counter-flashing joints have opened with movement."
+      },
+      {
+        "t": "New-build ventilation shortfalls",
+        "d": "West-side subdivisions with exhaust on the ridge and intake blocked at the eaves."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you work on older homes in the historic district?",
+        "a": "Yes. Older rooflines need a different approach, particularly at flashing and transitions, and appearance carries weight it does not on a production build. Tell us about the house when you call."
+      }
+    ]
+  },
+  "arlington": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant County"
+      },
+      {
+        "k": "Build era",
+        "v": "1960s–1990s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Canopy and drainage"
+      }
+    ],
+    "weather": [
+      "Arlington sits between the two metro cores and catches storms tracking through from the west and southwest. In practice its most persistent roofing problem is not any single storm but the combination of shallow pitches and heavy mature tree cover, which keeps water and debris on the roof longer than either would alone."
+    ],
+    "sections": [
+      {
+        "h": "Shallow pitch plus heavy canopy",
+        "p": [
+          "Much of Arlington's residential core is single-story with low-slope hip roofing on established lots. Those roofs are safe and straightforward to walk, which makes for thorough inspections — and the long, shallow planes shed water slowly, so anything that impedes drainage has a disproportionate effect.",
+          "Add decades of mature canopy and you get the pattern we see repeatedly here: leaf and needle build-up in valleys and gutters, water backing up under shingle edges, and leaks that get diagnosed as shingle failure when they are actually drainage failure. In some years we find more debris-driven leaks in Arlington than storm damage."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Valleys holding debris and water",
+        "d": "Shallow pitch means material settles rather than washing clear, and stays wet against the surface."
+      },
+      {
+        "t": "Gutters overwhelmed by leaf load",
+        "d": "Overflow at the fascia, which rots the board the gutters are hanging from."
+      },
+      {
+        "t": "Limb contact wearing granules",
+        "d": "Overhanging branches abrading the same patch of shingle every time the wind moves."
+      },
+      {
+        "t": "Aged pipe boots on 1970s roofs",
+        "d": "Rubber collars long past their service life on roofs that otherwise still have some time left."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "The trees over my roof drop constantly. Is that a real problem?",
+        "a": "Yes. Debris in valleys holds water against the roof surface in exactly the spot carrying the most water, and it shortens shingle life there first. Clearing valleys and trimming overhang is cheap relative to what it prevents."
+      }
+    ]
+  },
+  "irving": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Build era",
+        "v": "1960s–1980s core"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Prior re-roof quality"
+      }
+    ],
+    "weather": [
+      "Irving sits in the middle of the Metroplex and takes broadly the same hail and wind exposure as the surrounding cities. Its distinguishing roofing factor is age: a large share of the housing stock is old enough to be on its second or third roof, and prior work quality is the single biggest unknown."
+    ],
+    "sections": [
+      {
+        "h": "What tear-off tends to reveal here",
+        "p": [
+          "On Irving's 1960s through 1980s housing, the interesting information is under the current roof rather than on it. We routinely find multiple existing layers, flashing that was reused across two replacements, and repairs made with a scrap of material and a great deal of sealant.",
+          "None of that is visible during an inspection, which is one reason we recommend tear-off over layovers and photograph the deck before covering it. It is also why a quote from somebody who has not looked at the age and history of the house is a guess.",
+          "Las Colinas and the newer areas run to larger, more architecturally varied rooflines and generally a shorter history — different inspection, same principle."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Multiple existing shingle layers",
+        "d": "Weight the structure was not designed for, and whatever went wrong under the first layer still sitting there."
+      },
+      {
+        "t": "Flashing carried through two re-roofs",
+        "d": "Corroded metal left in place because replacing it costs an hour."
+      },
+      {
+        "t": "Sealant repairs from a previous owner",
+        "d": "Cracked, shrunken beads over flashing joints that needed rebuilding."
+      },
+      {
+        "t": "Decking never properly fastened",
+        "d": "Original sheathing that was under-nailed and has been flexing ever since."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My roof has been replaced before. Does that change anything?",
+        "a": "It can, considerably. Previous work quality varies enormously and we sometimes find reused flashing or skipped details from an earlier re-roof. Whatever is up there gets photographed during tear-off before anything covers it."
+      }
+    ]
+  },
+  "garland": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Build era",
+        "v": "1960s–1980s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Aged penetrations"
+      }
+    ],
+    "weather": [
+      "Garland's position on the northeast side of the Metroplex puts it under systems that have already crossed the urban core, and wind damage along rakes and ridges is a frequent finding after a squall line. Summer heat then does the slower work on components that are already past their service life."
+    ],
+    "sections": [
+      {
+        "h": "Long eaves and simple roofs, aged components",
+        "p": [
+          "Ranch-style single-story homes on generous lots dominate much of Garland: shallow hip roofs, long uninterrupted runs at the eaves, and simple geometry that is quick to inspect and quick to replace. The shingles on these roofs are frequently in better shape than the small components attached to them.",
+          "Pipe boots are the recurring example. A rubber collar around a plumbing vent cracks after eight to twelve Texas summers, which on a Garland-era home means it has usually failed at least once whether or not anyone noticed. It is a small, cheap fix and it is the leading cause of the ceiling stains we get called out for here.",
+          "The long straight eaves are also why seamless gutter work pays off in this part of the county — a forty-foot run formed in one piece rather than four sections joined with sealant that will not survive many summers."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Cracked pipe boots",
+        "d": "The single most common leak source on Garland roofs, and invisible from the ground."
+      },
+      {
+        "t": "Sectional gutters failing at every joint",
+        "d": "Older systems where each ten-foot seam has been resealed more than once."
+      },
+      {
+        "t": "Wind damage along rakes and ridges",
+        "d": "Uplift on the exposed edges after systems that cross the metro before reaching here."
+      },
+      {
+        "t": "Original turbine ventilation with blocked intake",
+        "d": "Exhaust that cannot function because the soffits are packed with insulation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My roof looks fine but I have a leak. What is most likely?",
+        "a": "On a Garland-era home, a cracked pipe boot is the leading suspect by some distance. It is a small fix, and it is completely invisible from the ground."
+      }
+    ]
+  },
+  "richardson": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Build era",
+        "v": "1950s–1970s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Mature canopy"
+      }
+    ],
+    "weather": [
+      "Richardson takes the standard central-Metroplex hail and wind exposure, but the factor that shapes most of what we find here is the tree canopy. Decades of growth over low-slope roofs means the persistent problems are drainage and abrasion rather than any single storm."
+    ],
+    "sections": [
+      {
+        "h": "The canopy is the feature and the problem",
+        "p": [
+          "The mature trees across Richardson's core neighbourhoods are the reason people love the area and the reason its roofs work harder than they look. Low-slope ranch roofing under heavy cover collects continuously, and the debris settles in the valleys instead of washing clear.",
+          "Overhanging limbs do a second kind of damage that is easy to miss. Every time wind moves a branch across shingles it takes granules with it, and over years that produces a worn patch that has nothing to do with hail or age. It is usually on the shaded side, where nobody looks.",
+          "Neither problem needs a new roof. Both need somebody to clear the valleys, check the gutters are actually carrying what the roof sheds, and trim back what is overhead."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Valley debris on shallow pitches",
+        "d": "Material settles and stays wet in the part of the roof handling the most water."
+      },
+      {
+        "t": "Abrasion patches under limbs",
+        "d": "Localized granule loss with a distinct outline, frequently mistaken for storm damage."
+      },
+      {
+        "t": "Gutters carrying more than they were sized for",
+        "d": "Leaf load plus generous mid-century roof footprints."
+      },
+      {
+        "t": "Ageing flashing at masonry chimneys",
+        "d": "Common on housing of this era, and usually sealed rather than rebuilt at some point."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should I trim the trees over my roof?",
+        "a": "Where limbs actually touch or overhang the roof, yes. Abrasion in wind and constant debris load both shorten roof life, and trimming costs considerably less than either consequence."
+      }
+    ]
+  },
+  "denton": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton County"
+      },
+      {
+        "k": "Housing mix",
+        "v": "Historic, new, rental"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Open-terrain wind"
+      }
+    ],
+    "weather": [
+      "Denton sits at the northern edge of the Metroplex with relatively open terrain to the north and west. Storms arrive with less in the way, and wind is a consistently larger factor here than in the sheltered middle of the metro."
+    ],
+    "sections": [
+      {
+        "h": "Three kinds of property, three kinds of call",
+        "p": [
+          "Denton's roofing work splits fairly cleanly. The older neighbourhoods near the square hold century-old homes with steep pitches and complicated rooflines, where detailing and appearance both matter. The newer subdivisions on the city's edges are conventional suburban construction taking full wind exposure with little established landscaping.",
+          "Then there is the substantial rental inventory around the universities, which is its own category. Absentee owners, deferred maintenance, and tenants who report a leak only once it has been going for a while — by which point the insulation and decking have usually taken more damage than the roofing repair would suggest."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Uplift on exposed north and west slopes",
+        "d": "Open terrain means less to slow wind before it reaches the roof edge."
+      },
+      {
+        "t": "Long-running leaks on rental property",
+        "d": "Damage reported late, so the decking and insulation cost more than the roof repair."
+      },
+      {
+        "t": "Steep older rooflines finished poorly",
+        "d": "Complex intersections on historic homes handled with a production approach."
+      },
+      {
+        "t": "New-build detailing at valleys",
+        "d": "Recently built subdivisions where speed was the priority at the transitions."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you work with rental property owners?",
+        "a": "Yes. Give us the property address and access details, and we will inspect and provide a written estimate the same way we would for an owner-occupied home."
+      }
+    ]
+  },
+  "allen": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin County"
+      },
+      {
+        "k": "Build era",
+        "v": "1990s–2000s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Valley concentration"
+      }
+    ],
+    "weather": [
+      "Allen sits in the same active hail corridor as the rest of central Collin County, with spring systems arriving over open ground to the north. The steep, articulated front elevations common here take the most visible impact damage and are the hardest to assess from the ground."
+    ],
+    "sections": [
+      {
+        "h": "Why valleys decide Allen roofs",
+        "p": [
+          "The 1990s and 2000s construction that fills most of Allen produced two-story brick homes with steep front elevations and multiple gables. That geometry looks good and it funnels an enormous amount of water into a relatively small number of valleys near the front of the house.",
+          "A valley carries the runoff from two planes at once. On a cut-up roofline it handles volumes the field never sees, which is why valley construction — proper membrane underneath, correct layering, adequate width — is the line item most worth scrutinising on any estimate for a house of this type. It is also, reliably, where these roofs eventually leak when the work was rushed."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Valleys built without membrane",
+        "d": "The most loaded part of the roof, installed without the protection the manufacturer specifies."
+      },
+      {
+        "t": "Impact on upper front slopes",
+        "d": "Steep elevations that cannot be assessed from the driveway and are frequently skipped."
+      },
+      {
+        "t": "Whole-street roof age",
+        "d": "Similar-vintage neighbourhoods reaching replacement together, drawing volume crews."
+      },
+      {
+        "t": "Ridge and hip cap fractures",
+        "d": "The most exposed lines on an articulated roof, showing impact before the field does."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why do valleys matter so much?",
+        "a": "They carry water from two roof planes at once. On a cut-up roofline they handle enormous volume, and a valley built cheaply is where the roof will eventually leak regardless of how good the shingles are."
+      }
+    ]
+  },
+  "rockwall": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Rockwall County"
+      },
+      {
+        "k": "Local exposure",
+        "v": "Lake Ray Hubbard"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Sustained wind"
+      }
+    ],
+    "weather": [
+      "Open water changes the wind picture. Neighbourhoods facing Lake Ray Hubbard have no meaningful windbreak on their exposed side, so gusts reach the roof edge at full strength and sustained wind works the seal strips harder than it does a few streets inland."
+    ],
+    "sections": [
+      {
+        "h": "What lake exposure actually does to a roof",
+        "p": [
+          "Uplift pressure is highest at a roof's perimeter and corners, and lake-facing homes get more of it, more often. The result is a predictable damage pattern: broken seal strips along the windward rake, creased shingles that are still lying flat, lifted drip edge, and ridge caps that have worked loose.",
+          "Almost none of that is visible from the ground, and most of it involves nothing being missing from the roof. It is the reason wind assessment here means hand-testing seals on the exposed elevations rather than counting gaps.",
+          "Newer Rockwall construction also tends toward steeper, more cut-up rooflines, which combines the wind exposure with concentrated valley loading. Both need looking at, and the windward side is where an inspection should start."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Unsealed shingles on lake-facing slopes",
+        "d": "Bonds broken by sustained wind, with every shingle still in place."
+      },
+      {
+        "t": "Lifted drip edge and rake metal",
+        "d": "Edge components peeled back where uplift concentrates."
+      },
+      {
+        "t": "Loose ridge caps",
+        "d": "The highest and most exposed line on the roof."
+      },
+      {
+        "t": "Valley loading on newer rooflines",
+        "d": "Steep, articulated construction concentrating water into a few high-volume paths."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does lakefront exposure change what a roof needs?",
+        "a": "It raises the importance of correct nailing, properly sealed edges, and sound ridge and rake detailing — the parts of the roof wind attacks first. It also means the windward elevation is where any honest inspection starts."
+      }
+    ]
+  },
+  "mesquite": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Build era",
+        "v": "1960s–1980s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Edge wind damage"
+      }
+    ],
+    "weather": [
+      "Mesquite sits on the eastern side of the Metroplex, under systems that have already crossed the urban core. Wind damage along rakes and ridges is a consistent finding here after a squall line passes through."
+    ],
+    "issues": [
+      {
+        "t": "Creased shingles with nothing missing",
+        "d": "The damage type that gets recorded as “no damage” unless somebody hand-tests the seals."
+      },
+      {
+        "t": "Ridge cap displacement",
+        "d": "The most exposed line on a simple hip roof, and the first to move."
+      },
+      {
+        "t": "Aged boots and vent housings",
+        "d": "Components well past their service life on roofs that otherwise still have time."
+      },
+      {
+        "t": "Shared neighbourhood roof age",
+        "d": "Large tracts of similar-vintage homes reaching the end together."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How can I tell if wind damaged my roof when nothing is missing?",
+        "a": "Look for shingles that lift easily by hand and for a crease running across a shingle. Both mean the seal is broken even though the shingle is still exactly where it started."
+      }
+    ]
+  },
+  "carrollton": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Build era",
+        "v": "1970s–1990s"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Directional hail"
+      }
+    ],
+    "weather": [
+      "Carrollton's position on the northwest side of the urban core places it in a well-travelled storm path, and roofs here have seen their share of hail. Because impact is directional, which way your house faces matters more than most homeowners expect."
+    ],
+    "issues": [
+      {
+        "t": "One slope hit, the rest untouched",
+        "d": "Directional impact that a whole-roof assessment misses entirely."
+      },
+      {
+        "t": "Front-facing gables taking the visible damage",
+        "d": "Prominent two-story elevations catching the storm and hiding it from the ground."
+      },
+      {
+        "t": "Older sectional gutters",
+        "d": "Joints resealed repeatedly on 1980s systems that are past it."
+      },
+      {
+        "t": "Flashing sealed rather than rebuilt",
+        "d": "Common on roofs that have already been through one replacement."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does it matter which side of my roof faced the storm?",
+        "a": "Considerably. Hail and wind damage are directional, which is exactly why a proper inspection assesses each slope separately rather than giving the roof one overall grade."
+      }
+    ]
+  },
+  "lewisville": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton County"
+      },
+      {
+        "k": "Local exposure",
+        "v": "Lewisville Lake"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Windward uplift"
+      }
+    ],
+    "weather": [
+      "Proximity to Lewisville Lake means less windbreak on the exposed sides of many neighbourhoods. Roofs with open exposure toward the water routinely show more uplift damage along their windward edges than sheltered homes a few streets inland."
+    ],
+    "issues": [
+      {
+        "t": "Broken seals on water-facing slopes",
+        "d": "Sustained wind working the bonds on the exposed elevation."
+      },
+      {
+        "t": "Edge metal lifted at rakes",
+        "d": "Drip edge and rake trim peeled back, opening a path behind the gutter."
+      },
+      {
+        "t": "Mixed roof ages across one street",
+        "d": "Older sections and newer additions on different timelines within the same neighbourhood."
+      },
+      {
+        "t": "Fence and roof damage arriving together",
+        "d": "The same gusts that lift shingles push over privacy fencing."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does living near the lake affect my roof?",
+        "a": "It can. Open exposure means stronger sustained wind on the windward slopes, and that is where we tend to find broken seals and lifted edges first."
+      }
+    ]
+  },
+  "grand-prairie": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas County"
+      },
+      {
+        "k": "Footprint",
+        "v": "Long east–west spread"
+      },
+      {
+        "k": "Common local factor",
+        "v": "Localized storm hits"
+      }
+    ],
+    "weather": [
+      "Grand Prairie's unusually long east–west footprint means storm exposure genuinely differs across the city. A system that hits the western end can miss the eastern neighbourhoods entirely, which makes property-specific assessment more important here than in a compact suburb."
+    ],
+    "issues": [
+      {
+        "t": "Damage confined to one end of the city",
+        "d": "Regional storm reports are close to useless at this scale; the address is what matters."
+      },
+      {
+        "t": "Mixed-era housing on the same street",
+        "d": "1960s stock alongside newer southern development, on completely different timelines."
+      },
+      {
+        "t": "Aged flashing on older central neighbourhoods",
+        "d": "Roofs on their second replacement with original metal still in place."
+      },
+      {
+        "t": "Complex newer rooflines to the south",
+        "d": "Higher valley and penetration counts in the more recent subdivisions."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "The reports said hail in Grand Prairie but I saw none. Should I still get looked at?",
+        "a": "If you saw nothing at your address, the odds are lower — but hail swaths are narrow and this city is long. If you are unsure, the inspection is free."
+      }
+    ]
+  },
+  "rowlett": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Setting",
+        "v": "Lake Ray Hubbard peninsula"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1990s–2010s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Rowlett sits on a peninsula pushing into Lake Ray Hubbard, and that geography changes what the weather does to a roof. Open water on three sides means very little breaks the wind before it reaches a roofline, so uplift pressure at eaves, rakes and ridges runs higher here than a few miles inland.",
+      "The 2015 tornado that crossed Rowlett is still visible in the housing stock: whole streets were rebuilt or re-roofed inside a short window, which means a lot of roofs in this city are now reaching the same age at the same time."
+    ],
+    "sections": [
+      {
+        "h": "What lakeside exposure does to a roof",
+        "p": [
+          "Wind that has crossed open water arrives with less turbulence and more sustained force. On a roof that shows up first at the perimeter — starter courses at the eaves, rake edges, and the ridge cap. Those are the components that get skipped or under-fastened on a fast installation, and on this side of Rowlett that shortcut has a much shorter shelf life.",
+          "The second effect is debris. Sustained wind carries grit, and grit accelerates granule loss on the windward slopes. It is common here to inspect a roof and find the north-east elevation visibly older than the rest of the same roof."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Lifted perimeter shingles",
+        "d": "Eaves and rake edges take uplift first. We hand-test seals along the whole perimeter rather than only where damage is visible."
+      },
+      {
+        "t": "Uneven slope wear",
+        "d": "Lake-facing elevations frequently age faster than the rest of the roof, which changes whether repair or replacement makes sense."
+      },
+      {
+        "t": "Ridge cap fatigue",
+        "d": "The most exposed line on the roof, and the one most often reused rather than replaced during a re-roof."
+      },
+      {
+        "t": "Post-2015 roofs ageing together",
+        "d": "Many Rowlett roofs were installed in the same rebuild window and are now reaching the end of that run at once."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does living near Lake Ray Hubbard affect my roof?",
+        "a": "Yes, mostly through wind. Open water gives the wind a clear run at your roofline, so perimeter components — starter courses, rake edges, ridge caps — work harder here than a few miles inland. It does not change what material you should use; it changes how carefully the edges need to be fastened."
+      }
+    ]
+  },
+  "wylie": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid since the 2000s"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 2000s–2020s"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemised"
+      }
+    ],
+    "weather": [
+      "Wylie sits on the north-eastern edge of the Metroplex where spring storm cells are still organised and often still strengthening. Hail arrives here with less of the friction a cell picks up crossing the built-up centre of DFW, which is part of why Collin County claims run high year after year.",
+      "The other factor is age distribution. Most of Wylie's housing went up in a twenty-year building boom, so a very large share of the city's roofs were installed within a narrow window and are now hitting the back half of their service life simultaneously."
+    ],
+    "sections": [
+      {
+        "h": "Why so many Wylie roofs need attention at once",
+        "p": [
+          "When a city grows quickly, its roofs age as a cohort. Twenty-year architectural shingles installed across a subdivision in 2004 do not fail one house at a time — they arrive at the same condition in the same couple of seasons, usually accelerated by whichever hail event hit that block hardest.",
+          "That has two practical consequences. Roofing capacity in Wylie gets stretched after a significant storm, and the contractors who arrive to absorb that demand are not always local. Both are reasons to have a documented inspection on file before you need one."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Cohort-age shingles",
+        "d": "Whole streets installed in the same year, reaching the same condition together."
+      },
+      {
+        "t": "Bruising without leaks",
+        "d": "Hail impact that has broken the mat but not yet opened a path for water. It leaks later, when the storm link is harder to establish."
+      },
+      {
+        "t": "Storm-chaser workmanship",
+        "d": "Repairs done fast after a major event, often with reused flashing and no ventilation correction."
+      },
+      {
+        "t": "Undersized attic ventilation",
+        "d": "Common in fast-built subdivisions, and it shortens shingle life from underneath."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My whole street is getting new roofs. Do I need one?",
+        "a": "Not necessarily, and that is worth checking rather than assuming. Neighbouring roofs of the same age tell you it is reasonable to look, not that yours has failed. A free inspection gives you photographs of your actual roof so the decision is based on its condition rather than the crew already parked on the block."
+      }
+    ]
+  },
+  "cedar-hill": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Terrain",
+        "v": "Cedar Hill escarpment"
+      },
+      {
+        "k": "Tree cover",
+        "v": "Heavy, mature"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Cedar Hill sits on higher, more broken ground than most of the Metroplex, with the escarpment and the state park changing both wind behaviour and tree cover. Elevation and terrain give wind more to work with here, and gusts arrive less predictably than they do on the flat.",
+      "The bigger day-to-day factor is trees. Cedar Hill has substantially more mature canopy than the newer suburbs north of Dallas, and canopy over a roof means continuous organic debris in the valleys and gutters."
+    ],
+    "sections": [
+      {
+        "h": "What mature tree cover actually costs a roof",
+        "p": [
+          "Debris in a valley does not sit still — it holds moisture against the shingle surface long after the rain has stopped. That keeps the granule layer damp through the cycle that should be drying it, and it is the single most common reason a valley fails years before the field around it.",
+          "Overhanging limbs add mechanical wear on top of that. A branch that touches the roof in a 30 mph gust abrades granules in exactly one line, and that line is usually invisible from the ground. It is one of the clearest cases for drone documentation rather than a ladder and a guess."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "t": "Valleys holding debris",
+        "d": "Where the water concentrates and the leaves collect. Almost always the first part of a shaded roof to fail."
+      },
+      {
+        "t": "Abrasion from overhanging limbs",
+        "d": "A narrow line of granule loss, invisible from the ground and easy to miss from a ladder."
+      },
+      {
+        "t": "Gutters carrying organic load",
+        "d": "Heavy canopy fills troughs faster than guards are usually specified for."
+      },
+      {
+        "t": "Uneven weathering under shade",
+        "d": "Shaded slopes hold moisture longer and age differently from the sunlit side of the same roof."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should I cut back the trees over my roof?",
+        "a": "Trimming back anything that touches or overhangs the roof genuinely helps — it stops abrasion and reduces what lands in the valleys. You do not need to remove the tree. We will point out which limbs actually matter during the inspection, and that is arborist work rather than ours."
+      }
+    ]
+  },
+  "southlake": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Housing",
+        "v": "Large custom, 1990s onward"
+      },
+      {
+        "k": "Rooflines",
+        "v": "Complex, multi-plane"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, drone-documented"
+      }
+    ],
+    "weather": [
+      "Southlake's housing stock is dominated by large custom homes, and large custom homes mean complicated roofs. Multiple gables, turrets, dormers, and roof-to-wall transitions all look impressive from the street and all add valleys, flashing runs, and penetrations — the components that decide whether a roof reaches its rated life.",
+      "The practical consequence is that a Southlake roof has far more linear feet of detail work per square of shingle than a builder-grade roof in a newer subdivision. That is where the cost of a replacement actually sits, and it is where a cheap bid quietly cuts."
+    ],
+    "issues": [
+      {
+        "t": "Valley count",
+        "d": "Complex rooflines concentrate water into many more valleys than a simple gable roof, and each one is a potential failure point."
+      },
+      {
+        "t": "Roof-to-wall flashing",
+        "d": "Multi-storey elevations create long step-flashing runs. Reusing the old metal on a re-roof is common and shows up as leaks years later."
+      },
+      {
+        "t": "Dormer and turret detail",
+        "d": "Small planes with short runs shed water fast into whatever sits below them. They need proper cricketing, not sealant."
+      },
+      {
+        "t": "Mature tree cover",
+        "d": "Established lots hold canopy over the roof, which keeps valleys loaded with debris through the wet months."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why do estimates vary so much on a Southlake home?",
+        "a": "Because the detail work varies far more than the shingle count does. Two bids on the same roof can differ by a wide margin depending on whether the flashing, valley metal, and penetration boots are being replaced or reused. Ask any estimate you receive to itemise those specifically — that is where the difference usually is."
+      }
+    ]
+  },
+  "colleyville": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Lots",
+        "v": "Large, heavily wooded"
+      },
+      {
+        "k": "Housing",
+        "v": "Custom, 1980s–2010s"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemised"
+      }
+    ],
+    "weather": [
+      "Colleyville kept far more of its tree cover than most of the mid-cities did, and mature canopy over a roof changes the maintenance picture completely. Organic debris collects in valleys and behind chimneys, holds moisture against the shingle surface, and keeps that area damp through the part of the cycle that should be drying it out.",
+      "The second factor is lot size. Larger lots mean larger homes set further back, and a roof you cannot see properly from the kerb is a roof whose condition you are guessing at. Drone documentation earns its keep here more than almost anywhere in the Metroplex."
+    ],
+    "issues": [
+      {
+        "t": "Debris-loaded valleys",
+        "d": "Heavy canopy fills the valleys faster than most gutter-guard specifications assume."
+      },
+      {
+        "t": "Limb abrasion",
+        "d": "A branch touching the roof in a gust wears a narrow line of granules away, invisible from the ground."
+      },
+      {
+        "t": "Shaded slope decay",
+        "d": "North-facing planes under trees stay damp longer and age differently from the sunlit side of the same roof."
+      },
+      {
+        "t": "Long gutter runs",
+        "d": "Wide homes with deep eaves need more outlets than a standard installation provides, particularly under canopy."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I need gutter guards with this many trees?",
+        "a": "Sometimes, and sometimes twice-yearly clearing costs less over ten years. It depends on what is actually landing in them — fine needles behave very differently from broad leaves, and a guard that handles one can blind to the other. We will tell you which you have before recommending anything."
+      }
+    ]
+  },
+  "grapevine": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Setting",
+        "v": "Grapevine Lake, near DFW"
+      },
+      {
+        "k": "Housing",
+        "v": "Historic core plus 1980s–2010s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Grapevine spans a wider range of building eras than most of its neighbours — a historic downtown core with genuinely old structures, then decades of suburban build-out around it. Those need different conversations. A 1990s subdivision roof and a century-old structure near Main Street do not share a failure mode or a repair approach.",
+      "Grapevine Lake sits along the northern edge of the city, and the open water gives wind a clear run at rooflines on that side. Perimeter components — starter courses at the eaves, rake edges, ridge caps — work measurably harder there than they do a few miles inland."
+    ],
+    "issues": [
+      {
+        "t": "Mixed building eras",
+        "d": "Roof age and construction vary street to street, so a neighbour's experience tells you very little about yours."
+      },
+      {
+        "t": "Lake-side uplift",
+        "d": "Homes on the northern side take sustained wind off open water, and the roof perimeter shows it first."
+      },
+      {
+        "t": "Older penetration details",
+        "d": "On pre-1990s homes the vent boots and chimney flashing are frequently the original components."
+      },
+      {
+        "t": "Mature trees in the older core",
+        "d": "Established streets carry canopy that loads valleys and gutters through the year."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My house is near the historic district. Does that change anything?",
+        "a": "It can. Older structures often have roof decking, framing, and penetration details that no longer match modern practice, and occasionally there are appearance considerations worth checking before you choose a material. We will tell you what we find on the deck rather than assuming it matches a 1998 build."
+      }
+    ]
+  },
+  "keller": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Terrain",
+        "v": "Rolling, wooded"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1990s–2010s"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Keller built out across rolling, wooded ground, which produced a housing stock of substantial homes on lots that kept their trees. That combination gives you complex rooflines under canopy — the two conditions that most reliably shorten a roof's service life when the detail work is average.",
+      "Because most of Keller's homes went up inside a twenty-year window, a very large share of the city's roofs are now arriving at the back half of their service life together, usually accelerated by whichever hail event hit that neighbourhood hardest."
+    ],
+    "issues": [
+      {
+        "t": "Cohort ageing",
+        "d": "Streets built in the same years reach the same condition together, which is why the whole block gets re-roofed at once."
+      },
+      {
+        "t": "Valleys under canopy",
+        "d": "Rolling wooded lots keep debris on the roof, and valleys are where it settles."
+      },
+      {
+        "t": "Ventilation shortfalls",
+        "d": "Common in fast-built 1990s and 2000s subdivisions, and it shortens shingle life from underneath."
+      },
+      {
+        "t": "Reused flashing",
+        "d": "Frequently found on second-generation roofs where the original metal was left in place."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Everyone on my street is replacing their roof. Should I?",
+        "a": "It is a reasonable prompt to look, not proof that yours has failed. Same-age roofs on the same street will be close in condition, but exposure differs by orientation and tree cover. A free inspection gives you photographs of your actual roof so you are deciding on evidence rather than on the crew already parked on the block."
+      }
+    ]
+  },
+  "north-richland-hills": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1960s–1990s"
+      },
+      {
+        "k": "Trees",
+        "v": "Mature throughout"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "North Richland Hills is an established mid-cities suburb, which means most of its roofs are not on their first replacement — they are on their second or third. That matters more than it sounds. Each re-roof is an opportunity for the details to be done properly or skipped, and the shortcuts compound.",
+      "The most common thing we find on roofs of this vintage is original flashing and original vent boots underneath comparatively recent shingles. The shingle is doing its job; the twenty-year-old rubber collar around the plumbing vent is not."
+    ],
+    "issues": [
+      {
+        "t": "Original penetration boots",
+        "d": "Rubber collars harden and split long before the shingles around them wear out. A frequent leak source on second-generation roofs."
+      },
+      {
+        "t": "Reused chimney flashing",
+        "d": "Left in place across successive re-roofs, so the metal is older than the roof by decades."
+      },
+      {
+        "t": "Layered roofs",
+        "d": "Older properties sometimes carry more than one layer, which hides the deck condition and adds weight."
+      },
+      {
+        "t": "Mature canopy",
+        "d": "Established streets keep debris in valleys and gutters through the year."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do I know if my roof has more than one layer?",
+        "a": "You usually cannot tell from the ground, but it is visible at the eave edge and obvious once we lift a shingle. It matters because a second layer hides whatever the deck is doing underneath, and most manufacturers will not warrant an overlay. We check for it on every inspection and tell you either way."
+      }
+    ]
+  },
+  "bedford": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1970s–1990s"
+      },
+      {
+        "k": "Lots",
+        "v": "Compact, mature trees"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and written"
+      }
+    ],
+    "weather": [
+      "Bedford's housing is predominantly from the 1970s through the 1990s on compact lots with established trees, which puts most of its roofs into the second or third generation of shingles over original decking and original detail metal.",
+      "Compact lots also mean tight access. That sounds like a logistics detail, but it changes how carefully a crew can protect landscaping, stage materials, and sweep afterwards — and those are the things homeowners remember about a re-roof long after they have forgotten the shingle brand."
+    ],
+    "issues": [
+      {
+        "t": "Ageing detail metal",
+        "d": "Flashing and drip edge that predate the current shingles by a decade or more."
+      },
+      {
+        "t": "Undersized ventilation",
+        "d": "Common on homes of this era and a direct cause of shingles ageing from the deck side."
+      },
+      {
+        "t": "Tight-access staging",
+        "d": "Compact lots make protection and cleanup a genuine part of the job rather than an afterthought."
+      },
+      {
+        "t": "Valley debris under canopy",
+        "d": "Established trees keep organic load on the roof through most of the year."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Will you damage my landscaping on a small lot?",
+        "a": "That is a fair worry on Bedford lots, and it is why we plan staging before the tear-off rather than during it. Beds get covered, the container is placed where it will do least harm, and we run a magnet over the whole property afterwards. If access genuinely threatens something you value, we will tell you before we start."
+      }
+    ]
+  },
+  "euless": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Setting",
+        "v": "Adjacent to DFW Airport"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1970s–2000s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Euless sits directly against DFW Airport, on ground that is flat and comparatively open. Flat and open means wind arrives with less broken up in front of it, and the roof perimeter absorbs that first — eaves, rake edges, and ridge caps do more work here than the field of the roof does.",
+      "The housing spans several decades, so condition varies street to street. What tends to be consistent is that the detail metal is older than the shingles, because it was left in place at the last replacement."
+    ],
+    "issues": [
+      {
+        "t": "Perimeter uplift",
+        "d": "Open ground gives wind a clean run at the eaves and rakes, where starter courses are most often skipped."
+      },
+      {
+        "t": "Ridge cap fatigue",
+        "d": "The most exposed line on any roof, and routinely reused rather than replaced during a re-roof."
+      },
+      {
+        "t": "Original flashing",
+        "d": "Frequently decades older than the shingles above it on homes of this era."
+      },
+      {
+        "t": "Ventilation imbalance",
+        "d": "Exhaust without matching intake, which is common in the 1970s and 1980s stock here."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does being near the airport affect my roof?",
+        "a": "Not in the way people expect — aircraft are not the issue. What matters is that the ground around the airport is flat and open, so wind reaches your roofline with less in front of it to break it up. That shows up as perimeter wear rather than damage in the middle of a slope."
+      }
+    ]
+  },
+  "hurst": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1960s–1980s"
+      },
+      {
+        "k": "Trees",
+        "v": "Mature, established streets"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Hurst is one of the older mid-cities, and its roofs reflect that. Most are well into their second or third generation of shingles, sitting on decking that has been through multiple tear-offs, under trees that have had sixty years to grow over them.",
+      "Decking condition is the variable that most often changes a Hurst estimate once work starts. It cannot be assessed from a photograph, and any contractor promising you a final figure before the old roof comes off is guessing at it."
+    ],
+    "issues": [
+      {
+        "t": "Deck condition under old layers",
+        "d": "Repeated fastening and past leaks leave sheathing that only reveals itself at tear-off."
+      },
+      {
+        "t": "Original vent boots",
+        "d": "Hardened rubber collars are among the most common leak sources on roofs of this age."
+      },
+      {
+        "t": "Heavy canopy load",
+        "d": "Sixty-year-old trees put continuous debris into valleys and gutters."
+      },
+      {
+        "t": "Ventilation added piecemeal",
+        "d": "Vents fitted over the years without a balanced intake path underneath."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why can nobody give me a final price before starting?",
+        "a": "Because nobody can see your decking until the old roof is off. An honest estimate prices the roof as inspected and states clearly what deck replacement costs per sheet if it is needed. Anyone quoting a guaranteed final figure on a sixty-year-old Hurst roof is either padding it or planning to have the conversation later."
+      }
+    ]
+  },
+  "mansfield": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Tarrant"
+      },
+      {
+        "k": "Terrain",
+        "v": "Rolling, south Tarrant"
+      },
+      {
+        "k": "Housing",
+        "v": "1990s through 2020s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Mansfield grew fast across rolling ground on the southern edge of Tarrant County, and it kept growing later than most of its neighbours. That leaves a genuinely mixed stock: 1990s subdivisions now on their second roof sitting alongside builds barely out of warranty.",
+      "Southern Tarrant County also sits where spring storm cells are often still organised as they cross. Hail here arrives with less of the disruption a cell picks up crossing the built-up centre of the Metroplex."
+    ],
+    "issues": [
+      {
+        "t": "Two roof generations at once",
+        "d": "Neighbouring streets can be twenty years apart in roof age, so local word of mouth is unreliable."
+      },
+      {
+        "t": "Hail bruising without leaks",
+        "d": "Impact that breaks the mat but does not open a path for water. It surfaces later, when the storm link is harder to make."
+      },
+      {
+        "t": "Builder-grade ventilation",
+        "d": "Common across the 1990s and 2000s stock and a direct cause of premature shingle ageing."
+      },
+      {
+        "t": "Storm-chaser repairs",
+        "d": "Fast work after major events, usually with reused flashing and no ventilation correction."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My roof is only eight years old. Can it already have hail damage?",
+        "a": "Yes, and age is not much protection. A new shingle resists impact slightly better than a brittle old one, but a large enough stone will bruise the mat regardless. What age does change is that damage on a young roof is much easier to miss, because nothing else on the roof looks wrong."
+      }
+    ]
+  },
+  "desoto": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Setting",
+        "v": "Southern Dallas County"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1970s–2000s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "DeSoto is an established southern Dallas County suburb on gently rolling ground, with a housing stock mostly built between the 1970s and the early 2000s. Roofs here are typically on their second generation, which means the shingles are newer than the flashing underneath them.",
+      "Southern Dallas County also sits on some of the most active expansive clay in the region. That matters to a roofer more than it sounds: where roof runoff lands changes how much that clay moves, and foundation movement eventually shows up as separation at roof-to-wall junctions."
+    ],
+    "issues": [
+      {
+        "t": "Discharge against the slab",
+        "d": "Downspouts ending at the foundation put water exactly where expansive clay does the most damage."
+      },
+      {
+        "t": "Second-generation flashing",
+        "d": "Original metal left in place under newer shingles, which is where leaks usually start."
+      },
+      {
+        "t": "Roof-to-wall separation",
+        "d": "Foundation movement opens junctions that were sound when the house was built."
+      },
+      {
+        "t": "Ventilation shortfalls",
+        "d": "Typical of the era and a direct cause of shingles ageing from underneath."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can gutters really affect my foundation?",
+        "a": "In this soil, yes. Expansive clay swells and shrinks with moisture, and concentrating roof runoff at one corner of the slab creates exactly the uneven moisture that causes movement. Extending downspouts well clear of the foundation is one of the cheapest things you can do for a DeSoto home."
+      }
+    ]
+  },
+  "duncanville": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1960s–1980s"
+      },
+      {
+        "k": "Trees",
+        "v": "Mature, well established"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and written"
+      }
+    ],
+    "weather": [
+      "Duncanville is one of the older inner-ring suburbs, and its roofs carry the history that goes with that: multiple replacements, decking that has been fastened and re-fastened, and detail components that in many cases are original to the house.",
+      "The tree cover is the other defining factor. Sixty years of growth over compact lots means canopy sitting directly above roof planes, and that keeps organic debris in the valleys through most of the year."
+    ],
+    "issues": [
+      {
+        "t": "Original detail components",
+        "d": "Flashing, drip edge and vent boots that predate the current shingles by decades."
+      },
+      {
+        "t": "Deck fatigue",
+        "d": "Sheathing that has taken several rounds of nails and occasionally past leaks."
+      },
+      {
+        "t": "Constant valley load",
+        "d": "Mature canopy keeps debris on the roof year-round, and valleys carry the most water."
+      },
+      {
+        "t": "Overlaid roofs",
+        "d": "Some properties carry more than one layer, which conceals the deck and adds weight."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth repairing a roof this old, or should I replace it?",
+        "a": "That depends entirely on what the deck and the detail work look like, not on the age alone. A sound sixty-year-old structure with a fifteen-year-old roof and a failed vent boot needs a repair. The same house with soft decking and reused flashing needs a replacement. We will show you photographs of both and say which one this is."
+      }
+    ]
+  },
+  "lancaster": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Setting",
+        "v": "Open, southern Dallas County"
+      },
+      {
+        "k": "Housing",
+        "v": "Historic core plus newer growth"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Lancaster combines a genuinely historic core with newer development spreading around it, on ground that is flat and comparatively open. Open ground means wind arrives with little in front of it to break it up, and the roof perimeter carries that load.",
+      "Southern Dallas County also sees a high share of the region's spring hail. Cells crossing this area are frequently still organised, and the damage tends to be directional — which is why a single verdict on a whole roof tells you almost nothing."
+    ],
+    "issues": [
+      {
+        "t": "Perimeter uplift",
+        "d": "Open exposure puts sustained pressure on eaves, rake edges, and ridge lines."
+      },
+      {
+        "t": "Directional hail damage",
+        "d": "One elevation can be heavily bruised while the opposite slope is untouched."
+      },
+      {
+        "t": "Mixed building eras",
+        "d": "Historic structures and recent builds need genuinely different approaches."
+      },
+      {
+        "t": "Runoff into expansive clay",
+        "d": "Where the water lands matters here as much as whether the roof sheds it."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why does hail damage only show on one side of my roof?",
+        "a": "Because hail falls at an angle, driven by the wind in the cell. The elevation facing into that wind takes the impacts; the opposite slope can be almost untouched. That is why we record findings slope by slope rather than giving a roof one overall grade."
+      }
+    ]
+  },
+  "sachse": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Dallas"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid through the 2000s"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1998–2015"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Sachse went from a small town to a built-out suburb inside about fifteen years, sitting where Dallas, Collin, and Rockwall counties meet. That produced a housing stock that is unusually uniform in age — and roofs that are consequently arriving at the end of their service life together.",
+      "Its position on the north-eastern side of the Metroplex also puts it in the path of spring cells that are still organised when they arrive. Collin and Rockwall counties consistently run high for hail, and Sachse sits on that line."
+    ],
+    "issues": [
+      {
+        "t": "Uniform roof age",
+        "d": "Whole neighbourhoods installed within a few years of each other, reaching the same condition together."
+      },
+      {
+        "t": "Builder-grade ventilation",
+        "d": "Standard for the build era and a direct cause of shingles ageing from the deck side."
+      },
+      {
+        "t": "Hail bruising without leaks",
+        "d": "Broken mat that has not yet opened a water path. It leaks later, when the storm link is weaker."
+      },
+      {
+        "t": "Original penetration boots",
+        "d": "Approaching the end of their life on homes now fifteen to twenty-five years old."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My roof has never leaked. Does it still need looking at?",
+        "a": "A roof that has not leaked yet is not the same as a roof that is sound. Most of what shortens a roof's life — bruised mat, hardened vent collars, lifted ridge caps — causes no interior symptom at all until it suddenly does. An inspection costs nothing and gives you a dated record either way."
+      }
+    ]
+  },
+  "prosper": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Housing",
+        "v": "Predominantly post-2010"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open, little mature canopy"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, drone-documented"
+      }
+    ],
+    "weather": [
+      "Prosper built out across open prairie, and the trees have not caught up with the houses. Very little breaks the wind before it reaches a roofline here, which puts sustained uplift on the perimeter — starter courses, rake edges, ridge caps — rather than on the field of the roof.",
+      "The homes themselves are large, which means large roofs with a lot of plane changes. More planes means more valleys and more flashing, and on a young roof those details are the first thing to reveal whether the original installation was careful or quick."
+    ],
+    "issues": [
+      {
+        "t": "Open-prairie uplift",
+        "d": "Nothing upwind to slow the gusts, so eaves and ridges carry the load."
+      },
+      {
+        "t": "Warranty-era workmanship",
+        "d": "Homes still young enough that original build shortcuts are only now surfacing."
+      },
+      {
+        "t": "Large roof area",
+        "d": "Big footprints shed a great deal of water into comparatively few valleys and outlets."
+      },
+      {
+        "t": "Undersized gutters",
+        "d": "Standard sizing struggles with the roof areas common on Prosper homes."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My home is under ten years old. Why would it need roof work?",
+        "a": "Age tells you about wear, not about how well it was built. On homes this young the issues we find are almost always installation details — flashing that was reused, ventilation that was never balanced, valleys cut short — plus whatever hail has done since. Those do not wait for the shingles to wear out."
+      }
+    ]
+  },
+  "celina": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Growth",
+        "v": "Among the fastest in Texas"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open prairie, high wind"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Celina is on the far northern edge of the Metroplex where the ground is open and the development is new. Storm cells arriving from the north-west reach this area before they have crossed anything that breaks them up, and the roofs here have almost no windbreak in front of them.",
+      "Because so much of the housing is recent, most roofs are still on their original installation. That makes Celina one of the places where a documented baseline inspection is worth the most — you establish the roof's condition while it is young, so a later claim has something to compare against."
+    ],
+    "issues": [
+      {
+        "t": "Unobstructed wind",
+        "d": "New development on open prairie leaves rooflines fully exposed to sustained gusts."
+      },
+      {
+        "t": "Original-installation defects",
+        "d": "On roofs this young, what fails is workmanship rather than wear."
+      },
+      {
+        "t": "No documented baseline",
+        "d": "New homes rarely have a dated condition record, which weakens a later storm claim."
+      },
+      {
+        "t": "Ventilation balance",
+        "d": "Exhaust fitted without matching intake is common in fast build-out."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is a baseline inspection and do I need one?",
+        "a": "It is a dated photographic record of your roof's condition before anything happens to it. On a new Celina roof it costs you nothing and gives you something concrete to compare against after the first serious hail event, when the question becomes what was already there and what the storm did."
+      }
+    ]
+  },
+  "murphy": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Housing",
+        "v": "Mostly 1998–2012"
+      },
+      {
+        "k": "Homes",
+        "v": "Large, multi-plane roofs"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Murphy built out almost entirely inside a fifteen-year window, which makes it one of the clearest examples in Collin County of roofs ageing as a cohort. Whole streets were shingled within a couple of seasons of each other and are now arriving at the same point together.",
+      "The homes are large with complicated rooflines, so the cost and the risk both sit in the detail work rather than in the shingle field. Valleys, flashing runs, and penetration count are what separate a roof that reaches its rated life from one that does not."
+    ],
+    "issues": [
+      {
+        "t": "Cohort-age roofs",
+        "d": "Neighbourhoods installed together, reaching the end of their run together."
+      },
+      {
+        "t": "Detail-heavy rooflines",
+        "d": "Multiple planes concentrate water into valleys and multiply flashing runs."
+      },
+      {
+        "t": "Reused flashing on re-roofs",
+        "d": "Common on second-generation roofs and a frequent source of later leaks."
+      },
+      {
+        "t": "Hail bruising",
+        "d": "Collin County runs consistently high for hail, and bruised mat rarely leaks straight away."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long should a roof last in Murphy?",
+        "a": "Less than the number printed on the wrapper, usually. A rated thirty-year shingle in North Texas is realistically doing well to reach the low twenties, and hail can end that early regardless of how it was installed. What most changes the outcome is ventilation and the quality of the detail work, not the shingle grade."
+      }
+    ]
+  },
+  "anna": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Setting",
+        "v": "Far north Collin, open ground"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely post-2005"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and itemised"
+      }
+    ],
+    "weather": [
+      "Anna sits at the northern end of Collin County where the Metroplex thins out into open country. Roofs here take weather that has crossed very little to slow it down, and that shows up as perimeter wear rather than damage in the middle of a slope.",
+      "Development has come in waves rather than a single build-out, so roof age varies more here than in the uniformly-built suburbs further south. That is worth knowing, because a neighbour's roof is a poor proxy for yours."
+    ],
+    "issues": [
+      {
+        "t": "Exposed perimeter",
+        "d": "Open country north of the Metroplex leaves eaves and ridge lines carrying sustained wind."
+      },
+      {
+        "t": "Mixed build waves",
+        "d": "Roof age varies street to street rather than moving as one cohort."
+      },
+      {
+        "t": "Hail on the northern approach",
+        "d": "Cells reaching this area are frequently still organised and still strengthening."
+      },
+      {
+        "t": "Builder ventilation",
+        "d": "Intake often falls short of exhaust on fast-built stock."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you actually come out to Anna?",
+        "a": "Yes. Anna is inside our normal service area and we work throughout northern Collin County. Distance affects scheduling rather than whether we come — call with your address and we will tell you honestly when we can be there."
+      }
+    ]
+  },
+  "melissa": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid, ongoing"
+      },
+      {
+        "k": "Housing",
+        "v": "Predominantly recent"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Melissa has grown quickly along the northern Collin County corridor, and its roofs are correspondingly young. On stock this new, the question is almost never whether the shingles have worn out — it is whether the installation details were done properly and what hail has done since.",
+      "Northern Collin County reliably sees some of the most active hail in the region. Cells that reach this line are often still organised, and the damage they leave frequently does not announce itself for a year or more."
+    ],
+    "issues": [
+      {
+        "t": "Young roofs, original details",
+        "d": "Flashing, boots, and ventilation are all still whatever the builder specified."
+      },
+      {
+        "t": "Delayed hail symptoms",
+        "d": "Bruised mat that leaks a year later, when the storm connection is much harder to establish."
+      },
+      {
+        "t": "Open exposure",
+        "d": "Limited mature tree cover leaves rooflines taking wind directly."
+      },
+      {
+        "t": "No condition history",
+        "d": "Newer homes rarely have a dated record to compare a claim against."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should I wait for a leak before calling anyone?",
+        "a": "No, and hail is the reason. A bruised shingle can take a year or more to open a water path, and by then the link to the storm that caused it is much harder to establish. Getting it documented while it is visible costs nothing and is worth considerably more than waiting."
+      }
+    ]
+  },
+  "princeton": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid recent expansion"
+      },
+      {
+        "k": "Housing",
+        "v": "Mixed, mostly newer"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, written"
+      }
+    ],
+    "weather": [
+      "Princeton has expanded quickly along the eastern side of Collin County, adding a great deal of new housing to a much older core. The result is a genuine mix — recent subdivisions with original roofs alongside older properties several generations in.",
+      "Eastern Collin County sits squarely in the corridor that spring cells follow across North Texas, and it takes hail as often as anywhere in the region."
+    ],
+    "issues": [
+      {
+        "t": "Two housing stocks",
+        "d": "New subdivisions and much older properties need genuinely different assessments."
+      },
+      {
+        "t": "High hail frequency",
+        "d": "Eastern Collin County is in the main spring storm corridor."
+      },
+      {
+        "t": "Original builder details",
+        "d": "On newer stock the flashing and ventilation are still as specified, not as needed."
+      },
+      {
+        "t": "Ageing decking on older homes",
+        "d": "Multiple past replacements leave sheathing that only shows itself at tear-off."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you charge for the inspection if I do not use you?",
+        "a": "No. The inspection is free either way, and you keep the photographs whether or not you hire us. If the honest answer is that your roof does not need work yet, that is what you will be told."
+      }
+    ]
+  },
+  "fairview": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Collin"
+      },
+      {
+        "k": "Lots",
+        "v": "Large, semi-rural, wooded"
+      },
+      {
+        "k": "Housing",
+        "v": "Custom, varied eras"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, drone-documented"
+      }
+    ],
+    "weather": [
+      "Fairview kept large lots and heavy tree cover as Collin County built up around it, which produces a very different roofing picture from the subdivisions nearby. Custom homes on wooded acreage mean complex rooflines under canopy — the combination that most reliably shortens a roof's life when the detail work is only average.",
+      "Large lots also mean the roof is set well back from the road. On a Fairview home you are unlikely to have any real idea what the far slopes look like without someone documenting them properly."
+    ],
+    "issues": [
+      {
+        "t": "Complex custom rooflines",
+        "d": "More planes, more valleys, more flashing than any production home nearby."
+      },
+      {
+        "t": "Heavy canopy",
+        "d": "Mature trees over the roof keep valleys loaded and shaded slopes damp."
+      },
+      {
+        "t": "Unobserved elevations",
+        "d": "Set-back homes hide most of their roof area from any vantage point on the property."
+      },
+      {
+        "t": "Long gutter runs",
+        "d": "Wide custom homes need more outlets than a standard installation provides."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why use a drone rather than just a ladder?",
+        "a": "On a large custom home a ladder shows you the edges and very little else. A drone gives you every plane, every valley, and every penetration in one set of dated photographs — including the slopes you could not otherwise see at all. That is the difference between an inspection and a look."
+      }
+    ]
+  },
+  "flower-mound": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton"
+      },
+      {
+        "k": "Terrain",
+        "v": "Rolling, wooded"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1990s–2010s"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Flower Mound sits on rolling ground near Grapevine Lake with substantial tree cover, and its housing runs to larger homes on generous lots. That gives you complex rooflines under canopy, and a lot more linear feet of valley and flashing per roof than a simpler subdivision.",
+      "Proximity to open water on the southern side adds wind exposure that the tree cover does not entirely offset. The perimeter of the roof does more work here than the middle of it."
+    ],
+    "issues": [
+      {
+        "t": "Valley concentration",
+        "d": "Rolling terrain and complex rooflines put a great deal of water into relatively few valleys."
+      },
+      {
+        "t": "Canopy debris",
+        "d": "Mature trees keep organic load in valleys and gutters through most of the year."
+      },
+      {
+        "t": "Lake-side uplift",
+        "d": "Open water to the south gives wind a clear run at southern elevations."
+      },
+      {
+        "t": "Cohort roof age",
+        "d": "Much of the stock was built inside two decades and is ageing together."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does tree cover protect my roof from hail?",
+        "a": "Slightly, and it costs you elsewhere. Canopy can intercept some impacts, but it also keeps valleys loaded with debris, holds moisture on shaded slopes, and drops limbs that abrade granules. On balance a heavily shaded roof needs more maintenance, not less."
+      }
+    ]
+  },
+  "the-colony": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton"
+      },
+      {
+        "k": "Setting",
+        "v": "Lewisville Lake shoreline"
+      },
+      {
+        "k": "Housing",
+        "v": "1980s through 2010s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "The Colony runs along the eastern shore of Lewisville Lake, and open water changes what the wind does to a roof. Gusts crossing the lake arrive with less turbulence and more sustained force, and that pressure concentrates on the roof perimeter rather than the field.",
+      "The housing spans several decades, so condition varies considerably street to street. What is consistent is that lake-facing elevations age faster than the sheltered side of the same roof."
+    ],
+    "issues": [
+      {
+        "t": "Sustained lake wind",
+        "d": "Open water gives wind a clear run, and the eaves and rake edges take it first."
+      },
+      {
+        "t": "Uneven slope ageing",
+        "d": "Lake-facing planes routinely look older than the rest of the same roof."
+      },
+      {
+        "t": "Ridge cap lifting",
+        "d": "The most exposed line on the roof and the most often reused during a re-roof."
+      },
+      {
+        "t": "Mixed build eras",
+        "d": "Roof age varies widely across neighbouring streets."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "One side of my roof looks much worse. Is that normal here?",
+        "a": "On a lakeside property, yes. The elevation facing the water takes sustained wind and wind-carried grit that the sheltered side never sees, so it ages faster. Whether that means replacing one slope or the whole roof depends on how far apart they actually are, which is what the inspection establishes."
+      }
+    ]
+  },
+  "little-elm": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton"
+      },
+      {
+        "k": "Setting",
+        "v": "Lewisville Lake peninsulas"
+      },
+      {
+        "k": "Housing",
+        "v": "Predominantly post-2000"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Little Elm is built across peninsulas reaching into Lewisville Lake, which means a very large share of its homes have open water on more than one side. That is about as exposed as residential roofing gets in North Texas.",
+      "Almost all of the housing is post-2000, so these are original or first-replacement roofs taking sustained wind loading that most inland stock never sees. The perimeter components are where that shows."
+    ],
+    "issues": [
+      {
+        "t": "Multi-directional exposure",
+        "d": "Peninsula lots take wind from more than one quarter, so no elevation is truly sheltered."
+      },
+      {
+        "t": "Starter course failures",
+        "d": "Eaves and rakes carry uplift first, and starter strips are the most commonly skipped component."
+      },
+      {
+        "t": "Wind-driven grit",
+        "d": "Sustained wind off open water accelerates granule loss on exposed slopes."
+      },
+      {
+        "t": "Young roofs, original details",
+        "d": "Flashing and ventilation are still whatever the builder specified."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is there a shingle that handles lake wind better?",
+        "a": "Wind rating matters less than fastening does. Most architectural shingles carry a rating well above what they will see here; what fails is the perimeter, where the starter course, the nailing pattern, and the rake detail decide whether the wind gets underneath. Specify those properly and the shingle grade becomes a secondary question."
+      }
+    ]
+  },
+  "highland-village": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton"
+      },
+      {
+        "k": "Terrain",
+        "v": "Hilly, heavily wooded"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely 1980s–2000s"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Highland Village sits on hilly, wooded ground beside Lewisville Lake, and it kept far more of its tree cover than most of Denton County. Canopy directly over roof planes keeps valleys loaded and shaded slopes damp long after the rain has stopped.",
+      "The terrain also means roof planes at genuinely different orientations on the same house, so weathering varies more within a single roof here than it does on flatter ground."
+    ],
+    "issues": [
+      {
+        "t": "Debris-loaded valleys",
+        "d": "Mature canopy keeps organic material on the roof through most of the year."
+      },
+      {
+        "t": "Shaded slope decay",
+        "d": "Planes that never dry out age differently from the sunlit side of the same roof."
+      },
+      {
+        "t": "Limb abrasion",
+        "d": "Branches touching the roof wear narrow lines of granules away, invisible from below."
+      },
+      {
+        "t": "Established-era detail metal",
+        "d": "Flashing and boots often older than the shingles above them."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Moss and dark streaks on my north slope — is that a problem?",
+        "a": "Dark streaking is usually algae and largely cosmetic. Actual moss holds moisture against the shingle and does cause damage over time. Either way, aggressive pressure washing will do more harm than the growth will — it strips granules. We will tell you which you have and what is genuinely worth doing."
+      }
+    ]
+  },
+  "argyle": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Denton"
+      },
+      {
+        "k": "Lots",
+        "v": "Large, semi-rural"
+      },
+      {
+        "k": "Housing",
+        "v": "Custom, wide age range"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Argyle has stayed semi-rural while Denton County developed around it, which means large lots, custom homes, and a housing stock spanning a much wider range of eras than the subdivisions nearby. Roof assessments here vary far more house to house than they do in a production neighbourhood.",
+      "Larger lots also mean more open exposure between properties and more mature trees on them — both at once. Wind reaches these roofs with little in front of it, and canopy keeps debris on them afterwards."
+    ],
+    "issues": [
+      {
+        "t": "Wide era range",
+        "d": "Neighbouring properties can be decades apart in construction and roof condition."
+      },
+      {
+        "t": "Outbuildings",
+        "d": "Barns, shops, and covered structures are frequently left out of a roof assessment entirely."
+      },
+      {
+        "t": "Open exposure with canopy",
+        "d": "Wind arrives largely unobstructed, and trees keep debris on the roof afterwards."
+      },
+      {
+        "t": "Long runs of gutter",
+        "d": "Wide custom homes and outbuildings need more outlets than standard sizing provides."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you look at the barn and the shop as well?",
+        "a": "Yes, and on an Argyle property they are worth including. Outbuildings usually have simpler roofs but they are also the ones nobody inspects, so a failure there tends to be well advanced before anyone notices. We will document them alongside the house."
+      }
+    ]
+  },
+  "waxahachie": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Ellis"
+      },
+      {
+        "k": "Character",
+        "v": "Historic county seat"
+      },
+      {
+        "k": "Housing",
+        "v": "Victorian core plus modern growth"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Waxahachie has one of the most significant collections of Victorian-era architecture in Texas around its courthouse square, alongside decades of ordinary suburban growth. Those are two entirely different roofing conversations, and treating them the same is how historic properties get damaged.",
+      "Ellis County also sits in the southern approach corridor for spring cells crossing the Metroplex, and it takes hail regularly. On steep-pitched historic roofs that damage is genuinely difficult to assess from the ground."
+    ],
+    "issues": [
+      {
+        "t": "Steep historic pitches",
+        "d": "Victorian-era roofs are often too steep to walk safely, which is precisely why they go uninspected."
+      },
+      {
+        "t": "Complex historic detailing",
+        "d": "Turrets, dormers and decorative work multiply flashing runs and valleys."
+      },
+      {
+        "t": "Two building stocks",
+        "d": "A 1890s structure and a 2015 build share nothing but a postcode."
+      },
+      {
+        "t": "Regular hail exposure",
+        "d": "Ellis County is in the southern spring storm corridor."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "My house is historic. Will you work on it?",
+        "a": "Yes, with the caveat that we will tell you plainly if something is outside what we should be doing. Steep Victorian pitches, original slate or metal, and decorative detailing sometimes need a specialist, and saying so is better than learning it halfway through. Drone documentation lets us assess it properly either way."
+      }
+    ]
+  },
+  "midlothian": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Ellis"
+      },
+      {
+        "k": "Setting",
+        "v": "Open prairie, industrial corridor"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid and continuing"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Midlothian sits on open prairie south-west of Dallas, and it has grown quickly while keeping very little windbreak between properties. Roofs here take sustained wind with almost nothing in front of them, which concentrates the load on the perimeter.",
+      "The area is also on the southern storm approach, where cells crossing from the south-west are frequently still organised. That combination — open exposure and regular hail — is hard on shingles."
+    ],
+    "issues": [
+      {
+        "t": "Unbroken wind exposure",
+        "d": "Open prairie development leaves eaves, rakes and ridges taking the full load."
+      },
+      {
+        "t": "Airborne grit",
+        "d": "Sustained wind across open ground accelerates granule loss on windward slopes."
+      },
+      {
+        "t": "Regular hail",
+        "d": "The southern approach corridor sees cells that have not yet broken up."
+      },
+      {
+        "t": "New-build details",
+        "d": "On recent stock the failures are installation shortcuts rather than wear."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does all the dust out here affect my roof?",
+        "a": "It contributes. Wind-carried grit works on the granule layer the same way very fine sandpaper would, and on windward slopes that shows up as uneven wear well before the roof is old. It is one of the reasons exposure matters as much as age in this part of Ellis County."
+      }
+    ]
+  },
+  "red-oak": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Ellis"
+      },
+      {
+        "k": "Setting",
+        "v": "Open, I-35E corridor"
+      },
+      {
+        "k": "Housing",
+        "v": "Mixed, growing"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Red Oak sits along the I-35E corridor south of Dallas on largely open ground, with a housing stock that mixes older properties and steady recent growth. Roof age varies considerably street to street, so local word of mouth is a poor guide.",
+      "Like the rest of Ellis County it sits in the southern storm approach and takes hail regularly, often from cells that are still organised when they arrive."
+    ],
+    "issues": [
+      {
+        "t": "Open exposure",
+        "d": "Limited windbreak leaves the roof perimeter carrying sustained gusts."
+      },
+      {
+        "t": "Mixed roof ages",
+        "d": "Older properties and recent builds sit side by side with very different needs."
+      },
+      {
+        "t": "Hail frequency",
+        "d": "Southern Ellis County takes spring cells regularly."
+      },
+      {
+        "t": "Runoff management",
+        "d": "Expansive clay makes where the water lands as important as whether the roof sheds it."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How often should I have the roof looked at out here?",
+        "a": "Once a year is sensible, and after any hail event that you noticed. In this part of Ellis County the storms do more to shorten a roof's life than time does, so the useful rhythm is event-driven rather than calendar-driven."
+      }
+    ]
+  },
+  "ennis": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Ellis"
+      },
+      {
+        "k": "Character",
+        "v": "Historic town, rail heritage"
+      },
+      {
+        "k": "Housing",
+        "v": "Older core plus newer edges"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and written"
+      }
+    ],
+    "weather": [
+      "Ennis has a genuinely old core with a great deal of pre-war housing, surrounded by more recent development. Older properties here frequently carry roofs several generations deep over original decking, and the decking is the variable nobody can price from the ground.",
+      "The surrounding prairie leaves little to break the wind, and Ellis County takes spring hail as reliably as anywhere south of Dallas."
+    ],
+    "issues": [
+      {
+        "t": "Multi-generation roofs",
+        "d": "Older properties may carry several past replacements, and the deck condition is unknown until tear-off."
+      },
+      {
+        "t": "Original detail metal",
+        "d": "Flashing and boots that predate the current shingles by decades."
+      },
+      {
+        "t": "Open prairie wind",
+        "d": "Little windbreak between properties on the town's edges."
+      },
+      {
+        "t": "Regular hail",
+        "d": "Southern approach cells reach Ennis with force intact."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "The roof was replaced ten years ago. Why would the flashing be older?",
+        "a": "Because reusing it is common and quick. A tear-off that leaves the chimney flashing, step flashing and valley metal in place saves a day and a material line, and the shingles look perfect. Then the metal fails on its original schedule, years before the roof above it should have needed anything."
+      }
+    ]
+  },
+  "forney": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Kaufman"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid, ongoing"
+      },
+      {
+        "k": "Exposure",
+        "v": "Open prairie east of Dallas"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, drone-documented"
+      }
+    ],
+    "weather": [
+      "Forney has grown very quickly along the eastern corridor out of Dallas, across ground that is flat and open. Roofs here have almost no windbreak, and the housing is new enough that most are still on the builder's original installation.",
+      "Eastern Kaufman County sits directly in the path of spring cells moving across North Texas, and it takes hail as reliably as anywhere in the region. On roofs this young that damage is easy to miss, because nothing else about the roof looks wrong."
+    ],
+    "issues": [
+      {
+        "t": "Open-ground exposure",
+        "d": "Flat prairie leaves rooflines fully exposed to sustained wind."
+      },
+      {
+        "t": "Young roofs, hidden bruising",
+        "d": "Impact damage on a new roof is far harder to spot than on a worn one."
+      },
+      {
+        "t": "Builder ventilation",
+        "d": "Intake frequently falls short of exhaust across fast build-out."
+      },
+      {
+        "t": "No baseline record",
+        "d": "New homes rarely have a dated condition history to support a later claim."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Everyone says we get a lot of hail out here. Is that true?",
+        "a": "Yes — eastern Kaufman County sits in a corridor that spring cells cross regularly, and they arrive with less broken up in front of them than they have further into the Metroplex. That is not a sales line, it is why documented inspections matter more here than in more sheltered parts of DFW."
+      }
+    ]
+  },
+  "terrell": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Kaufman"
+      },
+      {
+        "k": "Character",
+        "v": "Established town, historic core"
+      },
+      {
+        "k": "Housing",
+        "v": "Older stock plus recent growth"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Terrell has a long-established core with a substantial amount of older housing, and newer development spreading around it. The older stock is typically several roof generations deep, with detail components that have been left in place across successive replacements.",
+      "Sitting east of the Metroplex on open ground, it also takes the spring storm corridor squarely, and there is little between the properties to break the wind."
+    ],
+    "issues": [
+      {
+        "t": "Layered history",
+        "d": "Older properties carry multiple past replacements over original decking."
+      },
+      {
+        "t": "Original penetration details",
+        "d": "Vent boots and chimney flashing frequently older than the shingles by decades."
+      },
+      {
+        "t": "Open exposure",
+        "d": "Little windbreak between properties outside the older tree-lined streets."
+      },
+      {
+        "t": "Storm corridor position",
+        "d": "East of Dallas, cells arrive with force largely intact."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth replacing the whole roof or just the bad section?",
+        "a": "It depends on whether the rest of the roof is close behind. Replacing one slope on a roof whose other slopes have two years left buys you a mismatched roof and a second job soon after. We will tell you how far apart the elevations actually are and let you decide with that in front of you."
+      }
+    ]
+  },
+  "kaufman": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Kaufman"
+      },
+      {
+        "k": "Character",
+        "v": "County seat, semi-rural"
+      },
+      {
+        "k": "Housing",
+        "v": "Older core, rural properties"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Kaufman is the county seat and retains a distinctly small-town, semi-rural character. Properties here range from older in-town housing to rural homes on acreage, and the roofing needs differ sharply between them.",
+      "Rural properties in particular usually include outbuildings, and those almost never get inspected. A barn or shop roof tends to be well past saving by the time anyone looks at it properly."
+    ],
+    "issues": [
+      {
+        "t": "Outbuildings overlooked",
+        "d": "Barns, shops and covered structures are routinely left out of any roof assessment."
+      },
+      {
+        "t": "Older in-town stock",
+        "d": "Multiple past replacements over original decking of unknown condition."
+      },
+      {
+        "t": "Open rural exposure",
+        "d": "Acreage properties have no windbreak at all around the roofline."
+      },
+      {
+        "t": "Distance from crews",
+        "d": "Fewer local contractors means storm-chasers fill the gap after events."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you travel out this far?",
+        "a": "Yes. Kaufman is within our normal service area, and we regularly work east of Dallas. Distance affects scheduling rather than whether we come, and we will give you a real answer about timing rather than one that sounds good on the phone."
+      }
+    ]
+  },
+  "heath": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Rockwall"
+      },
+      {
+        "k": "Setting",
+        "v": "Lake Ray Hubbard shoreline"
+      },
+      {
+        "k": "Housing",
+        "v": "Large custom, generous lots"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Heath sits along Lake Ray Hubbard with large custom homes on generous lots, which combines two demanding conditions: complex rooflines and sustained wind off open water. Neither is a problem on its own; together they put real pressure on the perimeter and the valleys.",
+      "Custom homes also mean more linear feet of flashing and valley metal per roof than any production home nearby. That is where the cost of a proper replacement sits, and where a cheap bid quietly economises."
+    ],
+    "issues": [
+      {
+        "t": "Lake wind on complex roofs",
+        "d": "Sustained uplift meeting multi-plane rooflines with many exposed edges."
+      },
+      {
+        "t": "Valley concentration",
+        "d": "Custom rooflines funnel large volumes of water into comparatively few valleys."
+      },
+      {
+        "t": "Detail-heavy flashing runs",
+        "d": "More roof-to-wall and penetration work than a production home, and the first thing a low bid trims."
+      },
+      {
+        "t": "Unseen elevations",
+        "d": "Set-back homes on large lots hide most of their roof area from the ground."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What actually separates a high bid from a low one?",
+        "a": "Almost always the metal and the labour around it — whether the flashing, valley metal, drip edge and penetration boots are being replaced or reused, and whether the ventilation is being corrected. The shingles are rarely the difference. Ask any bid to itemise those and the gap usually explains itself."
+      }
+    ]
+  },
+  "fate": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Rockwall"
+      },
+      {
+        "k": "Growth",
+        "v": "Among the fastest in the region"
+      },
+      {
+        "k": "Housing",
+        "v": "Predominantly recent"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Fate has grown from a small town into a substantial suburb in a very short time, and its housing reflects that — overwhelmingly recent, built quickly, on open ground east of Rockwall with little windbreak.",
+      "On roofs this young the failures are not wear. They are installation details: ventilation that was never balanced, flashing that was fitted quickly, valleys cut short. Those plus whatever hail has done since."
+    ],
+    "issues": [
+      {
+        "t": "Original builder installation",
+        "d": "Nearly all roofs are still on the specification the builder chose."
+      },
+      {
+        "t": "Open-ground wind",
+        "d": "New development east of Rockwall has almost no windbreak."
+      },
+      {
+        "t": "Delayed hail symptoms",
+        "d": "Bruised mat on a young roof leaks later, when the storm link is weaker."
+      },
+      {
+        "t": "Ventilation balance",
+        "d": "Exhaust without matching intake is common in fast build-out."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "The builder warranty is still active. Should I just call them?",
+        "a": "Start there for anything clearly a workmanship defect — that is what it is for. Storm damage is a separate matter and usually is not covered by a builder warranty. A free inspection will tell you which category you are in, and that is worth knowing before you make the call."
+      }
+    ]
+  },
+  "royse-city": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Rockwall"
+      },
+      {
+        "k": "Setting",
+        "v": "Open prairie, I-30 corridor"
+      },
+      {
+        "k": "Growth",
+        "v": "Rapid recent expansion"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Royse City sits at the eastern end of the I-30 corridor on open prairie, and it has taken on a great deal of new housing in a short period. The exposure here is about as unobstructed as it gets — there is very little upwind of these roofs.",
+      "It also sits well out along the corridor that spring cells follow, which means storms frequently arrive still organised rather than having broken up over the Metroplex."
+    ],
+    "issues": [
+      {
+        "t": "Unobstructed prairie wind",
+        "d": "Almost nothing upwind to slow gusts before they reach the roofline."
+      },
+      {
+        "t": "Perimeter uplift",
+        "d": "Starter courses, rake edges and ridge caps take the load first and fail first."
+      },
+      {
+        "t": "Storm corridor position",
+        "d": "Cells reaching this far east are often still intact."
+      },
+      {
+        "t": "New-build detail shortcuts",
+        "d": "On roofs this young, workmanship rather than age is what surfaces."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is a starter course and why does it keep coming up?",
+        "a": "It is the first strip along the eaves and rakes, bonded down to stop wind getting under the first row of shingles. Skipping it or substituting cut shingles saves a small amount of material and is invisible once the roof is finished — until sustained wind finds the edge. Out here that happens sooner than most places."
+      }
+    ]
+  },
+  "burleson": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Johnson"
+      },
+      {
+        "k": "Setting",
+        "v": "South of Fort Worth"
+      },
+      {
+        "k": "Housing",
+        "v": "Mixed, substantial growth"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Burleson has grown considerably on the southern edge of Fort Worth, adding decades of new housing to an older core. Roof age varies widely as a result, and the assessment differs a great deal between a 1980s property and one finished last year.",
+      "Johnson County sits on the south-western approach, where cells frequently arrive having crossed open country rather than the built-up Metroplex."
+    ],
+    "issues": [
+      {
+        "t": "Wide age range",
+        "d": "Older core properties and recent subdivisions need different assessments entirely."
+      },
+      {
+        "t": "South-western storm approach",
+        "d": "Cells cross open country before arriving, with less broken up in front of them."
+      },
+      {
+        "t": "Open exposure on newer edges",
+        "d": "Recent development has little mature windbreak."
+      },
+      {
+        "t": "Reused detail metal",
+        "d": "Common on the second-generation roofs across the older neighbourhoods."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are you actually based near here, or driving down from Dallas?",
+        "a": "We work across DFW and North Texas from the Metroplex, and Burleson is inside our normal service area — we will not pretend to have an office on your street. What matters more is that we are local to the region and reachable next year, rather than a crew that followed a storm in from out of state."
+      }
+    ]
+  },
+  "cleburne": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Johnson"
+      },
+      {
+        "k": "Character",
+        "v": "County seat, historic core"
+      },
+      {
+        "k": "Housing",
+        "v": "Older stock, rural surrounds"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free and written"
+      }
+    ],
+    "weather": [
+      "Cleburne is the Johnson County seat with a genuinely historic core and a great deal of older housing, surrounded by rural properties on acreage. Both need a different approach from a Metroplex subdivision.",
+      "Older in-town roofs are typically several generations deep with original detail metal underneath, while rural properties add outbuildings that almost never get assessed."
+    ],
+    "issues": [
+      {
+        "t": "Multi-generation town roofs",
+        "d": "Successive replacements over original decking of unknown condition."
+      },
+      {
+        "t": "Unassessed outbuildings",
+        "d": "Barns and shops on rural properties are routinely skipped entirely."
+      },
+      {
+        "t": "Original flashing",
+        "d": "Detail metal that predates the current shingles by decades."
+      },
+      {
+        "t": "Open country exposure",
+        "d": "Rural properties have no windbreak around the roofline at all."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How far out do you go in Johnson County?",
+        "a": "We travel roughly two hours from Dallas for the right project, which comfortably covers Cleburne. Whether it makes sense depends on scope as much as distance — call with your address and what you need, and we will tell you straight whether we are the right crew for it."
+      }
+    ]
+  },
+  "greenville": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Hunt"
+      },
+      {
+        "k": "Character",
+        "v": "County seat, historic downtown"
+      },
+      {
+        "k": "Housing",
+        "v": "Older core, rural surrounds"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, licensed inspector"
+      }
+    ],
+    "weather": [
+      "Greenville is the Hunt County seat with a substantial older housing stock around a historic downtown, and rural properties spreading out from it. In-town roofs are typically several generations deep; rural ones bring outbuildings that rarely get looked at.",
+      "Hunt County sits north-east of the Metroplex on largely open ground, well out along the corridor spring cells follow. Storms reaching this far tend to arrive with force intact rather than having broken up over the built-up areas."
+    ],
+    "issues": [
+      {
+        "t": "Multi-generation roofs",
+        "d": "Older in-town properties carry several past replacements over original decking."
+      },
+      {
+        "t": "Original detail metal",
+        "d": "Flashing and vent boots frequently decades older than the shingles."
+      },
+      {
+        "t": "Open country exposure",
+        "d": "Rural properties have no windbreak around the roofline."
+      },
+      {
+        "t": "Storm-chaser pressure",
+        "d": "Fewer resident contractors means out-of-area crews fill the gap after events."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do I tell a local contractor from a storm chaser?",
+        "a": "Ask where they were last year and where they will be next year. A crew that appeared after the storm and is quoting from a truck with out-of-state plates is not who you want tied to a warranty. Ask for a physical address you could actually visit, and check it."
+      }
+    ]
+  },
+  "sherman": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Grayson"
+      },
+      {
+        "k": "Character",
+        "v": "County seat, recent industrial growth"
+      },
+      {
+        "k": "Housing",
+        "v": "Historic core plus new build"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Sherman has an established historic core and has recently taken on significant new development alongside major industrial investment in the area. That has produced a sharply divided housing stock — century-old properties near downtown and brand-new subdivisions on the edges.",
+      "Grayson County is well north of the Metroplex on open ground, and storms crossing from the north-west reach it before anything has broken them up."
+    ],
+    "issues": [
+      {
+        "t": "Two housing stocks",
+        "d": "Historic properties and new subdivisions share almost nothing in roofing terms."
+      },
+      {
+        "t": "Northern exposure",
+        "d": "Open ground north of the Metroplex leaves rooflines taking wind directly."
+      },
+      {
+        "t": "Rapid new build",
+        "d": "Fast construction is where ventilation and flashing shortcuts show up first."
+      },
+      {
+        "t": "Historic pitches",
+        "d": "Older properties often carry steep roofs that go uninspected because they cannot be walked safely."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth calling somebody from Dallas when I am up here?",
+        "a": "Sometimes, sometimes not — and we will tell you which. Grayson County is at the outer edge of where we work, so distance and scope go together. A full replacement makes the trip sensible; a single vent boot probably does not, and we would rather say so than pad the job."
+      }
+    ]
+  },
+  "denison": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Grayson"
+      },
+      {
+        "k": "Character",
+        "v": "Historic, Red River corridor"
+      },
+      {
+        "k": "Housing",
+        "v": "Largely older stock"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, photographs kept"
+      }
+    ],
+    "weather": [
+      "Denison sits near the Red River with a long history and a housing stock weighted heavily toward older properties. Roofs here have usually been through several replacements, and the components underneath the shingles are often original to the house.",
+      "Its far-northern position means storm cells arrive having crossed open country, and the area sees weather that the southern Metroplex does not always get."
+    ],
+    "issues": [
+      {
+        "t": "Deep replacement history",
+        "d": "Decking that has been fastened repeatedly and occasionally repaired badly."
+      },
+      {
+        "t": "Original penetration details",
+        "d": "Vent collars and chimney flashing that predate the shingles substantially."
+      },
+      {
+        "t": "Steep older pitches",
+        "d": "Historic roofs that are unsafe to walk and therefore rarely properly assessed."
+      },
+      {
+        "t": "Open northern exposure",
+        "d": "Little between these roofs and weather arriving from the north-west."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you inspect a roof you cannot walk on?",
+        "a": "Yes — that is exactly what drone documentation is for. Steep historic pitches are the roofs most likely to hide problems precisely because nobody can get up there safely. We photograph every plane from above and you get the images regardless of what we find."
+      }
+    ]
+  },
+  "van-alstyne": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Grayson"
+      },
+      {
+        "k": "Setting",
+        "v": "Small town, open country"
+      },
+      {
+        "k": "Growth",
+        "v": "Steady recent expansion"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Van Alstyne has stayed small while taking on steady new development along the northern corridor, so its housing runs from long-established town properties to recent subdivisions on the edges.",
+      "The surrounding country is open, and there is very little upwind of these roofs. Perimeter components take that load, and they are also the ones most often economised on."
+    ],
+    "issues": [
+      {
+        "t": "Open country wind",
+        "d": "Almost nothing upwind to break gusts before they reach the roof edge."
+      },
+      {
+        "t": "Mixed roof ages",
+        "d": "Established properties and new builds side by side with different needs."
+      },
+      {
+        "t": "Distance from crews",
+        "d": "Fewer resident contractors, so out-of-area crews appear after storms."
+      },
+      {
+        "t": "Outbuildings",
+        "d": "Rural properties carry structures that rarely get inspected."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you charge extra to come this far?",
+        "a": "No. The inspection is free wherever we serve, and travel is not a line on the estimate. What distance does affect is scheduling and whether a very small job makes sense at all — we will be straight with you about that rather than quietly building it into the price."
+      }
+    ]
+  },
+  "weatherford": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Parker"
+      },
+      {
+        "k": "Character",
+        "v": "County seat, historic square"
+      },
+      {
+        "k": "Setting",
+        "v": "West of Fort Worth, hail-prone"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, drone-documented"
+      }
+    ],
+    "weather": [
+      "Weatherford sits west of Fort Worth with a historic courthouse square, older in-town housing, and a great deal of rural acreage around it. Parker County is also one of the more hail-prone parts of North Texas — storms crossing from the west arrive having had nothing to break them up.",
+      "That combination matters: older roofs with original detail metal underneath, taking more impact events than most of the Metroplex sees."
+    ],
+    "issues": [
+      {
+        "t": "High hail frequency",
+        "d": "Parker County sits on the western approach and takes impact events regularly."
+      },
+      {
+        "t": "Older detail metal",
+        "d": "In-town properties carry flashing and boots older than the shingles above them."
+      },
+      {
+        "t": "Rural outbuildings",
+        "d": "Barns and shops on acreage are almost never included in an assessment."
+      },
+      {
+        "t": "Open western exposure",
+        "d": "Nothing upwind to slow weather arriving from the west."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "We get hail out here constantly. Is impact-resistant shingle worth it?",
+        "a": "In Parker County it is a more reasonable question than almost anywhere else in our area. Class 4 shingles cost more and are not indestructible, but they do change the maths where impact events are frequent — and some insurers discount for them. We can price both so you are comparing real numbers rather than a sales pitch."
+      }
+    ]
+  },
+  "aledo": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Parker"
+      },
+      {
+        "k": "Lots",
+        "v": "Large, semi-rural"
+      },
+      {
+        "k": "Housing",
+        "v": "Custom, steady growth"
+      },
+      {
+        "k": "Estimate",
+        "v": "Free, itemised"
+      }
+    ],
+    "weather": [
+      "Aledo has grown steadily while keeping large lots and a semi-rural character west of Fort Worth. That means custom homes with complex rooflines, generous acreage, and often outbuildings alongside the house.",
+      "Parker County's western position puts it among the more hail-exposed parts of the region, and large custom roofs give hail a great deal of surface to work on."
+    ],
+    "issues": [
+      {
+        "t": "Complex custom rooflines",
+        "d": "More planes, valleys and flashing runs than any production home nearby."
+      },
+      {
+        "t": "Frequent hail",
+        "d": "Western Parker County takes impact events more often than most of the Metroplex."
+      },
+      {
+        "t": "Unassessed outbuildings",
+        "d": "Barns, shops and covered structures left out of most roof assessments."
+      },
+      {
+        "t": "Set-back elevations",
+        "d": "Large lots hide most of the roof area from any ground vantage point."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you document the whole property in one visit?",
+        "a": "Yes, and on an Aledo property that is the sensible way to do it. House, outbuildings, gutters and fencing in one set of dated photographs means you have a complete record rather than four partial ones taken months apart."
+      }
+    ]
+  },
+  "granbury": {
+    "stats": [
+      {
+        "k": "County",
+        "v": "Hood"
+      },
+      {
+        "k": "Setting",
+        "v": "Lake Granbury shoreline"
+      },
+      {
+        "k": "Housing",
+        "v": "Lake properties and historic square"
+      },
+      {
+        "k": "Inspection",
+        "v": "Free, no obligation"
+      }
+    ],
+    "weather": [
+      "Granbury combines a historic courthouse square with a large amount of lakeside housing along Lake Granbury. Waterfront property means sustained wind off open water, and that concentrates on the roof perimeter rather than the field.",
+      "It also sits at the south-western edge of our service area, on open country where weather arrives having crossed very little. Between the exposure and the hail frequency in this part of Texas, perimeter detailing matters more here than most places."
+    ],
+    "issues": [
+      {
+        "t": "Sustained lake wind",
+        "d": "Open water gives gusts a clear run at eaves, rakes and ridge lines."
+      },
+      {
+        "t": "Uneven slope ageing",
+        "d": "Water-facing elevations routinely age faster than the sheltered side of the same roof."
+      },
+      {
+        "t": "Historic square properties",
+        "d": "Older structures near the square need a different approach from lakeside builds."
+      },
+      {
+        "t": "Distance from crews",
+        "d": "Fewer resident contractors, and storm-chasers move in after events."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Granbury within your service area?",
+        "a": "It is at the outer edge of it. We travel roughly two hours from Dallas for the right project, which reaches Granbury, but whether it makes sense depends on scope. Call with your address and what you need and we will give you an honest answer rather than a maybe."
+      }
+    ]
+  }
+}

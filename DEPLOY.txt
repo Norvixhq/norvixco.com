@@ -1,0 +1,63 @@
+WHERE THINGS ARE
+================
+
+  site/                        the build. This is what `node build.js` writes,
+                               and what you serve locally. Production-ready:
+                               root-absolute paths, indexable, CNAME included.
+
+  dist/preview-github-pages/   the same site rebuilt for your GitHub Pages
+                               preview URL (a subpath), and deliberately
+                               noindexed.
+
+  src/  public/  scripts/      source. Edit here, then rebuild.
+  build.js                     the build.
+
+
+SERVING IT LOCALLY
+==================
+
+  cd site
+  python3 -m http.server 8000
+  -> http://localhost:8000
+
+Serve from INSIDE site/, not the folder above it. The paths are
+root-absolute, so pointing the server one level too high makes every
+asset 404 and the page renders as raw HTML.
+
+
+DEPLOYING
+=========
+
+Real domain (www.timberroofingandexteriors.com)
+  Upload the CONTENTS of site/ to the web root.
+
+Preview (norvixhq.github.io/norvixco.com/)
+  Push the CONTENTS of dist/preview-github-pages/ to the repo that
+  serves that URL — repo root, or /docs, depending on your Pages
+  setting. .nojekyll is included; Pages will not serve an /assets
+  folder without it.
+
+  That build has, on purpose:
+    · <meta name="robots" content="noindex, nofollow"> on every page
+    · robots.txt  ->  Disallow: /
+    · no CNAME
+    · sitemap.xml pointing at the preview origin
+
+  It stops the preview being indexed and later competing with the real
+  site for the same content. Leave it in place while previewing.
+
+
+REBUILDING
+==========
+
+  node build.js
+      -> writes site/  (production)
+
+  BASE_PATH=/norvixco.com PREVIEW=1 \
+    PREVIEW_ORIGIN=https://norvixhq.github.io node build.js
+      -> writes site/  (preview). Copy it out, then run the plain build
+         again so site/ is back to production.
+
+Change BASE_PATH if the repo name changes. A custom domain, or a
+user/org page at norvixhq.github.io with no subpath, needs no
+BASE_PATH at all — just build production.

@@ -1,693 +1,783 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.ethanandsonselectricians.com/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/about/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/contact/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/faq/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/site-map/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.4</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/repairs-and-troubleshooting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/installations/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/upgrades/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/ev-generator-and-high-demand-power/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/lighting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/safety/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/smart-home-and-low-voltage/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-repair/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/outlet-repair/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/tripping-breaker-repair/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/flickering-light-repair/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/circuit-breaker-replacement/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-code-violation-corrections/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/outlet-and-dedicated-circuits/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/gfci-outlet-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/outlet-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/dedicated-circuit-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/ceiling-fan-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/smoke-detector-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-panel-upgrade/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/fuse-box-to-breaker-panel-conversion/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/older-home-rewiring/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-wiring-upgrade/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/energy-efficient-lighting-upgrade/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-grounding/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/ev-charger-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/level-2-ev-charger-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/home-generator-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/appliance-dedicated-circuits/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/hot-tub-and-pool-circuits/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/lighting-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/recessed-lighting-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/under-cabinet-lighting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/outdoor-lighting-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/landscape-lighting-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/security-lighting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/led-lighting-upgrades/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/dimmer-and-lighting-controls/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/electrical-safety-inspection/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/whole-home-surge-protection/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/home-electrical-inspection/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/gfci-protection/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/older-home-electrical-safety/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/carbon-monoxide-detector-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/child-safe-outlet-upgrades/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/smart-home-electrical-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/motion-sensor-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/home-network-cabling/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/security-camera-power-and-wiring/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/media-room-wiring/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/power-surge-troubleshooting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial-electrician/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/office-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/restaurant-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial-lighting-installation/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial-panel-upgrades/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial-electrical-troubleshooting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/tenant-improvement-electrical/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/dedicated-commercial-circuits/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/office-data-cabling/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/services/commercial-safety-inspections/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.75</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/addison/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/farmers-branch/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/carrollton/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/north-dallas/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/dallas/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/richardson/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/plano/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/frisco/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/the-colony/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/lewisville/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/coppell/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/irving/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/las-colinas/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/valley-ranch/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/far-north-dallas/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/preston-hollow/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/university-park/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/service-areas/highland-park/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/kitchen-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/bathroom-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/bedroom-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/home-office-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/family-room-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/laundry-room-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/garage-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/patio-and-porch-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/basement-and-lower-level-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/rooms/media-room-electrical-services/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/led-upgrade-guide/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/choosing-recessed-lighting/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/what-happens-during-an-inspection/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/older-home-electrical-warning-signs/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/whole-home-surge-protection-guide/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/home-ev-charging-explained/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/understanding-load-calculations/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/signs-your-panel-needs-attention/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/when-to-call-an-electrician/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/outlet-not-working/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/flickering-lights-causes/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/gfci-vs-afci-explained/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/resources/why-circuit-breakers-trip/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/privacy/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.2</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/terms/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.2</priority>
-</url>
-<url>
-<loc>https://www.ethanandsonselectricians.com/accessibility/</loc>
-<lastmod>2026-08-05T00:21:11.150Z</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.2</priority>
-</url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/contact/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/storm-damage/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/fence-installation/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/gutter-installation/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/gutter-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/outdoor-home-improvements/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/seamless-gutters/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/residential-roofing/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/roof-inspections/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/roof-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/roof-replacement/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/storm-damage-roof-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/allen/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/arlington/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/carrollton/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/dallas/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/denton/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/fort-worth/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/frisco/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/garland/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/grand-prairie/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/irving/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/lewisville/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/mckinney/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/mesquite/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/plano/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/richardson/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/about/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/exterior-storm-damage-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/exteriors/fence-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/asphalt-shingle-roofing/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/hail-damage-roof-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/insurance-restoration-support/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/roof-leak-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/storm-damage-inspections/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/roofing/wind-damage-roof-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/collin-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/dallas-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/denton-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/ellis-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/grayson-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/hood-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/hunt-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/johnson-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/kaufman-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/parker-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/rockwall-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/tarrant-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/wise-county/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/aledo/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/anna/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/argyle/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/bedford/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/burleson/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/cedar-hill/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/celina/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/cleburne/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/colleyville/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/denison/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/desoto/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/duncanville/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/ennis/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/euless/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/fairview/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/fate/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/flower-mound/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/forney/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/granbury/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/grapevine/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/greenville/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/heath/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/highland-village/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/hurst/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/kaufman/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/keller/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/lancaster/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/little-elm/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/mansfield/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/melissa/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/midlothian/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/murphy/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/north-richland-hills/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/princeton/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/prosper/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/red-oak/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/rockwall/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/rowlett/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/royse-city/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/sachse/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/sherman/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/southlake/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/terrell/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/the-colony/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/van-alstyne/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/waxahachie/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/weatherford/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/service-areas/wylie/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/brown-shingle-roof-brick-home/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/cedar-privacy-fence/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/charcoal-architectural-roof-aerial/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/dark-shingle-roof-single-story/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/fence-posts-set-string-line/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/gray-roof-aerial-crew/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/gray-shingle-roof-brick-home/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/gutter-run-rear-elevation/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/red-brick-home-gutters/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/roof-replacement-in-progress-aerial/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/stained-deck-rail-and-steps/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/stained-fence-corner/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/stained-privacy-fence-run/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/projects/weathered-roof-aerial/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/common-causes-of-roof-leaks/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/how-often-should-a-roof-be-inspected/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/how-to-document-storm-damage/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/questions-to-ask-a-roofing-contractor/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/repair-or-replace-how-to-evaluate-a-roof/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/signs-your-roof-may-need-repair/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/what-hail-damage-can-look-like/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/resources/what-to-do-after-a-north-texas-storm/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/accessibility/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/disclaimer/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/insurance-restoration-disclaimer/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/privacy-policy/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.timberroofingandexteriors.com/terms-of-use/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
 </urlset>

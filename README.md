@@ -1865,3 +1865,72 @@ DEPLOY.txt                   which is which, and how to rebuild either
 
 `.nojekyll` is included in both — Pages will not serve an `/assets` folder
 without it.
+
+---
+
+## Preview deployment, done properly
+
+### What the blank loader was
+
+A base-path mismatch. `site.css` and `site.js` both 404'd, which is why the
+Texas rendered as a black filled shape (an SVG with no stylesheet defaults to
+`fill: black`), the tagline fell back to a serif, and nothing ever cleared the
+screen. The critical inline CSS was the only styling that survived, because it
+lives in the HTML.
+
+Two separate failures, and I fixed both.
+
+### 1. The loader could trap the page
+
+The loader was only ever removed by `site.js`. If that file 404'd — for any
+reason, on any host — the visitor sat on a blank screen indefinitely. That is a
+bad failure mode regardless of what caused it.
+
+The critical inline CSS now clears the loader on a **four-second timer with no
+JavaScript involved**. A missing asset can leave the page unstyled; it can no
+longer leave it unusable.
+
+### 2. Base paths were a configuration trap
+
+`BASE_PATH` worked, but only if the value matched where the files actually
+landed. Get it wrong in either direction and everything 404s:
+
+```
+production build at a subpath   -> asks /assets/site.css            404
+preview build at the root       -> asks /norvixco.com/assets/...    404
+```
+
+So the preview build now uses **relative paths computed from each page's own
+depth** — `./assets/...` at the root, `../../assets/...` two levels down — and
+needs no configuration at all:
+
+```
+index.html                            ./assets/site.css
+roofing/index.html                    ../assets/site.css
+roofing/roof-replacement/index.html   ../../assets/site.css
+service-areas/dallas/index.html       ../../assets/site.css
+```
+
+Root-absolute references remaining: **0**.
+
+### Verified at both locations
+
+Same build, served two ways, resolving each page's own stylesheet URL:
+
+```
+served at a SUBPATH                    served at the ROOT
+/norvixco.com/                  200    /                        200
+/norvixco.com/roofing/          200    /roofing/                200
+/norvixco.com/service-areas/…   200    /service-areas/dallas/   200
+```
+
+It works at the root, at `/norvixco.com/`, under any other repo name, or in a
+subfolder on any host. The repo name no longer needs to be known at build time.
+
+### What ships
+
+```
+site/            production — root-absolute, indexable, CNAME
+dist/preview/    preview — relative paths, noindexed, no CNAME
+DEPLOY.txt       which to use where, and how to rebuild either
+```

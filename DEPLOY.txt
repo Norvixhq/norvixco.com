@@ -1,63 +1,67 @@
 WHERE THINGS ARE
 ================
 
-  site/                        the build. This is what `node build.js` writes,
-                               and what you serve locally. Production-ready:
-                               root-absolute paths, indexable, CNAME included.
+  site/           the production build. Root-absolute paths, indexable,
+                  CNAME included. For the real domain. This is also what
+                  `node build.js` writes and what you serve locally.
 
-  dist/preview-github-pages/   the same site rebuilt for your GitHub Pages
-                               preview URL (a subpath), and deliberately
-                               noindexed.
+  dist/preview/   the preview build. Use this one on GitHub Pages.
 
-  src/  public/  scripts/      source. Edit here, then rebuild.
-  build.js                     the build.
+  src/ public/ scripts/ build.js      source.
 
 
-SERVING IT LOCALLY
-==================
+THE PREVIEW BUILD
+=================
+
+It uses RELATIVE paths (./assets/... , ../../assets/... , computed from
+each page's own depth), so it works no matter where you put it:
+
+    norvixhq.github.io/                    works
+    norvixhq.github.io/norvixco.com/       works
+    any other repo name                    works
+    a subfolder on any host                works
+
+You do not have to tell it the repo name. That removes the mistake that
+made the first attempt render as a blank loader: a build expecting one
+base path served from another, so every asset 404'd.
+
+It is also deliberately not indexable:
+  · <meta name="robots" content="noindex, nofollow"> on every page
+  · robots.txt -> Disallow: /
+  · no CNAME
+Leave that alone while previewing, so the preview cannot get indexed and
+later compete with the real site for the same content.
+
+DEPLOY: push the CONTENTS of dist/preview/ to the repo that serves your
+Pages URL — repo root, or /docs, per your Pages setting. .nojekyll is
+included; Pages will not serve an /assets folder without it.
+
+
+SERVING site/ LOCALLY
+=====================
 
   cd site
   python3 -m http.server 8000
-  -> http://localhost:8000
 
-Serve from INSIDE site/, not the folder above it. The paths are
-root-absolute, so pointing the server one level too high makes every
-asset 404 and the page renders as raw HTML.
-
-
-DEPLOYING
-=========
-
-Real domain (www.timberroofingandexteriors.com)
-  Upload the CONTENTS of site/ to the web root.
-
-Preview (norvixhq.github.io/norvixco.com/)
-  Push the CONTENTS of dist/preview-github-pages/ to the repo that
-  serves that URL — repo root, or /docs, depending on your Pages
-  setting. .nojekyll is included; Pages will not serve an /assets
-  folder without it.
-
-  That build has, on purpose:
-    · <meta name="robots" content="noindex, nofollow"> on every page
-    · robots.txt  ->  Disallow: /
-    · no CNAME
-    · sitemap.xml pointing at the preview origin
-
-  It stops the preview being indexed and later competing with the real
-  site for the same content. Leave it in place while previewing.
+From INSIDE site/. One level too high and every asset 404s.
 
 
 REBUILDING
 ==========
 
   node build.js
-      -> writes site/  (production)
+      -> site/   production
 
-  BASE_PATH=/norvixco.com PREVIEW=1 \
-    PREVIEW_ORIGIN=https://norvixhq.github.io node build.js
-      -> writes site/  (preview). Copy it out, then run the plain build
-         again so site/ is back to production.
+  RELATIVE=1 PREVIEW=1 PREVIEW_ORIGIN=https://norvixhq.github.io node build.js
+      -> site/   preview. Copy it to dist/preview/, then run the plain
+         build again so site/ is production once more.
 
-Change BASE_PATH if the repo name changes. A custom domain, or a
-user/org page at norvixhq.github.io with no subpath, needs no
-BASE_PATH at all — just build production.
+
+IF A PAGE EVER LOOKS UNSTYLED
+=============================
+
+The loader now clears itself after 4 seconds with CSS alone, so a missing
+asset can no longer leave you stuck on a blank screen. If a page renders
+but looks plain, open /assets/site.css directly in the browser. A 404
+there means the build and the serving location disagree — use the
+relative build and it cannot happen.

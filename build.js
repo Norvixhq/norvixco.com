@@ -50,17 +50,27 @@ const pages = [];   // { url, file, html, noindex, priority, changefreq }
    PREVIEW also noindexes the whole build and blocks it in robots.txt, so a
    client preview cannot be indexed and later compete with the real domain. */
 const BASE_PATH = (process.env.BASE_PATH || "").replace(/\/+$/, "");
+const RELATIVE = process.env.RELATIVE === "1";
 const PREVIEW = process.env.PREVIEW === "1";
 const PREVIEW_ORIGIN = (process.env.PREVIEW_ORIGIN || "").replace(/\/+$/, "");
 const SITE_ORIGIN = PREVIEW && PREVIEW_ORIGIN ? PREVIEW_ORIGIN : company.siteUrl;
 
-/* Prefix every root-absolute reference. Handles plain attributes, comma
-   separated srcsets with descriptors, CSS url(), and the quoted paths the
-   loader script assigns at runtime. Absolute and protocol-relative URLs are
-   left alone. */
-function applyBase(html) {
-  if (!BASE_PATH) return html;
-  const pre = (u) => (u.startsWith("//") ? u : BASE_PATH + u);
+/* RELATIVE rewrites every internal reference relative to the page it sits on,
+   using that page's own depth. The result works at a domain root, in any
+   subfolder, on any host, with no configuration — which removes the whole
+   class of base-path mistakes. Absolute and protocol-relative URLs are left
+   alone, as are in-page anchors. */
+function toRelative(url, depth) {
+  const up = depth === 0 ? "./" : "../".repeat(depth);
+  return (up + url.replace(/^\//, "")).replace(/\/$/, "/") || "./";
+}
+
+function applyBase(html, depth) {
+  if (!BASE_PATH && !RELATIVE) return html;
+  const pre = (u) => {
+    if (u.startsWith("//")) return u;
+    return RELATIVE ? toRelative(u, depth) : BASE_PATH + u;
+  };
   return html
     .replace(/\b(href|src|action)="(\/[^"]*)"/g, (m, a, u) => `${a}="${pre(u)}"`)
     .replace(/\b(srcset|imagesrcset)="([^"]*)"/g, (m, a, v) =>
@@ -263,7 +273,8 @@ pages.forEach((p) => {
       html = html.replace("</title>", '</title>\n<meta name="robots" content="noindex, nofollow">');
     }
   }
-  fs.writeFileSync(dest, applyBase(html));
+  const depth = p.file.split("/").length - 1;   // how far below the root this page sits
+  fs.writeFileSync(dest, applyBase(html, depth));
 });
 
 copyDir(path.join(ROOT, "public", "images"), path.join(OUT, "images"));
